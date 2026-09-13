@@ -162,6 +162,7 @@ export const INGREDIENTS: IngredientDef[] = [
   { name: "onions", category: "veg", aliases: ["onion", "yellow onion", "brown onion", "white onion"] },
   { name: "spinach", category: "veg", aliases: ["baby spinach"] },
   { name: "red bell peppers", category: "veg", aliases: ["red peppers", "red capsicum", "bell peppers", "red bell pepper"] },
+  { name: "broccoli", category: "veg", aliases: ["broccoli florets"] },
   { name: "thyme sprigs", category: "veg", aliases: ["thyme", "fresh thyme"] },
   { name: "parsley", category: "veg", aliases: ["flat-leaf parsley", "italian parsley", "flat leaf parsley"] },
   { name: "dill", category: "veg", aliases: ["fresh dill", "dill weed"] },
@@ -180,6 +181,7 @@ export const INGREDIENTS: IngredientDef[] = [
   { name: "anchovy fillets", category: "protein", aliases: ["anchovies", "anchovy", "tinned anchovies"] },
   { name: "firm tofu", category: "protein", aliases: ["bean curd", "extra firm tofu", "extra-firm tofu"] },
   { name: "salami", category: "protein", aliases: ["hard salami", "uncured salami", "dry salami"] },
+  { name: "chicken sausage", category: "protein", aliases: [] },
 
   /* --- dairy & eggs --- */
   { name: "butter", category: "dairy", aliases: ["unsalted butter", "salted butter", "oleo", "margarine", "sweet butter"] },
@@ -193,6 +195,7 @@ export const INGREDIENTS: IngredientDef[] = [
   /* --- grains & pasta --- */
   { name: "linguine", category: "grain", aliases: ["linguini"] },
   { name: "rotini", category: "grain", aliases: ["fusilli"] },
+  { name: "orzo", category: "grain", aliases: ["orzo pasta"] },
   { name: "basmati rice", category: "grain", aliases: ["long grain rice", "long-grain rice"] },
   { name: "breadcrumbs", category: "grain", aliases: ["bread crumbs", "fresh breadcrumbs", "dried breadcrumbs"] },
   { name: "burger buns", category: "grain", aliases: ["hamburger buns", "brioche buns", "buns"] },

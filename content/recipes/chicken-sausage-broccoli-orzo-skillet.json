@@ -1,0 +1,88 @@
+{
+  "slug": "chicken-sausage-broccoli-orzo-skillet",
+  "title": "Chicken Sausage, Broccoli, Orzo Skillet",
+  "category": "pasta",
+  "attrs": [
+    "weeknight"
+  ],
+  "blurb": "One skillet start to finish — the orzo cooks directly in the broth the sausage and broccoli left behind, so it comes out tasting like all three.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 15,
+  "total": 30,
+  "ingredients": [
+    {
+      "item": "olive oil",
+      "qtyText": "a large drizzle",
+      "unit": ""
+    },
+    {
+      "item": "chicken sausage",
+      "qty": 8,
+      "unit": "oz",
+      "note": "cut into 1/4 to 1/2 inch slices"
+    },
+    {
+      "item": "broccoli",
+      "qty": 2,
+      "qtyMax": 3,
+      "unit": "cup",
+      "note": "roughly chopped"
+    },
+    {
+      "item": "salt",
+      "qtyText": "a large pinch",
+      "unit": "",
+      "note": "for the broccoli",
+      "scaling": "taste"
+    },
+    {
+      "item": "black peppercorns",
+      "qtyText": "a large pinch",
+      "unit": "",
+      "note": "ground, for the broccoli",
+      "scaling": "taste"
+    },
+    {
+      "item": "garlic cloves",
+      "qty": 1,
+      "unit": "tbsp",
+      "note": "minced"
+    },
+    {
+      "item": "orzo",
+      "qty": 1,
+      "unit": "cup"
+    },
+    {
+      "item": "chicken stock",
+      "qty": 2,
+      "unit": "cup"
+    },
+    {
+      "item": "parmesan",
+      "qty": 1,
+      "unit": "cup",
+      "note": "shredded, plus more to serve"
+    }
+  ],
+  "steps": [
+    "Heat a large skillet over medium-high with a good drizzle of olive oil. Add the sliced chicken sausage and cook 2 to 3 minutes a side, until browned all over.",
+    "Add the broccoli, season with a large pinch each of salt and pepper, and cook about 5 minutes, until bright green and just starting to soften.",
+    "Stir in the garlic and orzo and cook another minute, until the orzo is coated and lightly toasted.",
+    "Pour in the chicken stock and bring to a boil. Cover, drop the heat to low, and simmer 10 to 15 minutes, until the orzo is tender and the liquid is absorbed.",
+    "Off the heat, stir in the parmesan until melted through. Serve right away with more parmesan over the top."
+  ],
+  "source": {
+    "kind": "url",
+    "ref": "https://lolohomekitchen.com/chicken-sausage-broccoli-and-orzo-skillet/",
+    "credit": "Lolo Home Kitchen"
+  },
+  "added": "2026-09-13",
+  "tint": [
+    "#9C5A32",
+    "#291C12"
+  ]
+}
