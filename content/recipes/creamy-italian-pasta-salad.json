@@ -1,0 +1,144 @@
+{
+  "slug": "creamy-italian-pasta-salad",
+  "title": "Creamy Italian Pasta Salad",
+  "category": "soups-salads-sandwiches",
+  "attrs": [
+    "weeknight",
+    "make-ahead"
+  ],
+  "blurb": "A deli-counter salad built backwards — the dressing gets blended smooth first, so every piece of pasta ends up coated instead of just seasoned.",
+  "yield": {
+    "kind": "servings",
+    "serves": 8
+  },
+  "active": 30,
+  "total": 35,
+  "ingredients": [
+    {
+      "item": "mayonnaise",
+      "qty": 1,
+      "unit": "cup"
+    },
+    {
+      "item": "mustard",
+      "qty": 2,
+      "unit": "tsp",
+      "note": "Dijon"
+    },
+    {
+      "item": "garlic cloves",
+      "qty": 4,
+      "unit": "",
+      "note": "minced"
+    },
+    {
+      "item": "red pepper flakes",
+      "qty": 1,
+      "unit": "tsp",
+      "scaling": "taste"
+    },
+    {
+      "item": "italian seasoning",
+      "qty": 3,
+      "unit": "tsp",
+      "scaling": "taste"
+    },
+    {
+      "item": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "note": "for the dressing",
+      "scaling": "taste"
+    },
+    {
+      "item": "black peppercorns",
+      "qty": 0.5,
+      "unit": "tsp",
+      "note": "freshly ground, plus more for serving",
+      "scaling": "taste"
+    },
+    {
+      "item": "lemon",
+      "qty": 1.5,
+      "unit": "",
+      "note": "juiced"
+    },
+    {
+      "item": "white wine vinegar",
+      "qty": 3,
+      "unit": "tbsp"
+    },
+    {
+      "item": "rotini",
+      "qty": 12,
+      "unit": "oz",
+      "note": "or fusilli, cooked according to package directions"
+    },
+    {
+      "item": "red bell peppers",
+      "qty": 1,
+      "unit": "cup",
+      "note": "diced, about 1 small pepper"
+    },
+    {
+      "item": "shallots",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "finely diced, about 1 large shallot"
+    },
+    {
+      "item": "black olives",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "sliced"
+    },
+    {
+      "item": "salami",
+      "qty": 1,
+      "unit": "cup",
+      "note": "diced"
+    },
+    {
+      "item": "mozzarella",
+      "qty": 1,
+      "unit": "cup",
+      "note": "diced"
+    },
+    {
+      "item": "parsley",
+      "qty": 0.25,
+      "unit": "cup",
+      "note": "finely chopped"
+    },
+    {
+      "item": "basil",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "leaves, thinly sliced"
+    },
+    {
+      "item": "salt",
+      "qtyText": "to taste",
+      "unit": "",
+      "note": "for the pasta salad",
+      "scaling": "taste"
+    }
+  ],
+  "steps": [
+    "Cook the rotini in well-salted boiling water according to the package directions, then drain and let it cool slightly.",
+    "Blend the mayonnaise, mustard, garlic, red pepper flakes, Italian seasoning, salt, black pepper, lemon juice and white wine vinegar until smooth and creamy. Set the dressing aside.",
+    "In a large bowl, toss the pasta with the bell pepper, shallot, olives, salami, mozzarella, parsley and basil.",
+    "Pour the dressing over and toss until every piece of pasta is well coated. Season with salt to taste, then cover and refrigerate until chilled.",
+    "Keeps well covered in the fridge for 2 to 3 days. If making it ahead, hold back the dressing until closer to serving — the pasta soaks it up overnight and the salad turns dry."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Creamy_Italian_Pasta_Salad.pdf",
+    "credit": "Alex Snodgrass"
+  },
+  "added": "2026-09-13",
+  "tint": [
+    "#9C8B4E",
+    "#2B2415"
+  ]
+}

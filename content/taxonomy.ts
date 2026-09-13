@@ -166,6 +166,7 @@ export const INGREDIENTS: IngredientDef[] = [
   { name: "parsley", category: "veg", aliases: ["flat-leaf parsley", "italian parsley", "flat leaf parsley"] },
   { name: "dill", category: "veg", aliases: ["fresh dill", "dill weed"] },
   { name: "cilantro", category: "veg", aliases: ["coriander", "fresh coriander", "coriander leaf", "chinese parsley"] },
+  { name: "basil", category: "veg", aliases: ["basil leaves", "fresh basil"] },
   { name: "ginger", category: "veg", aliases: ["fresh ginger", "root ginger", "gingerroot"] },
 
   /* --- fruit --- */
@@ -178,17 +179,20 @@ export const INGREDIENTS: IngredientDef[] = [
   { name: "chicken thighs", category: "protein", aliases: ["chicken thigh", "bone-in chicken thighs"] },
   { name: "anchovy fillets", category: "protein", aliases: ["anchovies", "anchovy", "tinned anchovies"] },
   { name: "firm tofu", category: "protein", aliases: ["bean curd", "extra firm tofu", "extra-firm tofu"] },
+  { name: "salami", category: "protein", aliases: ["hard salami", "uncured salami", "dry salami"] },
 
   /* --- dairy & eggs --- */
   { name: "butter", category: "dairy", aliases: ["unsalted butter", "salted butter", "oleo", "margarine", "sweet butter"] },
   { name: "eggs", category: "dairy", aliases: ["egg", "large eggs", "large egg"] },
   { name: "parmesan", category: "dairy", aliases: ["parmigiano reggiano", "parmesan cheese", "parmigiano"] },
   { name: "feta", category: "dairy", aliases: ["feta cheese"] },
+  { name: "mozzarella", category: "dairy", aliases: ["mozzarella cheese", "fresh mozzarella"] },
   { name: "cheese slices", category: "dairy", aliases: ["american cheese", "sliced cheese", "burger cheese"] },
   { name: "yogurt", category: "dairy", aliases: ["yoghurt", "plain yogurt", "greek yogurt", "natural yogurt"] },
 
   /* --- grains & pasta --- */
   { name: "linguine", category: "grain", aliases: ["linguini"] },
+  { name: "rotini", category: "grain", aliases: ["fusilli"] },
   { name: "basmati rice", category: "grain", aliases: ["long grain rice", "long-grain rice"] },
   { name: "breadcrumbs", category: "grain", aliases: ["bread crumbs", "fresh breadcrumbs", "dried breadcrumbs"] },
   { name: "burger buns", category: "grain", aliases: ["hamburger buns", "brioche buns", "buns"] },
@@ -207,12 +211,16 @@ export const INGREDIENTS: IngredientDef[] = [
   { name: "red pepper flakes", category: "pantry", aliases: ["chilli flakes", "chili flakes", "crushed red pepper", "red chilli flakes"] },
   { name: "cumin seeds", category: "pantry", aliases: ["cumin", "whole cumin"] },
   { name: "smoked paprika", category: "pantry", aliases: ["pimenton", "pimentón", "spanish paprika"] },
+  { name: "italian seasoning", category: "pantry", aliases: ["italian herb blend"] },
   { name: "star anise", category: "pantry", aliases: [] },
   { name: "soy sauce", category: "pantry", aliases: ["light soy sauce", "shoyu"] },
   { name: "white miso", category: "pantry", aliases: ["miso", "shiro miso", "miso paste"] },
   { name: "rice vinegar", category: "pantry", aliases: ["rice wine vinegar"] },
+  { name: "white wine vinegar", category: "pantry", aliases: [] },
   { name: "mustard", category: "pantry", aliases: ["yellow mustard", "dijon", "dijon mustard"] },
+  { name: "mayonnaise", category: "pantry", aliases: ["mayo", "homemade mayo"] },
   { name: "pickles", category: "pantry", aliases: ["dill pickles", "gherkins", "pickle spears"] },
+  { name: "black olives", category: "pantry", aliases: ["sliced black olives", "ripe olives", "canned black olives"] },
   { name: "tomato paste", category: "pantry", aliases: ["tomato purée", "tomato puree", "double concentrate"] },
   { name: "canned tomatoes", category: "pantry", aliases: ["tinned tomatoes", "chopped tomatoes", "crushed tomatoes", "plum tomatoes", "diced tomatoes"] },
   { name: "chickpeas", category: "pantry", aliases: ["garbanzo beans", "garbanzos", "ceci beans"] },
