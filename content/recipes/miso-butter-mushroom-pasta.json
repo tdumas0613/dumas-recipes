@@ -1,0 +1,78 @@
+{
+  "slug": "miso-butter-mushroom-pasta",
+  "title": "Miso butter mushroom pasta",
+  "category": "pasta",
+  "attrs": [
+    "vegetarian",
+    "weeknight"
+  ],
+  "blurb": "The miso dissolves into the butter and the mushroom liquor and turns into something much deeper than either. Weeknight food that tastes like it took longer.",
+  "yield": {
+    "kind": "servings",
+    "serves": 2
+  },
+  "active": 20,
+  "total": 30,
+  "ingredients": [
+    {
+      "item": "linguine",
+      "qty": 8,
+      "unit": "oz"
+    },
+    {
+      "item": "mushrooms",
+      "qty": 10,
+      "unit": "oz",
+      "note": "mixed, torn by hand"
+    },
+    {
+      "item": "butter",
+      "qty": 3,
+      "unit": "tbsp"
+    },
+    {
+      "item": "white miso",
+      "qty": 2,
+      "unit": "tbsp"
+    },
+    {
+      "item": "garlic cloves",
+      "qty": 2,
+      "unit": "",
+      "note": "sliced thin"
+    },
+    {
+      "item": "soy sauce",
+      "qty": 1,
+      "unit": "tbsp"
+    },
+    {
+      "item": "lemon",
+      "qty": 1,
+      "unit": "",
+      "note": "zest only"
+    },
+    {
+      "item": "parmesan",
+      "qty": 0.25,
+      "unit": "cup",
+      "note": "finely grated"
+    }
+  ],
+  "steps": [
+    "Get a large skillet very hot and dry. Add the mushrooms in one layer with no fat and no salt. Leave them alone for four minutes — they will squeak, release water, then start to brown.",
+    "Add the butter and garlic. Cook two minutes until the garlic is pale gold.",
+    "Meanwhile boil the linguine in well-salted water, one minute short of the package time. Save a mug of the water before draining.",
+    "Mash the miso with a splash of pasta water into a loose paste, then stir it into the mushrooms off the heat. Miso turns bitter if you boil it hard.",
+    "Add the pasta, soy sauce, and enough pasta water to make a glossy sauce. Toss hard for a minute — the agitation is what emulsifies it.",
+    "Finish with lemon zest and parmesan. No salt until you have tasted it; the miso and soy do most of the work."
+  ],
+  "source": {
+    "kind": "original"
+  },
+  "added": "2026-09-13",
+  "tint": [
+    "#6B5537",
+    "#2A2119"
+  ]
+}
