@@ -74,7 +74,8 @@ export const CATEGORIES = [
   },
 ] as const;
 
-export type CategorySlug = (typeof CATEGORIES)[number]["slug"];
+export type CategoryDef = (typeof CATEGORIES)[number];
+export type CategorySlug = CategoryDef["slug"];
 export const CATEGORY_SLUGS = CATEGORIES.map((c) => c.slug) as CategorySlug[];
 
 /** Cross-cutting. Many per recipe, or none. Filters only — never in a URL. */
@@ -95,22 +96,28 @@ export interface UnitDef {
   /** May the display layer normalize UP into this unit when scaling? */
   promoteTo: boolean;
   aliases: string[];
+  /**
+   * Fractions this unit's real measuring tools can produce, e.g. a cup set
+   * gives eighths and thirds, a tablespoon gives halves and nothing finer.
+   * The display layer snaps a scaled quantity to the nearest of these.
+   */
+  steps?: number[];
 }
 
 export const UNITS: UnitDef[] = [
-  { name: "", family: "count", base: 1, promoteTo: false, aliases: ["each", "whole", "ea"] },
+  { name: "", family: "count", base: 1, promoteTo: false, aliases: ["each", "whole", "ea"], steps: [] },
 
-  { name: "pinch", family: "volume", base: 0.0625, promoteTo: false, aliases: ["pinches"] },
-  { name: "tsp", family: "volume", base: 1, promoteTo: true, aliases: ["teaspoon", "teaspoons", "t"] },
-  { name: "tbsp", family: "volume", base: 3, promoteTo: true, aliases: ["tablespoon", "tablespoons", "T", "tbs", "tblsp"] },
-  { name: "fl oz", family: "volume", base: 6, promoteTo: false, aliases: ["fluid ounce", "fluid ounces", "floz"] },
-  { name: "stick", family: "volume", base: 24, promoteTo: false, aliases: ["sticks"] },
-  { name: "cup", family: "volume", base: 48, promoteTo: true, aliases: ["cups", "c"] },
-  { name: "pint", family: "volume", base: 96, promoteTo: false, aliases: ["pints", "pt"] },
-  { name: "quart", family: "volume", base: 192, promoteTo: false, aliases: ["quarts", "qt"] },
+  { name: "pinch", family: "volume", base: 0.0625, promoteTo: false, aliases: ["pinches"], steps: [0, 0.5] },
+  { name: "tsp", family: "volume", base: 1, promoteTo: true, aliases: ["teaspoon", "teaspoons", "t"], steps: [0, 0.125, 0.25, 0.5, 0.75] },
+  { name: "tbsp", family: "volume", base: 3, promoteTo: true, aliases: ["tablespoon", "tablespoons", "T", "tbs", "tblsp"], steps: [0, 0.5] },
+  { name: "fl oz", family: "volume", base: 6, promoteTo: false, aliases: ["fluid ounce", "fluid ounces", "floz"], steps: [0, 0.5] },
+  { name: "stick", family: "volume", base: 24, promoteTo: false, aliases: ["sticks"], steps: [0, 0.25, 0.5, 0.75] },
+  { name: "cup", family: "volume", base: 48, promoteTo: true, aliases: ["cups", "c"], steps: [0, 0.125, 0.25, 0.333, 0.5, 0.667, 0.75] },
+  { name: "pint", family: "volume", base: 96, promoteTo: false, aliases: ["pints", "pt"], steps: [0, 0.5] },
+  { name: "quart", family: "volume", base: 192, promoteTo: false, aliases: ["quarts", "qt"], steps: [0, 0.25, 0.5, 0.75] },
 
-  { name: "oz", family: "weight", base: 1, promoteTo: true, aliases: ["ounce", "ounces"] },
-  { name: "lb", family: "weight", base: 16, promoteTo: true, aliases: ["pound", "pounds", "lbs", "#"] },
+  { name: "oz", family: "weight", base: 1, promoteTo: true, aliases: ["ounce", "ounces"], steps: [0, 0.25, 0.5, 0.75] },
+  { name: "lb", family: "weight", base: 16, promoteTo: true, aliases: ["pound", "pounds", "lbs", "#"], steps: [0, 0.25, 0.5, 0.75] },
 ];
 
 export const UNIT_NAMES = UNITS.map((u) => u.name);

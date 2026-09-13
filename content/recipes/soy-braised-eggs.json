@@ -1,0 +1,75 @@
+{
+  "slug": "soy-braised-eggs",
+  "title": "Soy braised eggs",
+  "category": "appetizers",
+  "attrs": [
+    "vegetarian",
+    "make-ahead"
+  ],
+  "blurb": "Six minutes exactly, then overnight in the braise. Keeps a week in the fridge and improves the whole time.",
+  "yield": {
+    "kind": "servings",
+    "serves": 6
+  },
+  "active": 15,
+  "total": 60,
+  "ingredients": [
+    {
+      "item": "eggs",
+      "qty": 6,
+      "unit": "",
+      "note": "fridge cold"
+    },
+    {
+      "item": "soy sauce",
+      "qty": 0.5,
+      "unit": "cup"
+    },
+    {
+      "item": "water",
+      "qty": 0.5,
+      "unit": "cup"
+    },
+    {
+      "item": "granulated sugar",
+      "qty": 2,
+      "unit": "tbsp"
+    },
+    {
+      "item": "rice vinegar",
+      "qty": 2,
+      "unit": "tbsp"
+    },
+    {
+      "item": "ginger",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "sliced"
+    },
+    {
+      "item": "star anise",
+      "qty": 2,
+      "unit": "",
+      "scaling": "taste"
+    },
+    {
+      "item": "scallions",
+      "qty": 2,
+      "unit": ""
+    }
+  ],
+  "steps": [
+    "Lower the eggs into fully boiling water. Six minutes, no more, with a timer you trust.",
+    "Straight into iced water for five minutes. The shock is what makes them peel cleanly.",
+    "Simmer everything else together for five minutes, then cool completely. Warm braise will overcook the yolks.",
+    "Peel the eggs and submerge them. Refrigerate at least four hours, ideally overnight. Turn them once if they float."
+  ],
+  "source": {
+    "kind": "original"
+  },
+  "added": "2026-09-13",
+  "tint": [
+    "#6B4A2A",
+    "#241A11"
+  ]
+}

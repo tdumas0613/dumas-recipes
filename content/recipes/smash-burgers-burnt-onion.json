@@ -1,0 +1,70 @@
+{
+  "slug": "smash-burgers-burnt-onion",
+  "title": "Smash burgers with burnt onion",
+  "category": "beef",
+  "attrs": [
+    "weeknight"
+  ],
+  "blurb": "The onions go under the patty and fry into it. Thirty seconds too long is better than thirty seconds too short.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 20,
+  "total": 25,
+  "ingredients": [
+    {
+      "item": "ground beef",
+      "qty": 1,
+      "unit": "lb",
+      "note": "80/20, not leaner"
+    },
+    {
+      "item": "onions",
+      "qty": 1,
+      "unit": "",
+      "note": "sliced paper thin"
+    },
+    {
+      "item": "burger buns",
+      "qty": 4,
+      "unit": ""
+    },
+    {
+      "item": "cheese slices",
+      "qty": 4,
+      "unit": ""
+    },
+    {
+      "item": "mustard",
+      "qty": 2,
+      "unit": "tbsp"
+    },
+    {
+      "item": "pickles",
+      "qty": 4,
+      "unit": ""
+    },
+    {
+      "item": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "scaling": "taste"
+    }
+  ],
+  "steps": [
+    "Divide the beef into four loose balls. Do not compact them, do not season them yet. Chill until you are ready.",
+    "Get a heavy cast iron skillet or griddle as hot as it will go. Toast the cut buns in a dry corner of it and set aside.",
+    "Lay a small pile of sliced onion on the hot metal, put a ball of beef on top, and smash it flat and thin with a stiff spatula. Hold for ten seconds so it takes the shape.",
+    "Salt the top. Leave 90 seconds until the edges are lacy and dark brown, then scrape under it firmly — that crust is stuck to the pan and it is the entire dish.",
+    "Flip, cheese on immediately, 30 seconds more. Stack onto the bun with mustard and pickles while everything is still too hot to handle."
+  ],
+  "source": {
+    "kind": "original"
+  },
+  "added": "2026-09-13",
+  "tint": [
+    "#7E3F2C",
+    "#291712"
+  ]
+}

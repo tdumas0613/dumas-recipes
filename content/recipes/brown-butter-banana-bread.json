@@ -1,0 +1,86 @@
+{
+  "slug": "brown-butter-banana-bread",
+  "title": "Brown butter banana bread",
+  "category": "desserts",
+  "attrs": [
+    "vegetarian",
+    "make-ahead"
+  ],
+  "blurb": "Browning the butter takes four extra minutes and is the only meaningful difference between this and every other banana bread.",
+  "yield": {
+    "kind": "fixed",
+    "noun": "loaf",
+    "plural": "loaves",
+    "count": 1,
+    "cuts": 10,
+    "pan": "9×5 inch loaf pan"
+  },
+  "active": 20,
+  "total": 80,
+  "ingredients": [
+    {
+      "item": "butter",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "1 stick",
+      "g": 113
+    },
+    {
+      "item": "bananas",
+      "qty": 4,
+      "unit": "",
+      "note": "black, not merely spotted"
+    },
+    {
+      "item": "brown sugar",
+      "qty": 0.75,
+      "unit": "cup",
+      "note": "packed",
+      "g": 160
+    },
+    {
+      "item": "eggs",
+      "qty": 2,
+      "unit": ""
+    },
+    {
+      "item": "vanilla extract",
+      "qty": 1,
+      "unit": "tsp",
+      "scaling": "taste"
+    },
+    {
+      "item": "all-purpose flour",
+      "qty": 1.5,
+      "unit": "cup",
+      "g": 180
+    },
+    {
+      "item": "baking soda",
+      "qty": 1,
+      "unit": "tsp",
+      "scaling": "leavening"
+    },
+    {
+      "item": "salt",
+      "qty": 0.5,
+      "unit": "tsp",
+      "scaling": "taste"
+    }
+  ],
+  "steps": [
+    "Melt the butter in a light-colored pan and keep cooking. It will foam, quieten, then the solids will turn nut brown and it will smell like toffee. Pour it out immediately, scraping the brown bits in.",
+    "Let it cool for ten minutes, then mash in the bananas and brown sugar.",
+    "Beat in the eggs and vanilla. Fold in the dry ingredients until barely combined — lumps are fine, overmixing is not.",
+    "Bake at 350°F for 55 to 65 minutes. A skewer should come out with a few damp crumbs, not clean.",
+    "Cool in the pan for 20 minutes before turning out or it will break across the middle."
+  ],
+  "source": {
+    "kind": "original"
+  },
+  "added": "2026-09-13",
+  "tint": [
+    "#7A5A33",
+    "#271D12"
+  ]
+}
