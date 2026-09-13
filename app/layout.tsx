@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Dumas Family Recipes",
-  description:
-    "Recipes we've made more than once, written down properly so the second time is easier than the first.",
+  metadataBase: new URL(SITE_URL),
+  title: { default: SITE_NAME, template: `%s · ${SITE_NAME}` },
+  description: SITE_TAGLINE,
+  alternates: {
+    types: { "application/rss+xml": "/rss.xml" },
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

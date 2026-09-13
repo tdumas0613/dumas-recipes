@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ATTRIBUTES, type Attribute, type CategorySlug, type CategoryDef } from "@/content/taxonomy";
 import type { Recipe } from "@/content/types";
 import type { IngredientSearchEntry } from "@/content/recipes";
+import { SITE_TAGLINE } from "@/lib/site";
 import { Card } from "./Card";
 import { SearchField } from "./SearchField";
 
@@ -72,12 +73,7 @@ export function RecipeBrowser({
         <h1>{currentCategory ? currentCategory.label : "What are you cooking?"}</h1>
         {currentCategory && <p className="sub">{currentCategory.blurb}</p>}
         <SearchField query={query} setQuery={setQuery} ingredientIndex={ingredientIndex} />
-        {!currentCategory && (
-          <p className="standfirst">
-            Recipes we&apos;ve made more than once, written down properly so the second time is
-            easier than the first.
-          </p>
-        )}
+        {!currentCategory && <p className="standfirst">{SITE_TAGLINE}</p>}
       </section>
 
       <div className="resbar">
