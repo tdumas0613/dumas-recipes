@@ -1,0 +1,71 @@
+{
+  "slug": "lemon-chicken-thighs",
+  "title": "Lemon chicken thighs, crisp skin",
+  "category": "chicken-pork",
+  "attrs": [
+    "weeknight"
+  ],
+  "blurb": "Started in a cold pan, which sounds wrong and is the entire trick. The fat renders slowly and the skin ends up like glass.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 10,
+  "total": 40,
+  "ingredients": [
+    {
+      "item": "chicken thighs",
+      "qty": 8,
+      "unit": "",
+      "note": "bone-in, skin on"
+    },
+    {
+      "item": "olive oil",
+      "qty": 1,
+      "unit": "tbsp"
+    },
+    {
+      "item": "lemon",
+      "qty": 2,
+      "unit": "",
+      "note": "one sliced, one juiced"
+    },
+    {
+      "item": "garlic cloves",
+      "qty": 4,
+      "unit": "",
+      "note": "whole, skin on"
+    },
+    {
+      "item": "thyme sprigs",
+      "qty": 6,
+      "unit": ""
+    },
+    {
+      "item": "chicken stock",
+      "qty": 0.5,
+      "unit": "cup"
+    },
+    {
+      "item": "salt",
+      "qty": 1,
+      "unit": "tsp",
+      "scaling": "taste"
+    }
+  ],
+  "steps": [
+    "Dry the skin thoroughly with paper towel and salt it. If you have an hour, leave it uncovered in the fridge — this matters more than anything else here.",
+    "Lay the thighs skin down in a cold, dry, heavy pan. Turn the heat to medium-low. Walk away for 18 minutes.",
+    "The skin should be deep amber and release without sticking. If it sticks, it isn't ready. Turn them over.",
+    "Add the garlic, thyme, lemon slices and stock. Simmer 12 minutes until the thighs are cooked through and register 175°F at the bone.",
+    "Lift the chicken out, reduce the pan juices for two minutes, add the lemon juice, and pour around — never over — the chicken."
+  ],
+  "source": {
+    "kind": "original"
+  },
+  "added": "2026-09-13",
+  "tint": [
+    "#8A6B2E",
+    "#2C2415"
+  ]
+}
