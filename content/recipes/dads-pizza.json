@@ -1,0 +1,42 @@
+{
+  "slug": "dads-pizza",
+  "title": "Dad's Pizza",
+  "category": "misc",
+  "attrs": [],
+  "blurb": "Built on a store-bought crust, but the garlic-oil brush and a hot stone underneath do the actual work. Slightly more effort than a frozen pizza, with a WAY higher payoff",
+  "yield": {
+    "kind": "servings",
+    "serves": 2
+  },
+  "active": 20,
+  "total": 55,
+  "ingredients": [
+    { "item": "pizza dough", "qty": 1, "unit": "", "note": "store-bought, brought to room temperature" },
+    { "item": "cornmeal", "qtyText": "for dusting the stone", "unit": "" },
+    { "item": "garlic cloves", "qty": 3, "unit": "", "note": "minced" },
+    { "item": "olive oil", "qty": 3, "unit": "tbsp" },
+    { "item": "mozzarella", "qty": 4, "unit": "oz", "note": "fresh, sliced" },
+    { "item": "italian sausage", "qty": 0.5, "unit": "lb", "note": "cooked and crumbled" },
+    { "item": "onions", "qty": 0.5, "unit": "", "note": "red onion, sliced" },
+    { "item": "cherry tomatoes", "qty": 1.5, "unit": "cup", "qtyMax": 2, "note": "halved, about 3-4 handfuls" },
+    { "item": "dried oregano", "qtyText": "a sprinkle, if desired", "unit": "", "scaling": "taste" }
+  ],
+  "steps": [
+    "Preheat oven to 425°F with a pizza stone inside.",
+    "Let the dough come to room temperature, 30 to 120 minutes.",
+    "Stretch the dough and place it on the hot stone, which should be dusted first with cornmeal.",
+    "Mix the minced garlic with the olive oil and brush it over the dough.",
+    "Bake 5 to 7 minutes.",
+    "Remove from the oven and top as desired — starting with the mozzarella, then the sausage, onion and halved tomatoes. Sprinkle with oregano, if desired.",
+    "Bake another 5 to 10 minutes, until the cheese is fully melted and the crust edges are blistered."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Dad's Pizza Recipe.pdf"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#B8452E",
+    "#291712"
+  ]
+}

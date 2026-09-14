@@ -207,6 +207,7 @@ export const INGREDIENTS: IngredientDef[] = [
   { name: "firm tofu", category: "protein", aliases: ["bean curd", "extra firm tofu", "extra-firm tofu"] },
   { name: "salami", category: "protein", aliases: ["hard salami", "uncured salami", "dry salami"] },
   { name: "chicken sausage", category: "protein", aliases: [] },
+  { name: "italian sausage", category: "protein", aliases: ["sweet italian sausage", "hot italian sausage", "italian sausage links"] },
 
   /* --- dairy & eggs --- */
   { name: "butter", category: "dairy", aliases: ["unsalted butter", "salted butter", "oleo", "margarine", "sweet butter"] },
@@ -238,6 +239,7 @@ export const INGREDIENTS: IngredientDef[] = [
   { name: "elbow macaroni", category: "grain", aliases: ["macaroni"] },
   { name: "fettuccine", category: "grain", aliases: [] },
   { name: "bread", category: "grain", aliases: ["whole-meal bread", "german-style bread", "sliced bread", "toast", "baguette"] },
+  { name: "pizza dough", category: "grain", aliases: ["pizza crust", "store-bought pizza dough"] },
   { name: "burger buns", category: "grain", aliases: ["hamburger buns", "brioche buns", "buns"] },
   { name: "all-purpose flour", category: "grain", staple: true, aliases: ["plain flour", "ap flour", "all purpose flour", "flour"] },
   { name: "cornstarch", category: "grain", staple: true, aliases: ["cornflour", "corn starch", "corn flour"] },
@@ -310,6 +312,7 @@ export const INGREDIENTS: IngredientDef[] = [
   { name: "marsala wine", category: "pantry", aliases: ["dry marsala wine", "marsala"] },
   { name: "buffalo sauce", category: "pantry", aliases: ["cayenne pepper sauce", "frank's red hot"] },
   { name: "sweet chili sauce", category: "pantry", aliases: ["thai sweet chili sauce"] },
+  { name: "cornmeal", category: "pantry", aliases: ["corn meal"] },
 ];
 
 /* ------------------------------------------------------------------ */
