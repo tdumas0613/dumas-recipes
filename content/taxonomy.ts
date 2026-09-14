@@ -210,7 +210,7 @@ export const INGREDIENTS: IngredientDef[] = [
   { name: "firm tofu", category: "protein", aliases: ["bean curd", "extra firm tofu", "extra-firm tofu"] },
   { name: "salami", category: "protein", aliases: ["hard salami", "uncured salami", "dry salami"] },
   { name: "chicken sausage", category: "protein", aliases: [] },
-  { name: "italian sausage", category: "protein", aliases: ["sweet italian sausage", "hot italian sausage", "italian sausage links"] },
+  { name: "italian sausage", category: "protein", aliases: ["sweet italian sausage", "hot italian sausage", "italian sausage links", "mild italian sausage"] },
 
   /* --- dairy & eggs --- */
   { name: "butter", category: "dairy", aliases: ["unsalted butter", "salted butter", "oleo", "margarine", "sweet butter"] },
@@ -239,6 +239,7 @@ export const INGREDIENTS: IngredientDef[] = [
   { name: "rotini", category: "grain", aliases: ["fusilli"] },
   { name: "orzo", category: "grain", aliases: ["orzo pasta"] },
   { name: "penne", category: "grain", aliases: ["penne pasta"] },
+  { name: "cheese tortellini", category: "grain", aliases: ["tortellini"] },
   { name: "basmati rice", category: "grain", aliases: ["long grain rice", "long-grain rice", "long grain white rice"] },
   { name: "breadcrumbs", category: "grain", aliases: ["bread crumbs", "fresh breadcrumbs", "dried breadcrumbs", "panko", "panko breadcrumbs", "dry breadcrumbs"] },
   { name: "spaghetti", category: "grain", aliases: [] },
@@ -288,6 +289,7 @@ export const INGREDIENTS: IngredientDef[] = [
   { name: "canned tomatoes", category: "pantry", aliases: ["tinned tomatoes", "chopped tomatoes", "crushed tomatoes", "plum tomatoes", "diced tomatoes"] },
   { name: "chickpeas", category: "pantry", aliases: ["garbanzo beans", "garbanzos", "ceci beans"] },
   { name: "chicken stock", category: "pantry", aliases: ["chicken broth", "chicken bouillon"] },
+  { name: "beef stock", category: "pantry", aliases: ["beef broth", "beef bouillon"] },
   { name: "vegetable stock", category: "pantry", aliases: ["vegetable broth", "veg stock"] },
   { name: "hoisin sauce", category: "pantry", aliases: [] },
   { name: "hot sauce", category: "pantry", aliases: [] },
