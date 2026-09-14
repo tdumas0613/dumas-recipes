@@ -5,12 +5,8 @@
   "attrs": [],
   "blurb": "Built on a store-bought crust, but the garlic-oil brush and a hot stone underneath do the actual work — the toppings are just whatever's around that week.",
   "yield": {
-    "kind": "fixed",
-    "noun": "pizza",
-    "plural": "pizzas",
-    "count": 1,
-    "cuts": 8,
-    "pan": "pizza stone"
+    "kind": "servings",
+    "serves": 2
   },
   "active": 20,
   "total": 55,
