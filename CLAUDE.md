@@ -16,7 +16,7 @@ changes to architecture, schema, or vocabulary.
 | TypeScript | The taxonomy is only useful if it's type-enforced. |
 | Plain CSS (one global stylesheet + CSS vars) | The prototype is written this way. No Tailwind. |
 | Recipes as JSON in `content/recipes/` | An importer writes these far more often than a human edits them. JSON is safe to machine-write and trivial to validate. |
-| Vercel free tier | Zero cost until a custom domain. |
+| Vercel | Deploys from git, no ops. |
 | No database | Git already provides accounts, permissions and history for one author. Add Supabase/Neon only when real user accounts arrive. |
 | No auth | Same reason. Don't scaffold it "ready for later". |
 
@@ -25,18 +25,17 @@ changes to architecture, schema, or vocabulary.
 ## Content model
 
 Types live in `content/types.ts`. Taxonomy lives in `content/taxonomy.ts`.
-Both are authoritative — treat them as the spec, not as sample code.
+Both are authoritative — treat them as the spec, not as sample code. The
+category and attribute lists are defined there; don't restate them here.
 
 ### Categories
 
 Exactly one per recipe. Determines the URL. Defined in `CATEGORIES`.
 
-`breakfast` · `desserts` · `appetizers` · `soups-salads-sandwiches` ·
-`pasta` · `beef` · `chicken-pork` · `sides` · `misc`
-
-**Tiebreak rule.** When a recipe fits more than one, evaluate the list in the
-order above and take the first match. Chicken noodle soup → `soups`, not
-`chicken-pork`. Beef lasagna → `pasta`, not `beef`.
+**Tiebreak rule.** When a recipe fits more than one, evaluate `CATEGORIES` in
+declaration order and take the first match. Chicken noodle soup →
+`soups-salads-sandwiches`, not `chicken-pork`. Beef lasagna → `pasta`, not
+`beef`.
 
 Nav uses `short`; page headings and `<title>` use `label`. "Potatoes, Veggies
 & Side Dishes" is too long for a nav item, which is why both exist.
@@ -50,7 +49,6 @@ recipes each, split them out into their own categories.
 ### Attributes
 
 Many per recipe, or none. Filters only — never in a URL.
-`vegetarian` · `weeknight` · `make-ahead` · `spicy`
 
 ### Ingredients
 
@@ -83,7 +81,8 @@ does not). Then snap to that unit's `steps` — the fractions its real measuring
 tools can actually produce. A cup set gives eighths and thirds; a tablespoon
 gives halves and nothing finer.
 
-Worked examples the implementation must satisfy:
+Worked examples `lib/quantity.ts` must satisfy — there is no test suite, so
+these are the spec:
 
 ```
 0.5 cup  × 0.2  → 1½ tbsp      (not "0.1 cup")
@@ -134,29 +133,18 @@ a cup of flour varies by 20% depending on how it's scooped.
 ## Design system
 
 Dark, cool ground so food photography carries all the color. Deliberately not
-the cream-paper-and-serif food blog look.
+the cream-paper-and-serif food blog look. `app/globals.css` is authoritative
+for the palette and type scale — read the values there, don't restate them.
 
-```
---ink       #15181D   page
---surface   #1D222A   raised
---surface-2 #262D37   hover
---line      #323A46   borders
---chalk     #EDEAE4   primary text
---muted     #939DAB   secondary text
---zest      #F5D547   accent — active states only, used sparingly
-```
-
-Type: **Bricolage Grotesque** (700/800) for headings and the wordmark,
-**Instrument Sans** (400/500/600) for body and UI. Body 17px, steps 17.5px —
-large enough to read at arm's length across a counter.
-
-Wordmark: "Dumas" at 800 in chalk, "Family Recipes" at 500 in muted. No color
-accent on the wordmark; `--zest` is reserved for active state.
+Rules that outlive the values: `--zest` is the accent, reserved for active
+states only. The wordmark carries no accent — "Dumas" in chalk, "Family
+Recipes" in muted. Headings are Bricolage Grotesque, body and UI are
+Instrument Sans. Body type is sized to read at arm's length across a counter;
+don't shrink it.
 
 Quality floor: responsive to mobile, visible keyboard focus, reduced motion
-respected. Ad slots are reserved in the layout now (leaderboard between grid
-rows, 300×250 in the recipe sidebar) so adding AdSense later doesn't break
-the design.
+respected. Ad slots are reserved in the layout (leaderboard between grid rows,
+300×250 in the recipe sidebar) so adding AdSense later doesn't break the design.
 
 ---
 
@@ -176,9 +164,9 @@ Non-negotiable for a site that will carry ads:
 - `generateMetadata` per page. Visible `<h1>` on the homepage is "What are you
   cooking?" — good interface copy, useless as a search signal. The `<title>`
   must carry the real nouns: "Dumas Family Recipes".
-- Unique intro copy per category page (already in `CATEGORIES[].blurb`).
-  Nine near-identical landing pages read as duplicates to a crawler.
-- `sitemap.xml` and an RSS feed.
+- Unique intro copy per category page (`CATEGORIES[].blurb`). Nine
+  near-identical landing pages read as duplicates to a crawler.
+- Keep `sitemap.xml` and the RSS feed current.
 
 On importing from other sites: ingredient lists and procedures aren't
 copyrightable, but headnotes, stories and photographs are. The `blurb` must
@@ -197,20 +185,6 @@ what's already indexed.
 - **Search suggestions appear only while typing**, never on focus, and exclude
   exact matches. The panel is a spelling aid, not a browse surface.
 - **No auth, no database, no CMS** until there are real user accounts.
-
----
-
-## Build order
-
-1. ⬜ Scaffold Next.js, wire taxonomy + validator, `npm run validate` green
-2. ⬜ All 10 recipes as JSON, validator still green
-3. ⬜ Port components from the prototype; homepage, category pages, recipe pages
-4. ⬜ JSON-LD, metadata, sitemap, RSS
-5. ⬜ Deploy to Vercel
-6. ⬜ Recipe import skill (PDF / docx / URL)
-
-The import skill goes **last**, so it can read the real taxonomy and run the
-real validator.
 
 ## Commands
 
