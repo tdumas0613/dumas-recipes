@@ -1,0 +1,39 @@
+{
+  "slug": "smorrebrod-herring-beets-arugula",
+  "title": "Smørrebrød With Herring, Beets & Arugula",
+  "category": "soups-salads-sandwiches",
+  "attrs": [
+    "weeknight"
+  ],
+  "blurb": "An open-faced Danish sandwich built on dilled yogurt instead of butter, so it carries the fish and beets without going heavy.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 20,
+  "total": 20,
+  "ingredients": [
+    { "item": "yogurt", "qty": 0.5, "unit": "cup", "note": "whole-milk plain Greek" },
+    { "item": "dill", "qty": 2, "unit": "tsp", "note": "chopped fresh, plus more for garnish" },
+    { "item": "bread", "qty": 4, "unit": "", "note": "slices German-style whole-meal bread, toasted" },
+    { "item": "arugula", "qty": 1, "unit": "cup", "note": "baby" },
+    { "item": "beets", "qty": 1, "unit": "cup", "note": "sliced, cooked" },
+    { "item": "smoked herring", "qty": 1.5, "unit": "oz", "note": "pickled or smoked, or smoked trout, flaked" },
+    { "item": "eggs", "qty": 2, "unit": "", "note": "hard-boiled, quartered" },
+    { "item": "onions", "qty": 0.25, "unit": "cup", "note": "red onion, thinly sliced" },
+    { "item": "black peppercorns", "qty": 0.5, "unit": "tsp", "note": "ground", "scaling": "taste" }
+  ],
+  "steps": [
+    "Combine the yogurt and dill in a small bowl.",
+    "Spread the yogurt on the toast and top with arugula, beets, fish, egg and onion. Season with pepper and garnish with more dill, if desired."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Chicken Reciptes.pdf"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#9C4A5C",
+    "#291720"
+  ]
+}

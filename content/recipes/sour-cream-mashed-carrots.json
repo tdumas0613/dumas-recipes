@@ -1,0 +1,39 @@
+{
+  "slug": "sour-cream-mashed-carrots",
+  "title": "Sour Cream Mashed Carrots",
+  "category": "sides",
+  "attrs": [
+    "vegetarian",
+    "weeknight"
+  ],
+  "blurb": "Room-temperature butter and sour cream blend into the hot carrots instead of seizing up, so the mash turns out silky rather than grainy.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 15,
+  "total": 40,
+  "ingredients": [
+    { "item": "carrots", "qty": 8, "unit": "", "note": "large, about 1 1/4 lb total" },
+    { "item": "butter", "qty": 2, "unit": "tbsp" },
+    { "item": "sour cream", "qty": 0.25, "unit": "cup", "note": "light" },
+    { "item": "salt", "qty": 1, "unit": "tsp", "scaling": "taste" },
+    { "item": "black peppercorns", "qty": 0.25, "unit": "tsp", "scaling": "taste" }
+  ],
+  "steps": [
+    "Take the sour cream and butter out of the fridge ahead of time to come to room temperature.",
+    "Bring a large pot of water to a boil. Meanwhile, halve the carrots crosswise, then halve the bigger half lengthwise, so the pieces are roughly even.",
+    "Add the carrots to the boiling water. Cook, uncovered, over high heat, until very tender, about 30 minutes.",
+    "Drain the carrots and transfer to a food processor. Add the butter, sour cream, salt and pepper. Process until very smooth, about 1 minute, scraping the sides once."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Veggies.pdf",
+    "credit": "Lilly"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#C4752E",
+    "#2E1D12"
+  ]
+}

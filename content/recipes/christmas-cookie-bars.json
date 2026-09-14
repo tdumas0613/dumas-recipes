@@ -1,0 +1,61 @@
+{
+  "slug": "christmas-cookie-bars",
+  "title": "Christmas Cookie Bars",
+  "category": "desserts",
+  "attrs": [
+    "vegetarian"
+  ],
+  "blurb": "A sugar cookie base gone soft and thick, then frosted like a bar instead of iced like a cookie — the dough is meant to look underbaked when it comes out.",
+  "yield": {
+    "kind": "fixed",
+    "noun": "bar",
+    "plural": "bars",
+    "count": 1,
+    "cuts": 24,
+    "pan": "9×13 inch pan"
+  },
+  "active": 25,
+  "total": 60,
+  "ingredients": [
+    { "item": "butter", "qty": 1, "unit": "cup", "note": "softened to room temperature, for the bars" },
+    { "item": "cream cheese", "qty": 4, "unit": "oz", "note": "softened to room temperature" },
+    { "item": "granulated sugar", "qty": 1.5, "unit": "cup" },
+    { "item": "eggs", "qty": 1, "unit": "", "note": "room temperature" },
+    { "item": "eggs", "qtyText": "1 yolk, room temperature", "unit": "" },
+    { "item": "vanilla extract", "qty": 1, "unit": "tbsp", "note": "for the bars", "scaling": "taste" },
+    { "item": "almond extract", "qty": 0.25, "unit": "tsp", "note": "optional, for the bars", "scaling": "taste" },
+    { "item": "all-purpose flour", "qty": 2.5, "unit": "cup", "note": "spooned and leveled" },
+    { "item": "cornstarch", "qty": 1, "unit": "tbsp" },
+    { "item": "baking powder", "qty": 0.75, "unit": "tsp", "scaling": "leavening" },
+    { "item": "salt", "qty": 0.5, "unit": "tsp", "note": "fine, for the bars", "scaling": "taste" },
+    { "item": "baking soda", "qty": 0.125, "unit": "tsp", "scaling": "leavening" },
+    { "item": "sprinkles", "qty": 0.125, "unit": "cup", "note": "Christmas jimmies, plus more for garnish" },
+    { "item": "butter", "qty": 0.5, "unit": "cup", "note": "softened to room temperature, for the frosting" },
+    { "item": "vanilla extract", "qty": 1, "unit": "tsp", "note": "for the frosting", "scaling": "taste" },
+    { "item": "almond extract", "qty": 0.25, "unit": "tsp", "note": "optional, for the frosting", "scaling": "taste" },
+    { "item": "salt", "qtyText": "1/4 tsp, or to taste", "unit": "", "note": "for the frosting", "scaling": "taste" },
+    { "item": "powdered sugar", "qty": 2, "unit": "cup", "note": "sifted" },
+    { "item": "heavy cream", "qty": 1.5, "unit": "tbsp", "note": "room temperature, plus more as needed" },
+    { "item": "food coloring", "qtyText": "optional", "unit": "" },
+    { "item": "sprinkles", "qtyText": "additional, for decorating", "unit": "" }
+  ],
+  "steps": [
+    "Preheat oven to 325°F. Spray a 9×13-inch pan with nonstick spray and line with parchment paper, letting it hang over the sides.",
+    "In a stand mixer, beat the butter, cream cheese and granulated sugar together on medium speed until light and creamy, 2 to 3 minutes.",
+    "Mix in the egg, egg yolk, vanilla and almond extract until smooth and well combined, scraping down the bowl as needed.",
+    "In a separate bowl, whisk together the flour, cornstarch, baking powder, salt and baking soda. Gradually add to the wet ingredients on low speed until a soft dough forms — it will be noticeably softer than a normal cookie dough, and that's correct. Fold in the sprinkles.",
+    "Press the dough evenly into the prepared pan with an offset spatula. Bake 25 to 30 minutes, or until the edges are lightly golden and the center looks just set — don't overbake, or the bars won't stay soft and chewy as they cool.",
+    "Let the bars cool completely in the pan on a wire rack before frosting.",
+    "For the frosting, beat the butter until smooth. Add the vanilla, almond extract and salt, then gradually mix in the powdered sugar. Add the heavy cream and beat 1 to 2 minutes until light and fluffy. Tint with food coloring, if desired.",
+    "Spread the frosting over the cooled bars and top with additional sprinkles. Slice into squares to serve."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Christmas Cookie Bars.docx"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#9C2E3E",
+    "#291317"
+  ]
+}

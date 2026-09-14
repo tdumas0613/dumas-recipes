@@ -1,0 +1,43 @@
+{
+  "slug": "honey-hoisin-sweet-potatoes",
+  "title": "Honey-Hoisin Sweet Potatoes",
+  "category": "sides",
+  "attrs": [
+    "vegetarian",
+    "weeknight"
+  ],
+  "blurb": "The hoisin glaze goes on twice — brushed on before roasting, then spooned back over with lime juice stirred in — so it caramelizes instead of just coating the potatoes raw.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 10,
+  "total": 35,
+  "ingredients": [
+    { "item": "hoisin sauce", "qty": 0.25, "unit": "cup" },
+    { "item": "honey", "qty": 2, "unit": "tbsp" },
+    { "item": "olive oil", "qty": 1, "unit": "tbsp" },
+    { "item": "salt", "qty": 0.5, "unit": "tsp", "scaling": "taste" },
+    { "item": "sweet potatoes", "qty": 4, "unit": "", "note": "small, halved" },
+    { "item": "lime", "qty": 2, "unit": "tbsp", "note": "juice" },
+    { "item": "cashews", "qty": 0.5, "unit": "cup", "note": "chopped" },
+    { "item": "scallions", "qty": 1, "unit": "", "note": "chopped" }
+  ],
+  "steps": [
+    "Stir together the hoisin, honey, olive oil and salt in a small bowl.",
+    "Halve the sweet potatoes and brush the cut sides with the hoisin mixture.",
+    "Place the potatoes cut sides down in a foil-lined, greased baking pan. Roast at 425°F for 25 to 30 minutes, until tender.",
+    "Stir the lime juice into the remaining hoisin mixture and spoon it over the cooked sweet potatoes.",
+    "Top with the cashews and scallion. Serve with lime wedges."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Veggies.pdf",
+    "credit": "Better Homes & Gardens, November 2016"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#B8722E",
+    "#2E1D12"
+  ]
+}

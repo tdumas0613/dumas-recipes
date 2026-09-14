@@ -1,0 +1,53 @@
+{
+  "slug": "chicken-orzo-skillet",
+  "title": "Chicken Orzo Skillet",
+  "category": "pasta",
+  "attrs": [
+    "weeknight"
+  ],
+  "blurb": "Seared first for a dark crust, then finished in the oven while the orzo cooks in the same pan — the highest-rated of the family's orzo skillets, wine and all.",
+  "yield": {
+    "kind": "servings",
+    "serves": 3
+  },
+  "active": 25,
+  "total": 40,
+  "ingredients": [
+    { "item": "chicken breasts", "qty": 1.25, "unit": "lb", "note": "boneless, skinless, about 3-4 breasts" },
+    { "item": "red pepper flakes", "qtyText": "a pinch, or to taste", "unit": "", "scaling": "taste" },
+    { "item": "olive oil", "qty": 2, "unit": "tbsp" },
+    { "item": "white wine", "qty": 0.5, "unit": "cup", "note": "or more as needed" },
+    { "item": "dried oregano", "qty": 1, "unit": "tsp" },
+    { "item": "salt", "qty": 1, "unit": "tsp", "note": "plus more for the orzo", "scaling": "taste" },
+    { "item": "black peppercorns", "qty": 0.5, "unit": "tsp", "note": "freshly ground, plus more for the orzo", "scaling": "taste" },
+    { "item": "granulated sugar", "qty": 0.5, "unit": "tsp", "scaling": "taste" },
+    { "item": "butter", "qty": 1, "unit": "tbsp" },
+    { "item": "orzo", "qty": 1, "unit": "cup" },
+    { "item": "garlic cloves", "qty": 2, "unit": "", "note": "finely minced" },
+    { "item": "spinach", "qty": 3, "unit": "oz", "note": "baby spinach, roughly chopped" },
+    { "item": "thyme sprigs", "qty": 4, "unit": "", "note": "leaves removed and stems discarded" },
+    { "item": "chicken stock", "qty": 1.5, "unit": "cup" },
+    { "item": "heavy cream", "qty": 0.5, "unit": "cup", "note": "or 3/4 cup almond milk, family substitute" },
+    { "item": "sun-dried tomatoes", "qty": 3, "unit": "oz", "note": "julienne-cut, in olive oil, drained" },
+    { "item": "parmesan", "qty": 0.5, "unit": "cup", "note": "grated" },
+    { "item": "parsley", "qtyText": "for garnish, optional", "unit": "", "note": "fresh Italian" }
+  ],
+  "steps": [
+    "Preheat oven to 400°F.",
+    "In a medium bowl, combine the chicken with the olive oil and toss to coat. Sprinkle with oregano, salt, pepper and sugar; let stand 10 minutes.",
+    "Heat a cast iron skillet over medium-high heat; sear the chicken on both sides, turning once, until a dark golden-brown crust forms, about 1 minute per side. Remove the chicken and set aside — it will not be fully cooked.",
+    "Reduce the heat to medium; melt the butter in the skillet. Add the orzo; cook and stir 90 seconds to toast. Add the garlic and red pepper flakes; cook and stir 1 minute more.",
+    "Add the wine to deglaze the skillet and stop the orzo from browning, adding more wine or water as needed to keep the garlic from burning. Add the spinach; cook and stir until completely wilted, about 2 minutes.",
+    "Remove the pan from the heat and stir in the thyme, then the stock and cream. Season with salt and pepper to taste, then stir in the sun-dried tomatoes and parmesan.",
+    "Return the chicken to the skillet. Transfer to the oven and bake 15 minutes. Garnish with parsley before serving, if desired."
+  ],
+  "source": {
+    "kind": "card",
+    "ref": "family recipe card"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#A85D3A",
+    "#2A1B12"
+  ]
+}

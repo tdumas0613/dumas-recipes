@@ -1,0 +1,42 @@
+{
+  "slug": "bacon-feta-stuffed-chicken-breast",
+  "title": "Bacon And Feta Stuffed Chicken Breast",
+  "category": "chicken-pork",
+  "attrs": [
+    "weeknight"
+  ],
+  "blurb": "Butterflied rather than pocketed, so the feta and bacon end up as a full layer running through the chicken instead of a small stuffed center.",
+  "yield": {
+    "kind": "servings",
+    "serves": 2
+  },
+  "active": 15,
+  "total": 40,
+  "ingredients": [
+    { "item": "olive oil", "qty": 0.25, "unit": "cup" },
+    { "item": "lemon", "qty": 1, "unit": "tsp", "note": "juice" },
+    { "item": "garlic cloves", "qty": 2, "unit": "", "note": "pressed" },
+    { "item": "dried oregano", "qty": 1.5, "unit": "tsp" },
+    { "item": "salt", "qty": 0.25, "unit": "tsp", "scaling": "taste" },
+    { "item": "black peppercorns", "qty": 0.25, "unit": "tsp", "scaling": "taste" },
+    { "item": "chicken breasts", "qty": 2, "unit": "", "note": "small, about 8 oz each, boneless, skinless" },
+    { "item": "feta", "qty": 0.75, "unit": "cup", "note": "about 3 oz, crumbled, garlic and herb preferred, divided" },
+    { "item": "bacon", "qty": 4, "unit": "", "note": "slices, cooked, crumbled or chopped, divided" }
+  ],
+  "steps": [
+    "Preheat oven to 400°F. Lightly grease a medium baking dish large enough to fit both chicken breasts.",
+    "Whisk together the olive oil, lemon juice, garlic, oregano, salt and pepper in a small bowl; set aside.",
+    "Butterfly the chicken breasts and place them in the prepared baking dish. Fill each with about 1 ounce of the feta and a third of the bacon (if doubling, use two-thirds of the bacon per breast). Close the breasts and sprinkle the remaining cheese and bacon over the top.",
+    "Pour the olive oil mixture over the breasts and bake 25 to 35 minutes (longer for very large breasts), until an instant-read thermometer reads 160 to 165°F.",
+    "Let rest 5 minutes before serving. Spoon the pan drippings over rice or vegetables, or serve with orzo."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Chicken Reciptes.pdf"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#9C6B3E",
+    "#241C12"
+  ]
+}

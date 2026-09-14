@@ -1,0 +1,47 @@
+{
+  "slug": "sichuan-chicken-lettuce-wraps",
+  "title": "Sichuan Chicken Lettuce Wraps",
+  "category": "appetizers",
+  "attrs": [
+    "weeknight",
+    "spicy"
+  ],
+  "blurb": "The chicken poaches with its own aromatics, then gets shredded straight into a sauce built around Sichuan peppercorns instead of a bottled dressing.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 15,
+  "total": 45,
+  "ingredients": [
+    { "item": "chicken breasts", "qty": 1, "unit": "lb", "note": "boneless, skinless, trimmed" },
+    { "item": "ginger", "qty": 2, "unit": "tbsp", "note": "thinly sliced fresh" },
+    { "item": "garlic cloves", "qty": 2, "unit": "", "note": "smashed" },
+    { "item": "sesame oil", "qty": 2, "unit": "tbsp", "note": "toasted, dark" },
+    { "item": "soy sauce", "qty": 2, "unit": "tbsp", "note": "reduced-sodium tamari" },
+    { "item": "black vinegar", "qty": 2, "unit": "tbsp", "note": "or balsamic vinegar" },
+    { "item": "chili oil", "qty": 2, "unit": "tsp", "scaling": "taste" },
+    { "item": "sichuan peppercorns", "qty": 2, "unit": "tsp", "note": "ground" },
+    { "item": "granulated sugar", "qty": 2, "unit": "tsp" },
+    { "item": "lettuce", "qty": 12, "unit": "", "note": "Boston lettuce leaves" },
+    { "item": "cucumber", "qty": 1, "unit": "", "note": "English, cut into matchsticks" },
+    { "item": "carrots", "qty": 0.5, "unit": "cup", "note": "matchsticks, and/or radish" },
+    { "item": "scallions", "qty": 0.5, "unit": "cup", "note": "thinly sliced" },
+    { "item": "sesame seeds", "qty": 2, "unit": "tbsp", "note": "toasted" }
+  ],
+  "steps": [
+    "Place the chicken, ginger and garlic in a large saucepan and cover with water. Bring to a boil over high heat, then reduce to a simmer and cook until an instant-read thermometer reads 160°F, 10 to 12 minutes. Transfer the chicken to a cutting board (discard the ginger and garlic) and let cool 5 minutes.",
+    "Meanwhile, whisk the sesame oil, soy sauce, vinegar, chili oil, peppercorns and sugar together in a medium bowl.",
+    "Shred the chicken and stir it into the sauce. Let stand 5 minutes.",
+    "Serve in the lettuce leaves topped with cucumber, carrot, scallions and sesame seeds."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Chicken Reciptes.pdf"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#B8452E",
+    "#291712"
+  ]
+}

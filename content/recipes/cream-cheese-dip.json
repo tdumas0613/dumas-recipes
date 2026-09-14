@@ -1,0 +1,37 @@
+{
+  "slug": "cream-cheese-dip",
+  "title": "Cream Cheese Dip",
+  "category": "appetizers",
+  "attrs": [
+    "vegetarian",
+    "weeknight"
+  ],
+  "blurb": "Four layers stacked in a dish and warmed just enough to soften — the hot honey is what keeps this from tasting like a plain cheese board.",
+  "yield": {
+    "kind": "servings",
+    "serves": 6
+  },
+  "active": 10,
+  "total": 15,
+  "ingredients": [
+    { "item": "cream cheese", "qtyText": "a layer, enough to cover the bottom of the dish", "unit": "", "note": "spreadable cheese, or goat cheese left unbaked" },
+    { "item": "fig jam", "qtyText": "a layer over the cheese", "unit": "" },
+    { "item": "honey", "qtyText": "a drizzle", "unit": "", "note": "hot honey" },
+    { "item": "pistachios", "qtyText": "a scattering, chopped", "unit": "" },
+    { "item": "bread", "qtyText": "1 baguette, sliced", "unit": "" }
+  ],
+  "steps": [
+    "In an oven-safe dish, layer the spreadable cheese on the bottom, then the fig jam, then a drizzle of hot honey, then the chopped pistachios.",
+    "Heat in the oven for 5 minutes at 400°F, until soft. Toast the sliced baguette alongside for 5 minutes at 400°F.",
+    "Serve the warm dip with the toasted baguette for dipping."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Cream Cheese Dip Recipe.docx"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#C4923E",
+    "#2E2213"
+  ]
+}

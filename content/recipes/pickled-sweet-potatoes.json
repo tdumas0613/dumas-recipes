@@ -1,0 +1,42 @@
+{
+  "slug": "pickled-sweet-potatoes",
+  "title": "Pickled Sweet Potatoes",
+  "category": "sides",
+  "attrs": [
+    "vegetarian",
+    "make-ahead"
+  ],
+  "blurb": "A quick pickle rather than a canning-jar one — an hour on the counter is enough before these are ready, though a week in the fridge only sharpens them.",
+  "yield": {
+    "kind": "servings",
+    "serves": 8
+  },
+  "active": 15,
+  "total": 75,
+  "ingredients": [
+    { "item": "rice vinegar", "qty": 1.5, "unit": "cup" },
+    { "item": "water", "qty": 1.5, "unit": "cup" },
+    { "item": "granulated sugar", "qty": 0.25, "unit": "cup" },
+    { "item": "salt", "qty": 1, "unit": "tbsp", "scaling": "taste" },
+    { "item": "anaheim chile peppers", "qty": 2, "unit": "", "note": "chopped and seeded" },
+    { "item": "onions", "qty": 1, "unit": "cup", "note": "red onion, thinly sliced" },
+    { "item": "sweet potatoes", "qty": 2, "unit": "", "note": "large, peeled, sliced about 1/8 inch thick" }
+  ],
+  "steps": [
+    "Combine the rice vinegar, water, sugar and salt in a large nonreactive saucepan.",
+    "Combine the chopped anaheim chiles and red onion in a large heatproof bowl.",
+    "Using a mandoline, slice the sweet potatoes about 1/8 inch thick and add them to the vinegar mixture.",
+    "Bring to a boil, then reduce heat and simmer, uncovered, 2 minutes.",
+    "Pour the hot vinegar mixture over the onion mixture. Let stand 1 hour before serving, or cover and refrigerate up to 1 week."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Veggies.pdf",
+    "credit": "Better Homes & Gardens, November 2016"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#C48A3E",
+    "#2E2013"
+  ]
+}

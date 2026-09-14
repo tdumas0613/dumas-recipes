@@ -1,0 +1,44 @@
+{
+  "slug": "buca-chicken-marsala",
+  "title": "Buca Chicken Marsala",
+  "category": "chicken-pork",
+  "attrs": [
+    "weeknight"
+  ],
+  "blurb": "The bacon fat left in the pan becomes the base for the Marsala sauce, so the bacon seasons the whole dish instead of just garnishing it.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 25,
+  "total": 30,
+  "ingredients": [
+    { "item": "olive oil", "qtyText": "for the pan", "unit": "" },
+    { "item": "chicken breasts", "qty": 4, "unit": "", "note": "thin cutlets" },
+    { "item": "all-purpose flour", "qty": 0.5, "unit": "cup" },
+    { "item": "bacon", "qty": 2, "unit": "oz", "note": "low-salt, cut into 1/4-inch pieces" },
+    { "item": "salt", "qtyText": "to taste", "unit": "", "note": "coarse", "scaling": "taste" },
+    { "item": "black peppercorns", "qtyText": "to taste", "unit": "", "note": "freshly ground", "scaling": "taste" },
+    { "item": "marsala wine", "qty": 0.5, "unit": "cup", "note": "dry" },
+    { "item": "heavy cream", "qty": 4, "unit": "tbsp" },
+    { "item": "parsley", "qtyText": "minced, for garnish", "unit": "" }
+  ],
+  "steps": [
+    "Coat a large skillet lightly with olive oil and set over medium-high heat. Add the bacon and cook until crisp and lightly browned. Remove with a slotted spoon and set aside, leaving the fat in the pan.",
+    "Put the flour on a plate. Pat the cutlets dry, season lightly with salt and pepper, then dredge in the flour.",
+    "Heat the pan with the bacon fat over medium-high heat, adding a touch more olive oil if needed to make about 2 tablespoons. When hot, shake the excess flour off the cutlets and add them to the pan. Sauté, turning once, until browned on both sides — thin cutlets only need a few minutes per side. Remove the cutlets and pour off the excess fat.",
+    "With the pan still over medium-high heat, add the Marsala and scrape up the browned bits from the bottom. Cook until reduced by about a quarter.",
+    "Stir in the cream and simmer until nicely thickened. Return the chicken and bacon to the pan, turning to coat, and reheat a minute.",
+    "Serve with the sauce spooned over the top and a sprinkling of parsley."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Chicken Reciptes.pdf",
+    "credit": "Buca di Beppo"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#8C5230",
+    "#241811"
+  ]
+}

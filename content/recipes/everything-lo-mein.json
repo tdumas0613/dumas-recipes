@@ -1,0 +1,53 @@
+{
+  "slug": "everything-lo-mein",
+  "title": "Everything Lo Mein",
+  "category": "pasta",
+  "attrs": [
+    "weeknight"
+  ],
+  "blurb": "Chicken and pork both go into the wok, so the pan sauce ends up doing double duty — and the whole thing measures out from four bottles you already own.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 20,
+  "total": 30,
+  "ingredients": [
+    { "item": "hoisin sauce", "qty": 3, "unit": "tbsp", "note": "rounded" },
+    { "item": "soy sauce", "qty": 3, "unit": "tbsp", "note": "dark, eyeballed" },
+    { "item": "water", "qty": 3, "unit": "tbsp", "note": "for the sauce" },
+    { "item": "hot sauce", "qty": 2, "unit": "tsp" },
+    { "item": "spaghetti", "qty": 1, "unit": "lb" },
+    { "item": "salt", "qtyText": "for the pasta water", "unit": "", "scaling": "taste" },
+    { "item": "vegetable oil", "qty": 0.25, "unit": "cup", "note": "divided" },
+    { "item": "eggs", "qty": 2, "unit": "", "note": "beaten" },
+    { "item": "chicken breasts", "qty": 3, "unit": "", "note": "cutlets, thinly sliced into strips" },
+    { "item": "pork chops", "qty": 3, "unit": "", "note": "thin-cut, thinly sliced into strips" },
+    { "item": "black peppercorns", "qtyText": "a few grinds", "unit": "", "scaling": "taste" },
+    { "item": "ground coriander", "qty": 2, "unit": "tsp" },
+    { "item": "ginger", "qty": 1, "unit": "tbsp", "note": "grated, about a 2-inch piece" },
+    { "item": "garlic cloves", "qty": 4, "unit": "", "note": "finely chopped" },
+    { "item": "scallions", "qty": 6, "unit": "", "note": "cut into 3-inch lengths, then sliced lengthwise" },
+    { "item": "mushrooms", "qty": 0.5, "unit": "lb", "note": "shiitake, chopped" },
+    { "item": "red bell peppers", "qty": 1, "unit": "", "note": "quartered, seeded, then sliced" },
+    { "item": "water chestnuts", "qtyText": "1 small can, sliced", "unit": "" },
+    { "item": "bean sprouts", "qty": 2, "unit": "cup", "note": "or 1/2 lb shredded cabbage, your choice" }
+  ],
+  "steps": [
+    "Mix together the hoisin, soy sauce, water and hot sauce and set the sauce aside.",
+    "Bring a large pot of salted water to a boil and cook the spaghetti to al dente.",
+    "While the pasta cooks, heat a tablespoon of the vegetable oil in a large nonstick skillet over high heat. When it ripples, add the beaten eggs and scramble to light golden brown. Remove and reserve.",
+    "Season the chicken and pork with salt, pepper and coriander. Heat the remaining vegetable oil to a ripple, then add the meat and stir-fry 4 minutes. Push it to the side and add the ginger, garlic and vegetables. Stir-fry 2 minutes more.",
+    "Drain the pasta and add it back to the skillet with the eggs. Pour the sauce over everything and toss to combine. Turn off the heat, toss 30 seconds more and let the liquid absorb before serving."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Everything Lo Mein.pdf",
+    "credit": "Rachael Ray, Food Network"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#8C6A2E",
+    "#241C10"
+  ]
+}

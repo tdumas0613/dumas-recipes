@@ -1,0 +1,43 @@
+{
+  "slug": "italian-roasted-asparagus",
+  "title": "Italian Roasted Asparagus",
+  "category": "sides",
+  "attrs": [
+    "vegetarian",
+    "weeknight"
+  ],
+  "blurb": "Roasting the asparagus alone first keeps it from steaming under the cheese and tomatoes, which only go on for the last couple of minutes under the broiler.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 10,
+  "total": 22,
+  "ingredients": [
+    { "item": "asparagus", "qty": 1, "unit": "lb", "note": "trimmed" },
+    { "item": "olive oil", "qty": 4, "unit": "tsp", "note": "basil-flavored, for the asparagus" },
+    { "item": "salt", "qtyText": "to taste", "unit": "", "scaling": "taste" },
+    { "item": "black peppercorns", "qtyText": "to taste", "unit": "", "scaling": "taste" },
+    { "item": "cherry tomatoes", "qty": 1, "unit": "cup", "note": "quartered" },
+    { "item": "olive oil", "qty": 2, "unit": "tsp", "note": "basil-flavored, for the tomatoes" },
+    { "item": "mozzarella", "qty": 1, "unit": "cup", "note": "shredded, or Italian cheese blend, divided" },
+    { "item": "balsamic glaze", "qtyText": "for drizzling", "unit": "" },
+    { "item": "basil", "qtyText": "leaves, for garnish, optional", "unit": "" }
+  ],
+  "steps": [
+    "Preheat oven to 400°F. Line a rimmed baking sheet with foil and lightly coat with nonstick spray.",
+    "Toss the asparagus with the oil for the asparagus; arrange in a single layer on the prepared pan. Season with salt and pepper. Roast 10 minutes, until crisp-tender. Remove from the oven and preheat the broiler.",
+    "Meanwhile, toss the cherry tomatoes with the remaining oil and half the cheese in an oven-safe bowl.",
+    "Transfer the asparagus to a baking dish. Top with the remaining cheese, then the tomato mixture. Broil 5 to 6 inches from the heat for 1 to 2 minutes, until the cheese is slightly melted. Drizzle with balsamic glaze and garnish with basil, if desired."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Veggies.pdf",
+    "credit": "Hy-Vee Seasons, March 2021"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#6B8C4A",
+    "#1F2814"
+  ]
+}

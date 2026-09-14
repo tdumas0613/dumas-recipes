@@ -1,0 +1,43 @@
+{
+  "slug": "grilled-sweet-potatoes",
+  "title": "Grilled Sweet Potatoes",
+  "category": "sides",
+  "attrs": [
+    "vegetarian",
+    "weeknight"
+  ],
+  "blurb": "The cilantro-lime dressing goes on after grilling, not before, so it stays bright instead of scorching on the grates.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 20,
+  "total": 30,
+  "ingredients": [
+    { "item": "sweet potatoes", "qty": 2, "unit": "lb" },
+    { "item": "olive oil", "qty": 3, "unit": "tbsp", "qtyMax": 4 },
+    { "item": "salt", "qtyText": "to taste", "unit": "", "note": "kosher", "scaling": "taste" },
+    { "item": "cilantro", "qty": 0.25, "unit": "cup", "note": "finely chopped, including tender stems" },
+    { "item": "lime", "qty": 1, "unit": "tsp", "note": "zest" },
+    { "item": "lime", "qty": 2, "unit": "tbsp", "note": "juice" },
+    { "item": "olive oil", "qty": 0.25, "unit": "cup", "note": "for the dressing" },
+    { "item": "salt", "qtyText": "a pinch, for the dressing", "unit": "", "scaling": "taste" }
+  ],
+  "steps": [
+    "Prepare a grill for hot, direct heat.",
+    "Peel the sweet potatoes and slice lengthwise, or on a diagonal, into 1/4-inch-thick pieces. Coat with olive oil and lightly sprinkle with kosher salt.",
+    "Combine the cilantro, lime zest, lime juice, olive oil and a pinch of salt in a small bowl to make the dressing.",
+    "Lay the sweet potato pieces on the hot grill. Cover and cook until each side gets some grill marks, 3 to 6 minutes per side depending on how hot the grill is.",
+    "Toss the grilled sweet potatoes with the dressing in a bowl and serve hot."
+  ],
+  "source": {
+    "kind": "url",
+    "ref": "https://www.simplyrecipes.com/recipes/grilled_sweet_potatoes/",
+    "credit": "Simply Recipes"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#9C6B2E",
+    "#291D12"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "broccoli-cheese-stuffed-chicken-breast",
+  "title": "Broccoli Cheese Stuffed Chicken Breast",
+  "category": "chicken-pork",
+  "attrs": [
+    "weeknight"
+  ],
+  "blurb": "Microwaving the broccoli first keeps the filling from weeping water into the pocket while the chicken sears.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 15,
+  "total": 30,
+  "ingredients": [
+    { "item": "chicken breasts", "qty": 3, "unit": "", "note": "large" },
+    { "item": "salt", "qtyText": "to taste", "unit": "", "scaling": "taste" },
+    { "item": "black peppercorns", "qtyText": "to taste", "unit": "", "scaling": "taste" },
+    { "item": "garlic powder", "qty": 1.5, "unit": "tsp", "note": "divided" },
+    { "item": "paprika", "qty": 0.25, "unit": "tsp", "scaling": "taste" },
+    { "item": "broccoli", "qty": 1, "unit": "cup", "note": "finely chopped florets" },
+    { "item": "red bell peppers", "qty": 0.5, "unit": "cup", "note": "finely diced" },
+    { "item": "cheddar", "qty": 1, "unit": "cup", "note": "mild" },
+    { "item": "mayonnaise", "qty": 1, "unit": "tbsp" },
+    { "item": "olive oil", "qty": 2, "unit": "tbsp" }
+  ],
+  "steps": [
+    "Preheat oven to 425°F.",
+    "Season both sides of the chicken breasts with salt, pepper, paprika and half the garlic powder. Cut a slice through the middle of each breast, not all the way through, to create a pocket.",
+    "Microwave the broccoli with about 2 tablespoons of water, covered, for 1 minute; drain any excess water. Add the bell pepper, cheese, mayo, remaining garlic powder, and salt and pepper to taste; mix until combined. Divide the mixture between the chicken breasts, using a toothpick to secure if necessary.",
+    "Heat the olive oil in a large, oven-safe skillet over medium heat. Sear the chicken 3 to 4 minutes per side. Cover the skillet with foil and bake 15 to 17 minutes, until the chicken reads 165°F. Let rest, covered, 5 minutes before serving — these are large breasts, so half a breast is a reasonable serving."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Chicken Reciptes.pdf",
+    "credit": "washyoudry.com"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#8C9C4A",
+    "#242812"
+  ]
+}
