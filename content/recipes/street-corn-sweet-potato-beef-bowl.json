@@ -12,7 +12,7 @@
     "serves": 4
   },
   "active": 15,
-  "total": 40,
+  "total": 30,
   "ingredients": [
     { "item": "sweet potatoes", "qty": 2, "unit": "", "note": "large, peeled and cubed" },
     { "item": "avocado oil", "qty": 1, "unit": "tbsp" },
@@ -31,10 +31,10 @@
     { "item": "honey", "qty": 2, "unit": "tbsp", "note": "hot honey" }
   ],
   "steps": [
-    "Preheat oven to 400°F. Line a baking sheet with parchment. Toss the cubed sweet potatoes with the avocado oil, salt and pepper. Spread in a single layer and roast 25 to 35 minutes, flipping halfway, until fork-tender and lightly caramelized.",
+    "Preheat the air fryer to 380°F. Toss the cubed sweet potatoes with the avocado oil, salt and pepper. Air fry in a single layer (in batches if your basket is small) for 15 to 18 minutes, shaking the basket halfway, until fork-tender and lightly caramelized.",
     "Heat a skillet over medium heat. Add the ground beef and cook, breaking it apart, until browned and no longer pink, about 6 to 8 minutes. Drain excess grease if needed. Stir in the taco seasoning with the water and simmer 2 to 3 minutes until thickened.",
     "In a bowl, combine the corn, blended cottage cheese, lime juice, jalapeño, cilantro and avocado. Stir until creamy and well mixed. Adjust lime and salt to taste.",
-    "Divide the roasted sweet potatoes between bowls. Top with the taco beef, then a generous scoop of the street corn salsa.",
+    "Divide the sweet potatoes between bowls. Top with the taco beef, then a generous scoop of the street corn salsa.",
     "Sprinkle with Tajín and drizzle with hot honey. Serve immediately."
   ],
   "source": {
