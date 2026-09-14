@@ -47,7 +47,7 @@
       "item": "salt",
       "qty": 1,
       "unit": "tsp",
-      "note": "for the dressing",
+      "note": "for the dressing, plus more to taste for the salad",
       "scaling": "taste"
     },
     {
@@ -115,13 +115,6 @@
       "qty": 0.5,
       "unit": "cup",
       "note": "leaves, thinly sliced"
-    },
-    {
-      "item": "salt",
-      "qtyText": "to taste",
-      "unit": "",
-      "note": "for the pasta salad",
-      "scaling": "taste"
     }
   ],
   "steps": [

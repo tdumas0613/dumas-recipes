@@ -62,6 +62,9 @@ Many per recipe, or none. Filters only — never in a URL.
   silently destroy ingredient search.
 - Adding an alias is cheap and encouraged. Adding a near-duplicate canonical
   name is the failure mode.
+- **One row per ingredient.** An item appears once, carrying the total; a
+  recipe using olive oil in three components still lists it once, noted
+  `divided`. The split belongs in the step text, since only `qty` scales.
 
 ---
 
