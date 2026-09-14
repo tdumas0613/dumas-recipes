@@ -1,0 +1,48 @@
+{
+  "slug": "salami-salad",
+  "title": "Salami Salad",
+  "category": "soups-salads-sandwiches",
+  "attrs": [
+    "weeknight"
+  ],
+  "blurb": "The dressing gets shaken together before any chopping starts, so the fennel and red onion have time to mellow in it while the rest of the salad comes together.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 15,
+  "total": 15,
+  "ingredients": [
+    { "item": "garlic powder", "qty": 1, "unit": "tsp", "note": "granulated garlic" },
+    { "item": "onion powder", "qty": 1, "unit": "tsp", "note": "granulated onion" },
+    { "item": "dried oregano", "qty": 1, "unit": "tsp" },
+    { "item": "parsley", "qty": 1, "unit": "tsp", "note": "dried" },
+    { "item": "granulated sugar", "qty": 1, "unit": "tsp", "note": "or honey" },
+    { "item": "red pepper flakes", "qty": 0.5, "unit": "tsp", "note": "crushed or ground", "scaling": "taste" },
+    { "item": "white wine vinegar", "qty": 2, "unit": "tbsp", "note": "white or red" },
+    { "item": "mustard", "qty": 1, "unit": "tbsp", "note": "Dijon" },
+    { "item": "olive oil", "qty": 6, "unit": "tbsp" },
+    { "item": "salt", "qtyText": "to taste", "unit": "", "scaling": "taste" },
+    { "item": "black peppercorns", "qtyText": "to taste", "unit": "", "scaling": "taste" },
+    { "item": "lettuce", "qty": 3, "unit": "", "note": "gem romaine, or 1 heart romaine, chopped" },
+    { "item": "salami", "qty": 0.25, "unit": "lb", "note": "Genoa or fennel salami, sliced into strips" },
+    { "item": "fennel", "qty": 1, "unit": "", "note": "small bulb, quartered, cored and thinly sliced" },
+    { "item": "onions", "qty": 0.5, "unit": "", "note": "red onion, thinly sliced" },
+    { "item": "pickled cherry peppers", "qtyText": "drained, plus drop peppers or peppadews, for topping", "unit": "" }
+  ],
+  "steps": [
+    "For the dressing: combine the granulated garlic, granulated onion, oregano, dried parsley, sugar and red pepper flakes in a jar or container. Add the vinegar, Dijon and olive oil, season with salt and pepper, and shake to combine.",
+    "Chop the lettuce into a bowl. Halve the salami, slice into 1/4-inch strips, and add to the bowl. Quarter, core and thinly slice the fennel; thinly slice the red onion. Add both to the salad along with the pickled cherry peppers.",
+    "Toss with the dressing to serve."
+  ],
+  "source": {
+    "kind": "url",
+    "ref": "https://www.foodnetwork.com/recipes/rachael-ray/chicken-patty-parm-with-salami-salad-5637376",
+    "credit": "Rachael Ray, Food Network"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#9C7A3E",
+    "#26200F"
+  ]
+}
