@@ -185,7 +185,9 @@ export const INGREDIENTS: IngredientDef[] = [
   { name: "fennel", category: "veg", aliases: ["fennel bulb"] },
   { name: "radishes", category: "veg", aliases: ["radish"] },
   { name: "bean sprouts", category: "veg", aliases: ["fresh bean sprouts"] },
-  { name: "corn", category: "veg", aliases: ["frozen corn", "corn kernels"] },
+  { name: "corn", category: "veg", aliases: ["frozen corn", "corn kernels", "canned corn"] },
+  { name: "jalapeño", category: "veg", aliases: ["jalapeno", "jalapeno pepper", "jalapeño pepper"] },
+  { name: "avocado", category: "veg", aliases: ["avocados"] },
   { name: "potatoes", category: "veg", aliases: ["potato", "yukon gold potatoes", "russet potatoes"] },
 
   /* --- fruit --- */
@@ -193,6 +195,7 @@ export const INGREDIENTS: IngredientDef[] = [
   { name: "lime", category: "fruit", aliases: ["limes"] },
   { name: "bananas", category: "fruit", aliases: ["banana", "ripe bananas"] },
   { name: "blueberries", category: "fruit", aliases: ["fresh blueberries"] },
+  { name: "cherries", category: "fruit", aliases: ["fresh cherries"] },
 
   /* --- meat, fish & tofu --- */
   { name: "ground beef", category: "protein", aliases: ["beef mince", "minced beef", "hamburger", "hamburger meat", "ground chuck"] },
@@ -228,6 +231,8 @@ export const INGREDIENTS: IngredientDef[] = [
   { name: "blue cheese", category: "dairy", aliases: ["crumbled blue cheese"] },
   { name: "cream cheese", category: "dairy", aliases: ["spreadable cheese"] },
   { name: "ricotta", category: "dairy", aliases: ["ricotta cheese"] },
+  { name: "mascarpone", category: "dairy", aliases: ["mascarpone cheese"] },
+  { name: "cottage cheese", category: "dairy", aliases: [] },
 
   /* --- grains & pasta --- */
   { name: "linguine", category: "grain", aliases: ["linguini"] },
@@ -313,6 +318,10 @@ export const INGREDIENTS: IngredientDef[] = [
   { name: "buffalo sauce", category: "pantry", aliases: ["cayenne pepper sauce", "frank's red hot"] },
   { name: "sweet chili sauce", category: "pantry", aliases: ["thai sweet chili sauce"] },
   { name: "cornmeal", category: "pantry", aliases: ["corn meal"] },
+  { name: "avocado oil", category: "pantry", aliases: [] },
+  { name: "taco seasoning", category: "pantry", aliases: ["taco seasoning packet"] },
+  { name: "tajin", category: "pantry", aliases: ["tajín"] },
+  { name: "balsamic vinegar", category: "pantry", aliases: [] },
 ];
 
 /* ------------------------------------------------------------------ */
