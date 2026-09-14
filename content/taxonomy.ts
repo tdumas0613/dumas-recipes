@@ -238,6 +238,7 @@ export const INGREDIENTS: IngredientDef[] = [
   { name: "linguine", category: "grain", aliases: ["linguini"] },
   { name: "rotini", category: "grain", aliases: ["fusilli"] },
   { name: "orzo", category: "grain", aliases: ["orzo pasta"] },
+  { name: "penne", category: "grain", aliases: ["penne pasta"] },
   { name: "basmati rice", category: "grain", aliases: ["long grain rice", "long-grain rice", "long grain white rice"] },
   { name: "breadcrumbs", category: "grain", aliases: ["bread crumbs", "fresh breadcrumbs", "dried breadcrumbs", "panko", "panko breadcrumbs", "dry breadcrumbs"] },
   { name: "spaghetti", category: "grain", aliases: [] },

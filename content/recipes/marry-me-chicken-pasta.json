@@ -1,0 +1,52 @@
+{
+  "slug": "marry-me-chicken-pasta",
+  "title": "Marry Me Chicken Pasta",
+  "category": "pasta",
+  "attrs": [
+    "weeknight"
+  ],
+  "blurb": "The sauce comes together in the same skillet the chicken was seared in, so the browned bits and the sun-dried tomato oil both end up in the cream instead of going to waste.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 20,
+  "total": 30,
+  "ingredients": [
+    { "item": "penne", "qty": 12, "unit": "oz" },
+    { "item": "chicken breasts", "qty": 1.5, "unit": "lb", "note": "cut into bite-sized pieces" },
+    { "item": "salt", "qty": 1, "unit": "tsp", "scaling": "taste" },
+    { "item": "black peppercorns", "qty": 0.5, "unit": "tsp", "scaling": "taste" },
+    { "item": "garlic powder", "qty": 0.5, "unit": "tsp", "note": "for seasoning the chicken" },
+    { "item": "paprika", "qty": 0.5, "unit": "tsp", "note": "for seasoning the chicken", "scaling": "taste" },
+    { "item": "olive oil", "qty": 1, "unit": "tbsp", "note": "for rubbing the chicken" },
+    { "item": "olive oil", "qty": 2, "unit": "tbsp", "note": "for searing, or oil from the sun-dried tomato jar" },
+    { "item": "garlic cloves", "qty": 4, "unit": "", "note": "minced" },
+    { "item": "sun-dried tomatoes", "qty": 0.5, "unit": "cup", "note": "chopped" },
+    { "item": "chicken stock", "qty": 1, "unit": "cup" },
+    { "item": "heavy cream", "qty": 1, "unit": "cup", "note": "or half and half for a lighter sauce" },
+    { "item": "parmesan", "qty": 0.75, "unit": "cup", "note": "grated" },
+    { "item": "italian seasoning", "qty": 1, "unit": "tsp" },
+    { "item": "paprika", "qty": 0.5, "unit": "tsp", "scaling": "taste" },
+    { "item": "red pepper flakes", "qty": 0.25, "unit": "tsp", "note": "optional", "scaling": "taste" },
+    { "item": "spinach", "qty": 2, "unit": "cup", "note": "baby spinach, optional" },
+    { "item": "basil", "qty": 0.25, "unit": "cup", "note": "fresh, chopped, for garnish" }
+  ],
+  "steps": [
+    "Bring a large pot of salted water to a boil. Cook the penne until al dente according to the package instructions. Reserve 1 cup of pasta water, then drain.",
+    "Cut the chicken into bite-sized pieces and season with the salt, pepper, garlic powder and paprika. Rub the chicken down with olive oil, then heat the remaining olive oil in a large skillet over medium-high heat. Sear the chicken until browned and cooked through, about 6 to 8 minutes. Transfer to a plate.",
+    "In the same skillet, add the garlic and sun-dried tomatoes. Cook, stirring, until fragrant, about 30 seconds.",
+    "Pour in the chicken broth and heavy cream, then stir in the parmesan, Italian seasoning, paprika and red pepper flakes. Bring to a simmer and cook until slightly thickened, about 5 minutes.",
+    "Return the chicken to the skillet along with the drained pasta. Stir in the spinach, if using. Toss well, adding the reserved pasta water a splash at a time if the sauce is too thick.",
+    "Top with the basil and extra parmesan. Serve immediately."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Marry_Me_Chicken_Pasta.pdf"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#B8622E",
+    "#291B12"
+  ]
+}
