@@ -1,10 +1,41 @@
 # Dumas Family Recipes
 
-A personal recipe site. Single author for now; user accounts and display ads
-are planned but deliberately **not** being built yet.
+A personal recipe site. Single author for now; user accounts are deliberately
+**not** being built yet. Display ads aren't built yet either — but they're the
+point, which is what the next section is about.
 
 This file is the record of decisions already made. Read it before proposing
 changes to architecture, schema, or vocabulary.
+
+---
+
+## The site is meant to earn
+
+Ad revenue is the goal the rest of these decisions serve. No AdSense account
+and no ad code exist yet, so nothing here is asking for an integration — but
+when two approaches are otherwise equal, the one that earns more wins, and an
+approach that forecloses earning loses even when it's tidier.
+
+What that actually means when writing code here:
+
+- **Pageviews are the unit.** Revenue is impressions × rate, so the work that
+  earns is the work that brings people in and then gives them a second page
+  worth opening — statically rendered HTML, rich results, links between
+  related recipes. The URLs and SEO section below isn't hygiene; it's the
+  revenue mechanism, which is why those items are called non-negotiable.
+- **Never ship a layout with nowhere to put an ad.** The reserved slots in the
+  design system are load-bearing, not decoration. A redesign that fills the
+  page edge to edge is a redesign that has to be done twice.
+- **Reserve the space; don't let it collapse.** A slot holds its height
+  whether or not an ad fills it. An ad that pushes content down on arrival is
+  a layout shift, and Core Web Vitals feed back into the ranking that produced
+  the visit in the first place.
+- **The quality floor is part of the strategy, not a tax on it.** Original
+  writing, our own photography, the recipe near the top of the page, no
+  interstitials. Google's helpful-content systems and AdSense's own policies
+  both punish the alternative, so burying the page in ad density isn't a
+  trade of experience for revenue — it's how you lose the traffic that was
+  the revenue.
 
 ---
 
