@@ -1,0 +1,40 @@
+{
+  "slug": "buffalo-turkey-meatballs",
+  "title": "Buffalo Turkey Meatballs",
+  "category": "appetizers",
+  "attrs": [
+    "weeknight",
+    "spicy"
+  ],
+  "blurb": "Baked rather than fried, with a second dose of buffalo sauce saved for after the meatballs come out, so the glaze doesn't just steam off in the oven.",
+  "yield": {
+    "kind": "servings",
+    "serves": 6
+  },
+  "active": 10,
+  "total": 25,
+  "ingredients": [
+    { "item": "ground turkey", "qty": 1.5, "unit": "lb" },
+    { "item": "egg whites", "qty": 0.25, "unit": "cup", "note": "about 2 whites" },
+    { "item": "blue cheese", "qty": 0.5, "unit": "cup", "note": "crumbled" },
+    { "item": "scallions", "qty": 0.5, "unit": "cup", "note": "chopped" },
+    { "item": "buffalo sauce", "qty": 0.5, "unit": "cup", "note": "such as Frank's Red Hot, divided", "scaling": "taste" },
+    { "item": "olive oil", "qty": 1, "unit": "tbsp" }
+  ],
+  "steps": [
+    "Preheat oven to 400°F. Line a baking sheet with parchment paper or a silicone mat.",
+    "Combine the turkey, egg whites, blue cheese, scallions and 3/4 of the buffalo sauce in a bowl. Form into 1-inch balls and place on the lined baking sheet. Bake 12 to 15 minutes, until barely done.",
+    "Meanwhile, whisk the remaining buffalo sauce with the olive oil.",
+    "Drain any liquid released by the meatballs and transfer them to a clean sheet of parchment on the same baking sheet. Drizzle a small amount of the buffalo-oil mixture over each meatball. Bake 2 to 3 minutes more."
+  ],
+  "source": {
+    "kind": "url",
+    "ref": "https://www.wholesomeyum.com/recipes/buffalo-turkey-meatballs/",
+    "credit": "Maya Krampf, Wholesome Yum"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#B8452E",
+    "#291712"
+  ]
+}

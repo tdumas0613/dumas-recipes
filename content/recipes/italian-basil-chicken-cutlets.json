@@ -1,0 +1,48 @@
+{
+  "slug": "italian-basil-chicken-cutlets",
+  "title": "Italian Basil Chicken Cutlets With Tomato And Ricotta Sauce",
+  "category": "chicken-pork",
+  "attrs": [
+    "weeknight"
+  ],
+  "blurb": "The ricotta melts straight into the tomato sauce off the heat, which turns a plain marinara into something closer to a blush sauce without any cream.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 20,
+  "total": 35,
+  "ingredients": [
+    { "item": "chicken breasts", "qty": 4, "unit": "", "note": "boneless, skinless cutlets" },
+    { "item": "salt", "qtyText": "to taste", "unit": "", "scaling": "taste" },
+    { "item": "black peppercorns", "qtyText": "to taste", "unit": "", "scaling": "taste" },
+    { "item": "olive oil", "qty": 2, "unit": "tbsp" },
+    { "item": "butter", "qty": 1, "unit": "tbsp" },
+    { "item": "garlic cloves", "qty": 3, "unit": "", "note": "minced" },
+    { "item": "canned tomatoes", "qty": 14, "unit": "oz", "note": "crushed" },
+    { "item": "red pepper flakes", "qty": 0.5, "unit": "tsp", "note": "optional", "scaling": "taste" },
+    { "item": "dried oregano", "qty": 1, "unit": "tsp" },
+    { "item": "granulated sugar", "qty": 0.25, "unit": "tsp", "note": "to balance the acidity", "scaling": "taste" },
+    { "item": "ricotta", "qty": 0.5, "unit": "cup" },
+    { "item": "parmesan", "qty": 0.25, "unit": "cup", "note": "grated" },
+    { "item": "basil", "qty": 0.25, "unit": "cup", "note": "fresh, chopped" },
+    { "item": "lemon", "qty": 1, "unit": "tbsp", "note": "juice" }
+  ],
+  "steps": [
+    "Pat the chicken cutlets dry with paper towels and season both sides with salt and pepper.",
+    "In a large skillet, heat the olive oil and butter over medium heat. Add the chicken and cook 3 to 4 minutes per side until golden and cooked through. Remove and set aside.",
+    "In the same pan, add the garlic and sauté 30 seconds until fragrant. Add the crushed tomatoes, oregano, red pepper flakes, sugar and a pinch of salt. Simmer 10 minutes.",
+    "Stir in the ricotta and parmesan until creamy and smooth. Adjust salt and pepper to taste.",
+    "Return the chicken cutlets to the skillet, coating them in the sauce. Simmer 3 minutes more to absorb the flavor.",
+    "Squeeze the lemon juice over the top and sprinkle with chopped basil before serving."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Italian Basil Chicken Cutlets with Tomato and Ricotta Sauce.docx"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#A8482E",
+    "#291712"
+  ]
+}

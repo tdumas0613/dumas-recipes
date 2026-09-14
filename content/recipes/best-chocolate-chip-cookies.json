@@ -1,0 +1,49 @@
+{
+  "slug": "best-chocolate-chip-cookies",
+  "title": "The Best Chocolate Chip Cookies You'll Ever Bake",
+  "category": "desserts",
+  "attrs": [
+    "vegetarian",
+    "make-ahead"
+  ],
+  "blurb": "An hour in the fridge is the minimum — the dough is genuinely better after a full day, which is unusual advice to actually follow through on.",
+  "yield": {
+    "kind": "fixed",
+    "noun": "cookie",
+    "plural": "cookies",
+    "count": 24,
+    "pan": "baking sheet"
+  },
+  "active": 20,
+  "total": 100,
+  "ingredients": [
+    { "item": "butter", "qty": 1, "unit": "cup", "note": "2 sticks, unsalted", "g": 226 },
+    { "item": "granulated sugar", "qty": 1, "unit": "cup", "g": 200 },
+    { "item": "brown sugar", "qty": 0.75, "unit": "cup", "note": "dark", "g": 150 },
+    { "item": "eggs", "qty": 2, "unit": "" },
+    { "item": "vanilla extract", "qty": 1, "unit": "tbsp", "scaling": "taste" },
+    { "item": "all-purpose flour", "qty": 2, "unit": "cup", "g": 250 },
+    { "item": "cornstarch", "qty": 2, "unit": "tbsp" },
+    { "item": "salt", "qty": 1, "unit": "tsp", "note": "kosher", "scaling": "taste" },
+    { "item": "baking soda", "qty": 0.75, "unit": "tsp", "scaling": "leavening" },
+    { "item": "chocolate chips", "qty": 2, "unit": "cup", "g": 350 }
+  ],
+  "steps": [
+    "Beat the softened butter, sugar and dark brown sugar together until light and fluffy, 3 to 5 minutes.",
+    "Mix in the eggs one at a time until fully incorporated, then add the vanilla extract and mix again.",
+    "In a separate bowl, whisk together the flour, cornstarch, salt and baking soda.",
+    "Add the dry ingredients to the butter mixture and mix on low until the dough comes together. Fold in the chocolate chips.",
+    "Cover the bowl and chill the dough at least 1 hour — overnight for the best flavor and thickness.",
+    "Scoop dough balls onto a parchment-lined baking sheet. Bake at 350°F for 10 to 12 minutes, until the edges are set and the centers still look slightly soft.",
+    "Let the cookies cool on the baking sheet 5 minutes, then move to a cooling rack."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Best_Chocolate_Chip_Cookies.docx"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#7A5230",
+    "#241A11"
+  ]
+}

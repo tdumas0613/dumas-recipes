@@ -1,0 +1,50 @@
+{
+  "slug": "blueberry-lemon-cookie-bars",
+  "title": "Blueberry Lemon Cookie Bars With White Chocolate Drizzle",
+  "category": "desserts",
+  "attrs": [
+    "vegetarian"
+  ],
+  "blurb": "Despite the name these bake as drop cookies, not a sliced bar — the blueberries get folded in gently at the very end so they stay whole instead of bleeding into the dough.",
+  "yield": {
+    "kind": "fixed",
+    "noun": "cookie",
+    "plural": "cookies",
+    "count": 18,
+    "pan": "baking sheet"
+  },
+  "active": 20,
+  "total": 35,
+  "ingredients": [
+    { "item": "butter", "qty": 0.5, "unit": "cup", "note": "softened" },
+    { "item": "granulated sugar", "qty": 0.75, "unit": "cup" },
+    { "item": "eggs", "qty": 1, "unit": "", "note": "large" },
+    { "item": "vanilla extract", "qty": 1, "unit": "tsp", "scaling": "taste" },
+    { "item": "lemon", "qty": 1, "unit": "", "note": "zested" },
+    { "item": "lemon", "qty": 1, "unit": "tbsp", "note": "juice" },
+    { "item": "all-purpose flour", "qty": 1.5, "unit": "cup" },
+    { "item": "baking powder", "qty": 0.5, "unit": "tsp", "scaling": "leavening" },
+    { "item": "salt", "qty": 0.25, "unit": "tsp", "scaling": "taste" },
+    { "item": "blueberries", "qty": 1, "unit": "cup", "note": "fresh" },
+    { "item": "white chocolate chips", "qty": 0.5, "unit": "cup" },
+    { "item": "heavy cream", "qty": 2, "unit": "tbsp" }
+  ],
+  "steps": [
+    "Preheat the oven to 350°F and line a baking sheet with parchment paper.",
+    "In a large bowl, cream together the butter and sugar until light and fluffy. Add the egg, vanilla extract, lemon zest and lemon juice, mixing until fully combined.",
+    "In a separate bowl, whisk together the flour, baking powder and salt. Gradually add the dry ingredients to the wet ingredients, mixing until a dough forms. Gently fold in the blueberries, being careful not to crush them.",
+    "Drop rounded portions of dough onto the prepared baking sheet, flattening slightly with the back of a spoon.",
+    "Bake 12 to 15 minutes, or until the edges are lightly golden and the centers are set. Cool on the baking sheet 5 minutes before transferring to a wire rack to cool completely.",
+    "Combine the white chocolate chips and heavy cream in a small microwave-safe bowl. Microwave in 15-second intervals, stirring in between, until fully melted and smooth.",
+    "Drizzle the glaze over the cooled cookies. Garnish with fresh blueberries and a sprinkle of lemon zest, and let the glaze set before serving."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Blueberry Lemon Cookie Bars with White Chocolate Drizzle.docx"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#5C5A9C",
+    "#1B1A29"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "firecracker-fried-chicken",
+  "title": "Firecracker Fried Chicken",
+  "category": "chicken-pork",
+  "attrs": [
+    "spicy"
+  ],
+  "blurb": "The sauce gets tossed with the chicken after frying, not before, so the crust stays crisp under all that sweet heat instead of going soft.",
+  "yield": {
+    "kind": "servings",
+    "serves": 8
+  },
+  "active": 40,
+  "total": 60,
+  "ingredients": [
+    { "item": "sweet chili sauce", "qty": 0.5, "unit": "cup", "note": "Thai" },
+    { "item": "red pepper jelly", "qty": 0.25, "unit": "cup" },
+    { "item": "gochujang", "qty": 2, "unit": "tbsp", "note": "Korean chili sauce" },
+    { "item": "apple cider vinegar", "qty": 2, "unit": "tbsp" },
+    { "item": "garlic cloves", "qty": 2, "unit": "tsp", "note": "paste" },
+    { "item": "black peppercorns", "qty": 4, "unit": "tsp", "note": "coarse-ground, divided", "scaling": "taste" },
+    { "item": "salt", "qty": 0.5, "unit": "tsp", "note": "kosher, divided", "scaling": "taste" },
+    { "item": "cayenne pepper", "qty": 0.25, "unit": "tsp", "scaling": "taste" },
+    { "item": "basmati rice", "qty": 1, "unit": "cup", "note": "long grain white" },
+    { "item": "vegetable oil", "qtyText": "for frying", "unit": "" },
+    { "item": "all-purpose flour", "qty": 1, "unit": "cup" },
+    { "item": "cornstarch", "qty": 0.5, "unit": "cup" },
+    { "item": "eggs", "qty": 2, "unit": "", "note": "large" },
+    { "item": "chicken breasts", "qty": 3, "unit": "lb", "note": "boneless, skinless, cut into 2-inch pieces" },
+    { "item": "fresno chiles", "qtyText": "sliced, for garnish, optional", "unit": "" },
+    { "item": "scallions", "qtyText": "sliced, for garnish, optional", "unit": "" }
+  ],
+  "steps": [
+    "Whisk together the chili sauce, red pepper jelly, gochujang, vinegar, garlic paste, half the black pepper, half the salt and the cayenne in a large bowl; set aside. Cook the rice according to package directions and keep warm.",
+    "Heat the oil to 350°F in a deep-fat fryer or 6-quart Dutch oven — use at least 2 inches of oil if using a Dutch oven.",
+    "Whisk together the flour, cornstarch, and the remaining salt and black pepper in a medium bowl. Whisk the eggs in a separate bowl.",
+    "Pat the chicken dry. Dip the pieces, a few at a time, in the flour mixture, shaking off the excess, then in the egg, then back in the flour mixture.",
+    "Carefully drop half the coated chicken into the hot oil, piece by piece. Fry 12 to 14 minutes, until crisp and the chicken reaches 165°F. Drain on paper towels and repeat with the remaining chicken.",
+    "If desired, fry the sliced Fresno chiles in the hot oil 1 to 2 minutes until crisp; drain.",
+    "Toss the hot fried chicken in the sauce to coat. Serve over the rice, garnished with the fried chiles and scallions."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Chicken Reciptes.pdf",
+    "credit": "Hy-Vee Seasons"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#C4522E",
+    "#2E1812"
+  ]
+}

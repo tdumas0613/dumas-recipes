@@ -1,0 +1,56 @@
+{
+  "slug": "roasted-poblano-corn-chowder",
+  "title": "Roasted Poblano Corn Chowder",
+  "category": "soups-salads-sandwiches",
+  "attrs": [
+    "make-ahead"
+  ],
+  "blurb": "About a third of the pot gets blended smooth and stirred back in, so the chowder thickens on its own without a flour or roux.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 25,
+  "total": 75,
+  "ingredients": [
+    { "item": "poblano peppers", "qty": 3, "unit": "", "note": "large" },
+    { "item": "butter", "qty": 1.5, "unit": "tbsp" },
+    { "item": "onions", "qty": 1, "unit": "", "note": "medium, diced" },
+    { "item": "celery", "qty": 1, "unit": "", "note": "rib, diced" },
+    { "item": "carrots", "qty": 0.5, "unit": "", "note": "diced" },
+    { "item": "garlic cloves", "qty": 1, "unit": "", "note": "minced" },
+    { "item": "corn", "qty": 3.5, "unit": "cup", "note": "frozen, about half a 16-oz bag, thawed" },
+    { "item": "potatoes", "qty": 0.5, "unit": "lb", "note": "yukon gold, scrubbed and diced into 1/2-inch chunks" },
+    { "item": "vegetable stock", "qty": 4, "unit": "cup", "note": "or chicken stock" },
+    { "item": "bay leaves", "qty": 1, "unit": "" },
+    { "item": "salt", "qty": 1.25, "unit": "tsp", "scaling": "taste" },
+    { "item": "cumin seeds", "qty": 0.5, "unit": "tsp", "note": "ground", "scaling": "taste" },
+    { "item": "ground coriander", "qty": 0.5, "unit": "tsp" },
+    { "item": "dried oregano", "qty": 0.25, "unit": "tsp", "note": "Mexican oregano" },
+    { "item": "black peppercorns", "qty": 0.125, "unit": "tsp", "scaling": "taste" },
+    { "item": "heavy cream", "qty": 0.5, "unit": "cup" },
+    { "item": "cheddar", "qty": 0.5, "unit": "cup", "note": "mild, shredded" },
+    { "item": "lime", "qtyText": "wedges, for serving", "unit": "" },
+    { "item": "cilantro", "qtyText": "chopped, for serving", "unit": "" }
+  ],
+  "steps": [
+    "Line a baking sheet with foil and place the poblanos on top. Position the oven rack directly under the broiler and turn the broiler to high.",
+    "Broil the poblanos 5 minutes, until blackened and blistered, then flip and broil 5 minutes more on the other side. Remove from the oven, loosely cover with foil to steam, and let sit 5 minutes.",
+    "Rub off as much of the loose skin as you can. Transfer to a cutting board, slice open, discard the stems and seeds, and dice into small chunks.",
+    "Melt the butter in a large pot or Dutch oven over medium-high heat. Add the onion, celery and carrot; cook 8 minutes, stirring occasionally, until the carrot softens. Add the garlic and cook 1 minute more.",
+    "Add the potatoes, vegetable stock, salt, bay leaf, cumin, coriander, oregano and black pepper. Bring to a boil, then reduce heat to medium-low, cover, and simmer 10 minutes until the potatoes are tender.",
+    "Discard the bay leaf. Scoop out about 4 cups of the chowder into a blender and pulse a few times until mostly smooth, then pour it back into the pot.",
+    "Stir in the corn and diced poblanos and bring to a simmer. Add the cream and cheddar; stir until the cheese melts and simmer 5 minutes more.",
+    "Serve garnished with cilantro and a squeeze of lime."
+  ],
+  "source": {
+    "kind": "url",
+    "ref": "https://www.isabeleats.com/roasted-poblano-corn-chowder/",
+    "credit": "Isabel Eats"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#7A8C4A",
+    "#232A16"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "manchego-stuffed-shishito-poppers",
+  "title": "Manchego-Stuffed Shishito Poppers",
+  "category": "appetizers",
+  "attrs": [
+    "vegetarian",
+    "weeknight"
+  ],
+  "blurb": "Manchego holds its shape better than a softer cheese under the broiler, so the filling chars at the edges instead of just melting out of the pepper.",
+  "yield": {
+    "kind": "servings",
+    "serves": 10
+  },
+  "active": 30,
+  "total": 40,
+  "ingredients": [
+    { "item": "manchego", "qty": 2, "unit": "cup", "note": "shredded" },
+    { "item": "yogurt", "qty": 0.5, "unit": "cup", "note": "low-fat, plain Greek" },
+    { "item": "scallions", "qty": 2, "unit": "", "note": "sliced" },
+    { "item": "breadcrumbs", "qty": 0.25, "unit": "cup", "note": "panko, preferably whole-wheat" },
+    { "item": "smoked paprika", "qty": 0.5, "unit": "tsp", "scaling": "taste" },
+    { "item": "garlic powder", "qty": 4, "unit": "tsp" },
+    { "item": "shishito peppers", "qty": 30, "unit": "" },
+    { "item": "salt", "qty": 4, "unit": "tsp", "note": "flaky sea salt", "scaling": "taste" }
+  ],
+  "steps": [
+    "Position a rack in the upper third of the oven; preheat the broiler to high.",
+    "Combine the manchego, yogurt, scallions, panko, paprika and garlic powder in a medium bowl.",
+    "Make a slit down one side of each pepper and scrape out the seeds with a small spoon. Fill each with about 1½ tsp of the cheese mixture and close the pepper around it. Place cut-side up on a baking sheet and coat lightly with cooking spray.",
+    "Broil, turning the pan once from front to back halfway through, until the peppers start to char and the cheese melts, about 4 minutes total. Sprinkle with salt and serve warm."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Chicken Reciptes.pdf"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#6B8C3E",
+    "#1F2812"
+  ]
+}

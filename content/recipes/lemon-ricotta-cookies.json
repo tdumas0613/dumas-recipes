@@ -1,0 +1,50 @@
+{
+  "slug": "lemon-ricotta-cookies",
+  "title": "Lemon Ricotta Cookies",
+  "category": "desserts",
+  "attrs": [
+    "vegetarian"
+  ],
+  "blurb": "Ricotta in the dough keeps these dense and moist rather than crisp — they should still look a little raw on top when the bottoms are ready to come out.",
+  "yield": {
+    "kind": "fixed",
+    "noun": "cookie",
+    "plural": "cookies",
+    "count": 24,
+    "pan": "baking sheet"
+  },
+  "active": 25,
+  "total": 90,
+  "ingredients": [
+    { "item": "butter", "qty": 0.5, "unit": "cup", "note": "salted, softened" },
+    { "item": "granulated sugar", "qty": 1, "unit": "cup" },
+    { "item": "eggs", "qty": 1, "unit": "" },
+    { "item": "ricotta", "qty": 1, "unit": "cup" },
+    { "item": "vanilla extract", "qty": 1, "unit": "tsp", "scaling": "taste" },
+    { "item": "all-purpose flour", "qty": 2, "unit": "cup" },
+    { "item": "baking powder", "qty": 0.75, "unit": "tsp", "scaling": "leavening" },
+    { "item": "baking soda", "qty": 0.25, "unit": "tsp", "scaling": "leavening" },
+    { "item": "powdered sugar", "qty": 1.5, "unit": "cup", "note": "for the glaze" },
+    { "item": "milk", "qty": 3, "unit": "tbsp", "note": "for the glaze" },
+    { "item": "lemon", "qty": 1, "unit": "tbsp", "note": "zest, for the glaze" },
+    { "item": "sprinkles", "qtyText": "for decorating", "unit": "" }
+  ],
+  "steps": [
+    "In a large bowl, blend the softened butter and sugar until creamy.",
+    "Add the egg, ricotta and vanilla extract. Blend until combined.",
+    "In a smaller bowl, combine the flour, baking powder and baking soda. Slowly mix the dry ingredients into the wet ingredients and blend for a few minutes until it becomes a thick dough, similar to play dough — if it seems runny, add a touch more flour.",
+    "Cover and refrigerate the dough at least an hour.",
+    "Meanwhile, combine the glaze ingredients — powdered sugar, milk and lemon zest — and keep it in the fridge until the cookies are cooled.",
+    "Once the dough has chilled, scoop with an ice cream scoop and roll into balls. Bake at 350°F for about 14 to 16 minutes — keep an eye on the bottoms, since the tops will still look raw when they're ready; pull them once the bottoms are golden brown.",
+    "Let the cookies cool completely, then dip the tops in the glaze and finish with sprinkles."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Lemon Ricotta Cookies.docx"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#B8B04A",
+    "#2A2914"
+  ]
+}

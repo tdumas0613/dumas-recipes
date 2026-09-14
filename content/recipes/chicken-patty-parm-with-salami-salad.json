@@ -1,0 +1,79 @@
+{
+  "slug": "chicken-patty-parm-with-salami-salad",
+  "title": "Chicken Patty Parm With Salami Salad",
+  "category": "chicken-pork",
+  "attrs": [
+    "weeknight"
+  ],
+  "blurb": "The chicken patties roast instead of fry, so the whole dinner — sauce, cheese and a fennel-salami salad on the side — comes together in one hot oven.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 35,
+  "total": 45,
+  "ingredients": [
+    { "item": "ground chicken", "qty": 1, "unit": "lb", "note": "dark meat, or a mix of dark and white" },
+    { "item": "salt", "qtyText": "to taste, for the patties", "unit": "", "scaling": "taste" },
+    { "item": "black peppercorns", "qtyText": "to taste, for the patties", "unit": "", "scaling": "taste" },
+    { "item": "breadcrumbs", "qty": 0.75, "unit": "cup", "note": "or as needed to moisten" },
+    { "item": "milk", "qty": 0.33, "unit": "cup", "note": "to moisten" },
+    { "item": "eggs", "qty": 1, "unit": "" },
+    { "item": "parmesan", "qty": 1, "unit": "cup", "note": "loosely packed, finely grated, for the patties" },
+    { "item": "garlic cloves", "qty": 3, "unit": "", "note": "large, peeled and grated" },
+    { "item": "parsley", "qty": 0.5, "unit": "cup", "note": "leaves, finely chopped, for the patties" },
+    { "item": "fennel seeds", "qty": 1, "unit": "tsp" },
+    { "item": "nutmeg", "qty": 0.125, "unit": "tsp", "note": "grated" },
+    { "item": "red pepper flakes", "qtyText": "a pinch, for the patties", "unit": "", "scaling": "taste" },
+    { "item": "olive oil", "qty": 3, "unit": "tbsp", "note": "for the patties" },
+    { "item": "olive oil", "qty": 2, "unit": "tbsp", "note": "for the sauce" },
+    { "item": "butter", "qty": 2, "unit": "tbsp" },
+    { "item": "onions", "qty": 1, "unit": "", "note": "small, finely chopped" },
+    { "item": "garlic cloves", "qty": 3, "unit": "", "note": "large, finely chopped, for the sauce" },
+    { "item": "sun-dried tomatoes", "qty": 3, "unit": "tbsp", "note": "paste" },
+    { "item": "red wine", "qty": 0.5, "unit": "cup", "note": "or red vermouth" },
+    { "item": "canned tomatoes", "qty": 28, "unit": "oz", "note": "crushed" },
+    { "item": "red pepper flakes", "qty": 1, "unit": "tsp", "note": "or ground pepperoncini, for the sauce", "scaling": "taste" },
+    { "item": "dried oregano", "qty": 1, "unit": "tsp", "note": "for the sauce" },
+    { "item": "mozzarella", "qty": 2, "unit": "cup", "note": "shredded" },
+    { "item": "parmesan", "qtyText": "for garnish", "unit": "" },
+    { "item": "basil", "qtyText": "a few leaves, torn, for garnish", "unit": "" },
+    { "item": "parsley", "qtyText": "chopped, for garnish", "unit": "" },
+    { "item": "garlic powder", "qty": 1, "unit": "tsp", "note": "granulated garlic, for the salad dressing" },
+    { "item": "onion powder", "qty": 1, "unit": "tsp", "note": "granulated onion" },
+    { "item": "dried oregano", "qty": 1, "unit": "tsp", "note": "for the salad dressing" },
+    { "item": "parsley", "qty": 1, "unit": "tsp", "note": "dried, for the salad dressing" },
+    { "item": "granulated sugar", "qty": 1, "unit": "tsp", "note": "or honey" },
+    { "item": "red pepper flakes", "qty": 0.5, "unit": "tsp", "note": "crushed or ground, for the salad dressing", "scaling": "taste" },
+    { "item": "white wine vinegar", "qty": 2, "unit": "tbsp", "note": "white or red" },
+    { "item": "mustard", "qty": 1, "unit": "tbsp", "note": "Dijon" },
+    { "item": "olive oil", "qty": 6, "unit": "tbsp", "note": "for the salad dressing" },
+    { "item": "salt", "qtyText": "to taste, for the salad", "unit": "", "scaling": "taste" },
+    { "item": "black peppercorns", "qtyText": "to taste, for the salad", "unit": "", "scaling": "taste" },
+    { "item": "lettuce", "qty": 3, "unit": "", "note": "gem romaine, or 1 heart romaine, chopped" },
+    { "item": "salami", "qty": 0.25, "unit": "lb", "note": "Genoa or fennel salami, sliced into strips" },
+    { "item": "fennel", "qty": 1, "unit": "", "note": "small bulb, quartered, cored and thinly sliced" },
+    { "item": "onions", "qty": 0.5, "unit": "", "note": "red onion, thinly sliced, for the salad" },
+    { "item": "pickled cherry peppers", "qtyText": "drained, plus drop peppers or peppadews, for topping", "unit": "" }
+  ],
+  "steps": [
+    "Preheat oven to 500°F with a rack at center. Line a baking sheet with parchment paper.",
+    "For the patties: place the ground chicken in a large bowl, season with salt and pepper, and combine. Make a well in the center and fill with the breadcrumbs, then moisten with the milk. Add the egg and parmesan, grate in the garlic, and add the chopped parsley, fennel seed, nutmeg and a pinch of red pepper flakes. Drizzle in the olive oil and combine the mixture, then form into 4 large, thin patties. Arrange on the parchment and roast 12 minutes, then remove.",
+    "Meanwhile, for the sauce: heat the olive oil and butter in a deep skillet or sauce pot over medium to medium-high heat. Add the chopped onion and let it soften while you chop the garlic. Add the garlic and stir a minute, then add the sun-dried tomato paste, then the red wine, and bring to a bubble.",
+    "Add the crushed tomatoes and season with red pepper flakes and oregano. Reduce the heat and simmer to thicken slightly.",
+    "To serve: top the chicken patties with the sauce, covering to the edges. Top with the mozzarella and parmesan and return to the oven to brown the cheese.",
+    "Top the patties with basil, parsley and parmesan and serve alongside the salami salad.",
+    "For the salad dressing: combine the granulated garlic, granulated onion, oregano, dried parsley, sugar and red pepper flakes in a jar or container. Add the vinegar, Dijon and olive oil, season with salt and pepper, and shake to combine.",
+    "Chop the lettuce into a bowl. Halve the salami, slice into 1/4-inch strips, and add to the bowl. Quarter, core and thinly slice the fennel; thinly slice the red onion. Add both to the salad along with the pickled cherry peppers. Toss with the dressing to serve."
+  ],
+  "source": {
+    "kind": "url",
+    "ref": "https://www.foodnetwork.com/recipes/rachael-ray/chicken-patty-parm-with-salami-salad-5637376",
+    "credit": "Rachael Ray, Food Network"
+  },
+  "added": "2026-09-14",
+  "tint": [
+    "#A83E2E",
+    "#291712"
+  ]
+}
