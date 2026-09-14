@@ -14,21 +14,18 @@
     { "item": "fettuccine", "qty": 12, "unit": "oz", "note": "or tagliatelle or penne" },
     { "item": "chicken breasts", "qty": 1, "unit": "lb", "note": "cut into bite-sized pieces" },
     { "item": "salt", "qtyText": "to taste", "unit": "", "scaling": "taste" },
-    { "item": "black peppercorns", "qtyText": "to taste", "unit": "", "scaling": "taste" },
+    { "item": "black peppercorns", "qtyText": "to taste", "unit": "", "note": "plus more, freshly cracked, for garnish", "scaling": "taste" },
     { "item": "olive oil", "qty": 1, "unit": "tbsp" },
     { "item": "garlic cloves", "qty": 2, "unit": "", "note": "minced" },
-    { "item": "cherries", "qty": 1, "unit": "cup", "note": "fresh, pitted and halved" },
+    { "item": "cherries", "qty": 1, "unit": "cup", "note": "fresh, pitted and halved, a few reserved for garnish" },
     { "item": "balsamic vinegar", "qty": 0.25, "unit": "cup" },
     { "item": "all-purpose flour", "qty": 1, "unit": "tbsp", "note": "whisked in to thicken the sauce" },
     { "item": "mascarpone", "qty": 8, "unit": "oz" },
     { "item": "chicken stock", "qty": 0.5, "unit": "cup", "note": "or reserved pasta water" },
-    { "item": "parmesan", "qty": 0.25, "unit": "cup", "note": "grated, for the sauce" },
+    { "item": "parmesan", "qty": 0.25, "unit": "cup", "note": "grated, plus more for garnish" },
     { "item": "thyme sprigs", "qty": 1, "unit": "tsp", "note": "fresh, chopped, or rosemary" },
     { "item": "spinach", "qtyText": "a handful, optional", "unit": "", "note": "or arugula" },
-    { "item": "basil", "qtyText": "for garnish", "unit": "" },
-    { "item": "parmesan", "qtyText": "extra, for garnish", "unit": "" },
-    { "item": "cherries", "qtyText": "a few, halved, for garnish", "unit": "" },
-    { "item": "black peppercorns", "qtyText": "freshly cracked, for garnish", "unit": "", "scaling": "taste" }
+    { "item": "basil", "qtyText": "for garnish", "unit": "" }
   ],
   "steps": [
     "Cook the pasta according to the package directions. Reserve 1/2 cup of pasta water before draining.",
@@ -38,7 +35,7 @@
     "Lower the heat and whisk in the flour to thicken, then stir in the mascarpone, chicken broth (or pasta water), parmesan, and thyme or rosemary. Mix until smooth.",
     "Meanwhile, in a separate pan, cook the spinach or arugula until just wilted.",
     "Return the chicken to the sauce and toss with the cooked pasta and wilted spinach.",
-    "Garnish with fresh basil, extra parmesan, a few halved cherries, and freshly cracked black pepper."
+    "Garnish with fresh basil, the reserved parmesan and cherries, and freshly cracked black pepper."
   ],
   "source": {
     "kind": "file",

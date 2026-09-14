@@ -46,7 +46,7 @@ interrupting once, rather than stopping on the first one. But do stop for:
 - **The category isn't a clean top-to-bottom match** — state your reasoning
   and your pick, and ask if it's a close call (e.g. a soup with a lot of
   chicken in it). You don't need to ask when the tiebreak rule in
-  `content/taxonomy.ts` resolves it cleanly (see Step 5).
+  `content/taxonomy.ts` resolves it cleanly (see Step 6).
 - **JSON-LD is present but missing fields you need** (no ingredients, no
   instructions) — don't silently fall back to scraping the visible page for
   just the missing piece and mixing sources; tell the user what's missing.
@@ -204,7 +204,52 @@ If the user tells you to add a new alias or canonical ingredient, edit
 existing entry's `aliases` array; a genuinely new canonical ingredient is a
 new entry in `INGREDIENTS`), then re-run the script to confirm it resolves.
 
-## Step 5 — Classify
+## Step 5 — One row per ingredient
+
+A canonical ingredient appears **exactly once** in `ingredients`. A source that
+lists olive oil four times — for the chicken, for the tomatoes, for the whipped
+feta, for the basil oil — becomes one row carrying the total. Two rows for the
+same `item` is the taxonomy rotting in a second way: a shopping list built off
+the recipe double-counts, the ingredient filter matches the same recipe twice,
+and scaling multiplies fragments the cook then has to add back together
+themselves. The validator warns on every repeat.
+
+Merging, mechanically:
+
+1. **Same unit** — add the quantities.
+2. **Same family, different units** — convert before adding. `UNITS[].base`
+   gives the conversion (a stick is 8 tbsp, so 1 stick + 4 tbsp = ¾ cup). Land
+   on whichever unit reads cleanly and snap to its `steps`.
+3. **One measured, one not** — "¼ cup parmesan for the sauce" plus "extra
+   parmesan for garnish" keeps the measured amount as `qty` and folds the rest
+   into the note: `"grated, plus more for garnish"`.
+4. **Neither measured** — one row, and let the note name every use:
+   `"for the marinade, the rice and the dressing"`.
+5. **Different parts of the same item** — zest and juice are both `lemon`; a
+   whole egg and an extra yolk are both `eggs`. These don't add up, so keep the
+   part you can measure as `qty` and describe the other in the note: `"juice,
+   plus 1 tsp zest"`, `"room temperature, plus 1 extra yolk"`.
+
+The merged row sits at the position of its **first** use and takes
+`note: "divided"`, which is the convention the existing recipes already use.
+
+**Then push the split into the step text, because the note can't hold it.**
+Only `qty` scales — `note` and step prose are static. A note reading "1 cup for
+the bars, ½ cup for the frosting" becomes a lie the moment someone doubles the
+recipe. Write the split as a proportion in the steps instead, which stays true
+at every scale:
+
+> In a stand mixer, beat **two-thirds of the butter**, the cream cheese and
+> granulated sugar together […] For the frosting, beat **the remaining butter**
+> until smooth.
+
+Reach for an absolute amount in a step ("Heat **2 tablespoons of the** olive
+oil") only when the split isn't a clean fraction. What you must never leave
+behind is a step that says "add the olive oil" against a row marked `divided` —
+at that point the total is the only number on the page and the cook has no way
+to know how much goes in when.
+
+## Step 6 — Classify
 
 **Category:** walk `CATEGORIES` in `content/taxonomy.ts` top to bottom and
 take the first one the recipe fits — this tiebreak rule is what keeps
@@ -226,7 +271,7 @@ common outcome — don't force one on.
 a loaf is bakeable). Most baked goods are `fixed`; state the pan size if the
 source gives one, since a doubled batch needs to know it wants two pans.
 
-## Step 6 — Write your own blurb
+## Step 7 — Write your own blurb
 
 Never copy or lightly paraphrase the source's headnote — copyright aside,
 the validator can't catch derivative prose and this is exactly the thing
@@ -239,7 +284,7 @@ reads thin. Same principle for the recipe photo: `image` must stay unset for
 an import — never point it at a scraped source image URL. Mention in your
 final summary that a real photo still needs to be added.
 
-## Step 7 — Assemble the file
+## Step 8 — Assemble the file
 
 Shape it exactly like `content/types.ts`'s `Recipe` interface — the existing
 files in `content/recipes/` are the clearest reference. A few fields worth
@@ -264,7 +309,7 @@ being deliberate about:
   validator will warn if you miss one, but it's better to get it right the
   first time.
 
-## Step 8 — Validate, and don't stop until it's green
+## Step 9 — Validate, and don't stop until it's green
 
 ```bash
 npm run validate
@@ -273,15 +318,16 @@ npm run validate
 Fix every error it reports (it won't let you stop with errors present —
 `npm run build` would fail too). Take its warnings seriously as well: a
 missed `scaling` tag, a suspiciously round oz/cup number that looks like an
-unconverted metric value, an unused-ingredient warning suggesting you wrote
-a near-duplicate instead of reusing an existing canonical name — that last
-one especially is worth double-checking against Step 4 rather than
-dismissing.
+unconverted metric value, a `"listed twice"` warning meaning a repeat survived
+Step 5, an unused-ingredient warning suggesting you wrote a near-duplicate
+instead of reusing an existing canonical name — that last one especially is
+worth double-checking against Step 4 rather than dismissing.
 
-## Step 9 — Summarize for the user
+## Step 10 — Summarize for the user
 
 Before finishing, tell the user: the category you chose and why, any attrs
 you added and why, every unit conversion you made (flag the estimated
 weight→volume ones specifically, since those are the ones with real
-uncertainty), and that the photo still needs to be added by hand. This is
+uncertainty), any ingredient rows you merged under Step 5 and how the steps
+now carry the split, and that the photo still needs to be added by hand. This is
 the human's chance to catch something before it sits in the repo.

@@ -15,30 +15,26 @@
   "ingredients": [
     { "item": "ground chicken", "qty": 1, "unit": "lb" },
     { "item": "breadcrumbs", "qty": 0.5, "unit": "cup", "note": "dry" },
-    { "item": "parmesan", "qty": 0.5, "unit": "cup", "note": "for the meatballs" },
+    { "item": "parmesan", "qty": 0.75, "unit": "cup", "note": "divided" },
     { "item": "milk", "qty": 0.25, "unit": "cup" },
     { "item": "eggs", "qty": 1, "unit": "" },
     { "item": "parsley", "qty": 0.25, "unit": "cup", "note": "finely chopped, optional" },
     { "item": "italian seasoning", "qty": 1, "unit": "tsp" },
-    { "item": "salt", "qty": 1, "unit": "tsp", "note": "for the meatballs", "scaling": "taste" },
-    { "item": "garlic cloves", "qty": 1, "unit": "tsp", "note": "minced, for the meatballs" },
+    { "item": "salt", "qty": 1.5, "unit": "tsp", "note": "divided", "scaling": "taste" },
+    { "item": "garlic cloves", "qty": 3, "unit": "", "note": "finely minced, divided" },
     { "item": "onion powder", "qty": 0.5, "unit": "tsp" },
-    { "item": "black peppercorns", "qty": 0.25, "unit": "tsp", "note": "for the meatballs", "scaling": "taste" },
+    { "item": "black peppercorns", "qty": 0.5, "unit": "tsp", "note": "divided", "scaling": "taste" },
     { "item": "olive oil", "qty": 2, "unit": "tbsp", "note": "for searing" },
-    { "item": "garlic cloves", "qty": 2, "unit": "", "note": "finely minced, for the orzo" },
     { "item": "chicken stock", "qty": 2.5, "unit": "cup", "note": "low sodium" },
     { "item": "orzo", "qty": 1.5, "unit": "cup", "note": "dry" },
-    { "item": "heavy cream", "qty": 0.5, "unit": "cup" },
-    { "item": "parmesan", "qty": 0.25, "unit": "cup", "note": "shredded, for the orzo" },
-    { "item": "salt", "qty": 0.5, "unit": "tsp", "note": "for the orzo", "scaling": "taste" },
-    { "item": "black peppercorns", "qty": 0.25, "unit": "tsp", "note": "for the orzo", "scaling": "taste" }
+    { "item": "heavy cream", "qty": 0.5, "unit": "cup" }
   ],
   "steps": [
-    "In a large bowl, combine the ground chicken, breadcrumbs, parmesan, milk, egg, parsley, Italian seasoning, salt, minced garlic, onion powder and pepper. Mix well without overmixing, making sure there are no dry clumps of breadcrumbs. Let sit 10 to 20 minutes so the breadcrumbs absorb the moisture.",
+    "In a large bowl, combine the ground chicken, breadcrumbs, two-thirds of the parmesan, the milk, egg, parsley, Italian seasoning, two-thirds of the salt, one of the garlic cloves, minced, the onion powder and half the pepper. Mix well without overmixing, making sure there are no dry clumps of breadcrumbs. Let sit 10 to 20 minutes so the breadcrumbs absorb the moisture.",
     "Roll into 1¼-inch balls.",
     "Heat a large skillet over medium-high heat. Add the oil and sear the meatballs on all sides until golden brown. Remove to a plate and cover to keep warm.",
-    "Add the garlic to the skillet and cook 1 minute. Add the broth, scraping up the browned bits, and bring to a low boil.",
-    "Add the orzo, cream, parmesan, salt and pepper and stir. Place the meatballs on top, cover, and simmer over medium-low heat 10 minutes, until the orzo is al dente — it looks loose at first but thickens quickly, so lower the heat if it looks like it's catching, and keep stirring so the orzo doesn't burn.",
+    "Add the remaining garlic to the skillet and cook 1 minute. Add the broth, scraping up the browned bits, and bring to a low boil.",
+    "Add the orzo, cream and the remaining parmesan, salt and pepper and stir. Place the meatballs on top, cover, and simmer over medium-low heat 10 minutes, until the orzo is al dente — it looks loose at first but thickens quickly, so lower the heat if it looks like it's catching, and keep stirring so the orzo doesn't burn.",
     "Taste and adjust the seasoning before serving."
   ],
   "source": {

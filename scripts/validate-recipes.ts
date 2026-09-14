@@ -157,7 +157,8 @@ for (const file of files) {
       }
 
       if (seenItems.has(ing.item)) {
-        warn(file, `${at}: "${ing.item}" is listed twice. Combine, or distinguish with a note.`);
+        warn(file, `${at}: "${ing.item}" is listed twice. One row per ingredient — add the quantities, ` +
+                  `put the split in the step text, and note it "divided".`);
       }
       seenItems.add(ing.item);
 

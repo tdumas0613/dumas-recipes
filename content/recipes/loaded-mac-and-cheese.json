@@ -16,7 +16,7 @@
   "total": 50,
   "ingredients": [
     { "item": "elbow macaroni", "qty": 1, "unit": "lb" },
-    { "item": "butter", "qty": 1, "unit": "stick", "note": "diced" },
+    { "item": "butter", "qty": 0.75, "unit": "cup", "note": "divided — diced for the pasta, melted for the topping" },
     { "item": "eggs", "qty": 2, "unit": "" },
     { "item": "evaporated milk", "qty": 1.5, "unit": "cup" },
     { "item": "hot sauce", "qty": 1, "unit": "tsp" },
@@ -30,15 +30,14 @@
     { "item": "bacon", "qty": 1, "unit": "lb", "note": "diced and cooked" },
     { "item": "scallions", "qty": 3, "unit": "", "note": "thinly sliced" },
     { "item": "breadcrumbs", "qty": 1, "unit": "cup", "note": "panko" },
-    { "item": "butter", "qty": 4, "unit": "tbsp", "note": "melted, for the topping" },
     { "item": "parmesan", "qty": 0.5, "unit": "cup", "note": "finely grated" }
   ],
   "steps": [
     "Preheat oven to 350°F. Spray a 9×13 baking dish with nonstick spray.",
-    "Cook the macaroni in a large pot of boiling, salted water until al dente, then drain. Return it to the pot and stir in the diced butter until melted and coating the pasta.",
+    "Cook the macaroni in a large pot of boiling, salted water until al dente, then drain. Return it to the pot and stir in two-thirds of the butter, diced, until melted and coating the pasta.",
     "Whisk together the eggs, evaporated milk, hot sauce, salt, pepper, dry mustard, smoked paprika and garlic powder in a bowl. Stir the egg mixture into the pasta, then stir in the gruyere, cheddar, bacon and scallions. Cook over low heat, stirring, about 3 minutes, until creamy.",
     "Scrape the mixture into the prepared baking dish and smooth into an even layer.",
-    "Combine the panko, melted butter and parmesan in a small bowl and sprinkle evenly over the top.",
+    "Combine the panko, the remaining butter, melted, and the parmesan in a small bowl and sprinkle evenly over the top.",
     "Bake, uncovered, on the top rack for 15 to 20 minutes, until golden brown on top."
   ],
   "source": {

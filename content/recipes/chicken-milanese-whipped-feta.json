@@ -15,28 +15,23 @@
   "ingredients": [
     { "item": "chicken breasts", "qty": 1, "unit": "lb", "note": "cut into about 4 cutlets" },
     { "item": "breadcrumbs", "qty": 0.5, "unit": "cup" },
-    { "item": "olive oil", "qty": 2, "unit": "tbsp", "note": "for the chicken" },
+    { "item": "olive oil", "qty": 7, "unit": "tbsp", "note": "divided" },
     { "item": "dried oregano", "qty": 1, "unit": "tsp" },
     { "item": "garlic powder", "qty": 0.5, "unit": "tsp" },
-    { "item": "salt", "qty": 1, "unit": "tsp", "scaling": "taste" },
+    { "item": "salt", "qty": 1.25, "unit": "tsp", "note": "divided", "scaling": "taste" },
     { "item": "black peppercorns", "qty": 0.5, "unit": "tsp", "scaling": "taste" },
     { "item": "cherry tomatoes", "qty": 1, "unit": "cup" },
-    { "item": "olive oil", "qty": 1, "unit": "tbsp", "note": "for the tomatoes" },
-    { "item": "salt", "qty": 0.25, "unit": "tsp", "note": "for the tomatoes", "scaling": "taste" },
     { "item": "feta", "qty": 0.5, "unit": "cup" },
     { "item": "yogurt", "qty": 2, "unit": "tbsp", "note": "Greek" },
-    { "item": "olive oil", "qty": 1, "unit": "tbsp", "note": "for the whipped feta" },
-    { "item": "lemon", "qty": 1, "unit": "tsp", "note": "juice, for the whipped feta" },
-    { "item": "olive oil", "qty": 3, "unit": "tbsp", "note": "for the lemon basil oil" },
-    { "item": "basil", "qtyText": "1 handful, plus more for garnish", "unit": "" },
-    { "item": "lemon", "qty": 1, "unit": "tsp", "note": "zest" }
+    { "item": "lemon", "qty": 1, "unit": "tsp", "note": "juice, plus 1 tsp zest" },
+    { "item": "basil", "qtyText": "1 handful, plus more for garnish", "unit": "" }
   ],
   "steps": [
     "Preheat oven to 400°F.",
-    "Season the chicken with salt, black pepper, oregano and garlic powder. Coat with breadcrumbs and place on a baking sheet. Drizzle with olive oil.",
+    "Season the chicken with 1 teaspoon of the salt, the black pepper, oregano and garlic powder. Coat with breadcrumbs and place on a baking sheet. Drizzle with 2 tablespoons of the olive oil.",
     "Bake 18 to 22 minutes, until golden and crispy.",
-    "Toss the cherry tomatoes with olive oil and salt, then roast 15 to 20 minutes until blistered.",
-    "In a blender, blend the feta, yogurt, olive oil and lemon juice until smooth. Separately, blend the basil with olive oil and lemon zest to make the lemon basil oil.",
+    "Toss the cherry tomatoes with 1 tablespoon of the olive oil and the remaining salt, then roast 15 to 20 minutes until blistered.",
+    "In a blender, blend the feta, yogurt, 1 tablespoon of the olive oil and the lemon juice until smooth. Separately, blend the basil with the remaining olive oil and the lemon zest to make the lemon basil oil.",
     "Spread the whipped feta onto a plate, place the chicken on top, add the roasted tomatoes, and drizzle with the lemon basil oil. Garnish with fresh basil and serve warm."
   ],
   "source": {
