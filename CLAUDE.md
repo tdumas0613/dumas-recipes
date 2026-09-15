@@ -164,21 +164,50 @@ a cup of flour varies by 20% depending on how it's scooped.
 
 ---
 
-## Design system
+## Design system — "Pressed"
 
-Dark, cool ground so food photography carries all the color. Deliberately not
-the cream-paper-and-serif food blog look. `app/globals.css` is authoritative
-for the palette and type scale — read the values there, don't restate them.
+A printed cookbook, not a food blog: warm paper ground, one serif for voice,
+one grotesque for machinery, and a single olive that means *this is the thing
+you selected*. `app/globals.css` is authoritative for the palette and the type
+scale — read the values there, don't restate them here.
 
-Rules that outlive the values: `--zest` is the accent, reserved for active
-states only. The wordmark carries no accent — "Dumas" in chalk, "Family
-Recipes" in muted. Headings are Bricolage Grotesque, body and UI are
-Instrument Sans. Body type is sized to read at arm's length across a counter;
-don't shrink it.
+Rules that outlive the values:
 
-Quality floor: responsive to mobile, visible keyboard focus, reduced motion
-respected. Ad slots are reserved in the layout (leaderboard between grid rows,
-300×250 in the recipe sidebar) so adding AdSense later doesn't break the design.
+- **Olive is the only interactive colour.** Masthead band, selected category,
+  active filter, focused search field, highlighted suggestion, step numerals,
+  ingredient quantities, the empty-state button. Always a solid fill with
+  `--paper` text — never a tint, never olive text as the selected state.
+  Reversed text on olive is `--paper`, never `#fff`.
+- **Clay is never a state.** It marks editorial labels at small-caps scale and
+  nothing else ("Newest", "From the family", "Serve with", the search field's
+  "clear"). Never a button, a link, or a selection. The `.elabel` class is the
+  only place it belongs.
+- **Radius is 2px everywhere.** The one exception is the step numeral, a 34px
+  olive circle. No shadows except the search suggestion panel's single soft
+  drop. No gradients.
+- The wordmark is the seal plus "Dumas Family Recipes" set in Newsreader.
+  Headings, recipe titles and method steps are Newsreader; nav, filters,
+  metadata, quantities and every uppercase label are Jost. Body type is sized
+  to read at arm's length across a counter; don't shrink it.
+- **The seal lives in `public/brand/`, four files** — full seal and compact
+  mark, each in ink and in paper. Full seal at 40px and up, compact mark below
+  (favicon, app icon). Reference the files; never recolour it, never rebuild
+  it inline in JSX, and never place it on a photograph or a gradient — the
+  DUMAS band knocks through the centre D, so the ground shows through and it
+  only reads on a flat colour. Each file carries its own subsetted Newsreader
+  and Jost as a data URI, because an SVG loaded through `<img>` cannot fetch
+  a webfont and would otherwise fall back to Times. If you edit the artwork,
+  re-embed the fonts — don't just drop in a file that references them by name.
+- Photography is ours, two crops: 4:3 for grid cards, 4:5 for the recipe hero
+  (the crop that travels to Pinterest). Flat `1px solid var(--rule)` border,
+  no radius, no overlay. A recipe with no photo yet gets the hatched
+  placeholder and ships — a missing photo beats a stock one.
+
+Quality floor: responsive to mobile, visible keyboard focus (2px olive, offset
+3px), reduced motion respected. Ad slots are reserved in the layout
+(leaderboard between grid rows, 300×250 in the recipe sidebar) and hold their
+height whether or not an ad fills them, so adding AdSense later neither breaks
+the design nor introduces a layout shift.
 
 ---
 

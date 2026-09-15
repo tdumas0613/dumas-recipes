@@ -60,14 +60,12 @@ export function RecipeDetail({ recipe }: { recipe: Recipe }) {
           <span>
             <b>{recipe.total} min</b> start to finish
           </span>
-          <Link style={{ color: "var(--zest)" }} href={`/${cat.slug}`}>
-            {cat.label}
-          </Link>
+          <Link href={`/${cat.slug}`}>{cat.label}</Link>
           {recipe.attrs.length > 0 && <span>{recipe.attrs.join(", ")}</span>}
         </div>
       </header>
 
-      <Shot tint={recipe.tint ?? ["#3F5A43", "#1B241C"]} className="dshot" />
+      <Shot className="dshot" />
 
       <div className="cols">
         <aside className="rail">
@@ -138,7 +136,7 @@ export function RecipeDetail({ recipe }: { recipe: Recipe }) {
             </div>
           )}
 
-          <div className="ad rail">Ad slot · 300 × 250</div>
+          <div className="ad rail">advertisement · 300 × 250</div>
         </aside>
 
         <div className="steps">
