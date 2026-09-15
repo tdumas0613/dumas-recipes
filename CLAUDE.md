@@ -179,9 +179,10 @@ Rules that outlive the values:
   `--paper` text — never a tint, never olive text as the selected state.
   Reversed text on olive is `--paper`, never `#fff`.
 - **Clay is never a state.** It marks editorial labels at small-caps scale and
-  nothing else ("Newest", "From the family", "Serve with", the search field's
-  "clear"). Never a button, a link, or a selection. The `.elabel` class is the
-  only place it belongs.
+  nothing else — "Newest" and "From the family" on the homepage, the search
+  field's "clear". Never a button, a link, or a selection. The `.elabel` class
+  is the only place it belongs. ("Serve with" is in the design but not built:
+  related recipes need a field that doesn't exist yet.)
 - **Radius is 2px everywhere.** The one exception is the step numeral, a 34px
   olive circle. No shadows except the search suggestion panel's single soft
   drop. No gradients.
@@ -201,7 +202,11 @@ Rules that outlive the values:
 - Photography is ours, two crops: 4:3 for grid cards, 4:5 for the recipe hero
   (the crop that travels to Pinterest). Flat `1px solid var(--rule)` border,
   no radius, no overlay. A recipe with no photo yet gets the hatched
-  placeholder and ships — a missing photo beats a stock one.
+  placeholder and ships — a missing photo beats a stock one. `Shot.tsx` is
+  the seam a real `<img>` drops into without the layout moving.
+- **Nav carries no per-category counts.** Ten of them overflow the row at
+  every width. The total is in the masthead and the category's own count is
+  in its hero.
 
 Quality floor: responsive to mobile, visible keyboard focus (2px olive, offset
 3px), reduced motion respected. Ad slots are reserved in the layout

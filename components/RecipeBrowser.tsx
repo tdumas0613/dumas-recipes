@@ -2,12 +2,21 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { ATTRIBUTES, type Attribute, type CategorySlug, type CategoryDef } from "@/content/taxonomy";
+import {
+  ATTRIBUTES,
+  CATEGORIES,
+  type Attribute,
+  type CategorySlug,
+  type CategoryDef,
+} from "@/content/taxonomy";
 import type { Recipe } from "@/content/types";
 import type { IngredientSearchEntry } from "@/content/recipes";
 import { SITE_NAME, SITE_TAGLINE } from "@/lib/site";
+import { yieldLabel } from "@/lib/quantity";
 import { Card } from "./Card";
 import { SearchField } from "./SearchField";
+
+const CAT_BY_SLUG = Object.fromEntries(CATEGORIES.map((c) => [c.slug, c]));
 
 export function RecipeBrowser({
   recipes,
@@ -43,6 +52,14 @@ export function RecipeBrowser({
 
   const q = query.trim();
 
+  /** Latest by `added`, for the homepage's editorial slot. On a category page
+   *  this slot shows the category count instead, so `recipes` is always the
+   *  full set when this is read. */
+  const newest = useMemo(
+    () => recipes.reduce<Recipe | null>((a, r) => (!a || r.added >= a.added ? r : a), null),
+    [recipes]
+  );
+
   return (
     <>
       <header className="band">
@@ -65,9 +82,12 @@ export function RecipeBrowser({
       </header>
 
       <div className="wrap">
+        {/* No per-category counts: ten of them overflowed the row at every
+            width, and the numbers are already on the page — the total in the
+            masthead, this category's in the hero. */}
         <nav className="nav">
           <Link className="navlink" data-on={!currentCategory} href="/">
-            All<span className="n">{totalCount}</span>
+            All
           </Link>
           {liveCategories.map((c) => (
             <Link
@@ -77,15 +97,34 @@ export function RecipeBrowser({
               href={`/${c.slug}`}
             >
               {c.short}
-              <span className="n">{categoryCounts[c.slug]}</span>
             </Link>
           ))}
         </nav>
 
         <section className="hero">
-          <h1>{currentCategory ? currentCategory.label : "What are you cooking?"}</h1>
-          {currentCategory && <p className="sub">{currentCategory.blurb}</p>}
-          {!currentCategory && <p className="standfirst">{SITE_TAGLINE}</p>}
+          <div>
+            <h1>{currentCategory ? currentCategory.label : "What are you cooking?"}</h1>
+            {currentCategory && <p className="sub">{currentCategory.blurb}</p>}
+            {!currentCategory && <p className="standfirst">{SITE_TAGLINE}</p>}
+          </div>
+          {currentCategory ? (
+            <p className="herocount">
+              {categoryCounts[currentCategory.slug]}{" "}
+              {categoryCounts[currentCategory.slug] === 1 ? "recipe" : "recipes"} in{" "}
+              {currentCategory.short}
+            </p>
+          ) : (
+            newest && (
+              <Link className="newest" href={`/recipes/${newest.slug}`}>
+                <span className="elabel">Newest</span>
+                <span className="newesttitle">{newest.title}</span>
+                <span className="newestmeta">
+                  {CAT_BY_SLUG[newest.category].short} · {newest.total} min ·{" "}
+                  {yieldLabel(newest.yield)}
+                </span>
+              </Link>
+            )
+          )}
         </section>
 
         <div className="resbar">
@@ -155,6 +194,16 @@ export function RecipeBrowser({
               </>
             )}
           </>
+        )}
+
+        {!currentCategory && !q && !attr && results.length > 0 && (
+          <aside className="pullquote">
+            <span className="elabel">From the family</span>
+            <p>
+              Every recipe here was cooked, argued over and written down by
+              someone at this table.
+            </p>
+          </aside>
         )}
 
         <div style={{ height: 80 }} />
