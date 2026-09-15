@@ -88,7 +88,12 @@ export function RecipeDetail({ recipe }: { recipe: Recipe }) {
 
           {/* 4:5 beside the title rather than a band above it — the crop that
               travels to Pinterest, and it keeps the method above the fold. */}
-          <Shot className="dshot" />
+          <Shot
+            className="dshot"
+            image={recipe.image}
+            sizes="(max-width:860px) 100vw, 360px"
+            priority
+          />
         </div>
 
         <div className="cols">
