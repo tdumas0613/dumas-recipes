@@ -42,5 +42,9 @@
     "kind": "file",
     "ref": "Marry_Me_Chicken_Pasta.pdf"
   },
-  "added": "2026-09-14"
+  "added": "2026-09-14",
+  "image": {
+    "src": "/recipes/marry-me-chicken-pasta.jpg",
+    "alt": "Marry Me Chicken Pasta in a white dish — ruffled ribbon pasta in a creamy sun-dried tomato sauce with wilted spinach, under a heavy shower of finely grated parmesan."
+  }
 }
