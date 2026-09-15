@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics><meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Jost:wght@400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#e8e6e1;font-family:system-ui,sans-serif}
+a{color:#2a78d6}a:hover{color:#1a5aa8}
+.dv-turn{padding:40px 44px 32px;border-bottom:1px solid rgba(0,0,0,.08);scroll-margin-top:16px}
+.dv-thd{display:flex;align-items:baseline;gap:10px;margin:0 0 20px}
+.dv-tid{font:600 10px ui-monospace,Menlo,monospace;padding:3px 7px;background:#1a1a1a;color:#fff;border-radius:4px;text-decoration:none}
+.dv-tname{font:600 13px/1.2 system-ui,sans-serif;color:#1a1a1a}
+.dv-opts{display:flex;flex-wrap:wrap;gap:36px;align-items:flex-start}
+.dv-opt{flex:none;display:flex;flex-direction:column;gap:9px;scroll-margin-top:16px}
+.dv-oid{font:600 10.5px ui-monospace,Menlo,monospace;padding:3px 7px;background:rgba(0,0,0,.08);color:#1a1a1a;border-radius:5px;text-decoration:none}
+.dv-olabel{display:flex;align-items:baseline;gap:8px;font:400 11px/1.3 system-ui,sans-serif;color:rgba(0,0,0,.55)}
+.dv-card,.dv-card *{box-sizing:border-box}
+.dv-card{max-width:none;flex:none;background:#fff;border:1px solid rgba(0,0,0,.1);border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.06);overflow:hidden}
+.dv-opt:target .dv-oid{background:#2a78d6;color:#fff}
+.dv-next{margin:22px 0 0;font:12px/1.5 system-ui,sans-serif;color:rgba(0,0,0,.5)}
+.dv-scr{font:500 10px ui-monospace,Menlo,monospace;letter-spacing:.09em;text-transform:uppercase;color:rgba(0,0,0,.42);margin:22px 0 7px}
+</style></helmet>
+
+<div style="padding:44px 44px 60px;width:max-content;min-width:1040px">
+<div style="max-width:900px;margin:0 0 30px">
+  <div style="font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:.12em;text-transform:uppercase;color:#8a8478">Dumas Family Recipes &middot; approved direction 2a</div>
+  <h1 style="font:500 30px/1.15 'Newsreader',serif;color:#22201C;margin:12px 0 0">Pressed &mdash; olive forward</h1>
+  <p style="font:14px/1.65 system-ui,sans-serif;color:#33312d;margin:10px 0 0">Five screens at 1040px. Olive #4E5B3A carries the masthead and every selected state; clay #A65A3A marks editorial labels only. Photo crops are placeholders &mdash; 4:3 in grids, 4:5 on the recipe hero.</p>
+</div>
+
+
+<p class="dv-scr">Homepage</p>
+<div class="dv-card" style="width:1040px;background:#F5F1E8;color:#22201C;font-family:'Jost',sans-serif">
+  <div style="background:#4E5B3A;color:#F5F1E8;padding:22px 46px;display:flex;align-items:center;justify-content:space-between;gap:24px">
+    <div style="display:flex;align-items:center;gap:14px">
+      <img src="assets/seal-reversed.svg" width="46" height="46" alt="Dumas Family Recipes" style="display:block">
+      <div>
+        <div style="font-family:'Newsreader',serif;font-size:23px;font-weight:500;letter-spacing:-.01em;line-height:1">Dumas Family Recipes</div>
+        <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#CFD3BF;margin-top:5px">Curated by the whole family &middot; 39 recipes</div>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px;background:#FFFDF8;border:1px solid #3F4A2E;border-radius:2px;padding:10px 13px;width:300px">
+      <span style="color:#7E8A68;font-size:14px">&#9906;</span>
+      <span style="font-size:14px;color:#8B8C7C">Search 39 recipes</span>
+    </div>
+  </div>
+
+  <nav style="margin:0 46px;display:flex;gap:6px;border-bottom:1px solid #DED7C7;padding:12px 0;font-size:12.5px;letter-spacing:.1em;text-transform:uppercase">
+    <span style="background:#4E5B3A;color:#F5F1E8;font-weight:600;padding:5px 12px;border-radius:2px">All</span>
+    <span style="color:#6E6A60;padding:5px 12px">Breakfast</span><span style="color:#6E6A60;padding:5px 12px">Desserts</span><span style="color:#6E6A60;padding:5px 12px">Appetizers</span><span style="color:#6E6A60;padding:5px 12px">Soups &amp; Salads</span><span style="color:#6E6A60;padding:5px 12px">Pasta</span><span style="color:#6E6A60;padding:5px 12px">Beef</span><span style="color:#6E6A60;padding:5px 12px">Chicken &amp; Pork</span><span style="color:#6E6A60;padding:5px 12px">Sides &amp; Veg</span>
+  </nav>
+
+  <div style="padding:44px 46px 30px;display:grid;grid-template-columns:1.15fr 1fr;gap:54px;align-items:end;border-bottom:1px solid #DED7C7">
+    <div>
+      <h1 style="font-family:'Newsreader',serif;font-weight:400;font-size:54px;line-height:1.02;letter-spacing:-.022em;margin:0;text-wrap:balance">What are you cooking?</h1>
+      <p style="font-family:'Newsreader',serif;font-size:19px;line-height:1.5;color:#4A463E;margin:18px 0 0;max-width:46ch">Recipes we've made more than once, written down properly so the second time is easier than the first.</p>
+    </div>
+    <div style="border-left:2px solid #A65A3A;padding-left:28px">
+      <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#A65A3A;font-weight:600">Newest</div>
+      <div style="font-family:'Newsreader',serif;font-size:27px;line-height:1.18;margin-top:9px">Brown butter banana bread</div>
+      <div style="font-size:13px;color:#6E6A60;margin-top:8px">Desserts &middot; 80 min &middot; 1 loaf</div>
+    </div>
+  </div>
+
+  <div style="padding:22px 46px 0;display:flex;justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap">
+    <span style="font-size:13px;color:#6E6A60">39 recipes</span>
+    <div style="display:flex;gap:7px">
+      <span style="font-size:12px;letter-spacing:.06em;text-transform:uppercase;background:#4E5B3A;border:1px solid #4E5B3A;color:#F5F1E8;padding:5px 11px;border-radius:2px">Anything</span>
+      <span style="font-size:12px;letter-spacing:.06em;text-transform:uppercase;border:1px solid #DED7C7;color:#6E6A60;padding:5px 11px;border-radius:2px">Vegetarian</span>
+      <span style="font-size:12px;letter-spacing:.06em;text-transform:uppercase;border:1px solid #DED7C7;color:#6E6A60;padding:5px 11px;border-radius:2px">Weeknight</span>
+      <span style="font-size:12px;letter-spacing:.06em;text-transform:uppercase;border:1px solid #DED7C7;color:#6E6A60;padding:5px 11px;border-radius:2px">Make-ahead</span>
+      <span style="font-size:12px;letter-spacing:.06em;text-transform:uppercase;border:1px solid #DED7C7;color:#6E6A60;padding:5px 11px;border-radius:2px">Spicy</span>
+    </div>
+  </div>
+
+  <div style="padding:24px 46px 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px 28px">
+    <div>
+      <div style="aspect-ratio:4/3;background:repeating-linear-gradient(135deg,#E7E1D3 0 7px,#EFEADE 7px 14px);border:1px solid #DED7C7;display:grid;place-items:center"><span style="font:11px ui-monospace,Menlo,monospace;color:#8C8577">photo &middot; lemon chicken</span></div>
+      <h3 style="font-family:'Newsreader',serif;font-weight:500;font-size:22px;line-height:1.2;margin:13px 0 0">Lemon chicken thighs, crisp skin</h3>
+      <p style="font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;color:#4E5B3A;font-weight:500;margin:7px 0 0">Chicken &amp; Pork <span style="color:#6E6A60;font-weight:400">&middot; 40 min &middot; Serves 4</span></p>
+    </div>
+    <div>
+      <div style="aspect-ratio:4/3;background:repeating-linear-gradient(135deg,#E7E1D3 0 7px,#EFEADE 7px 14px);border:1px solid #DED7C7;display:grid;place-items:center"><span style="font:11px ui-monospace,Menlo,monospace;color:#8C8577">photo &middot; banana bread</span></div>
+      <h3 style="font-family:'Newsreader',serif;font-weight:500;font-size:22px;line-height:1.2;margin:13px 0 0">Brown butter banana bread</h3>
+      <p style="font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;color:#4E5B3A;font-weight:500;margin:7px 0 0">Desserts <span style="color:#6E6A60;font-weight:400">&middot; 80 min &middot; 1 loaf</span></p>
+    </div>
+    <div>
+      <div style="aspect-ratio:4/3;background:repeating-linear-gradient(135deg,#E7E1D3 0 7px,#EFEADE 7px 14px);border:1px solid #DED7C7;display:grid;place-items:center"><span style="font:11px ui-monospace,Menlo,monospace;color:#8C8577">photo &middot; smash burgers</span></div>
+      <h3 style="font-family:'Newsreader',serif;font-weight:500;font-size:22px;line-height:1.2;margin:13px 0 0">Smash burgers, burnt onion</h3>
+      <p style="font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;color:#4E5B3A;font-weight:500;margin:7px 0 0">Beef <span style="color:#6E6A60;font-weight:400">&middot; 30 min &middot; Serves 4</span></p>
+    </div>
+  </div>
+
+  <div style="margin:38px 46px 0;border-top:1px solid #DED7C7;border-bottom:1px solid #DED7C7;padding:30px 0;display:grid;place-items:center"><span style="font:11px ui-monospace,Menlo,monospace;letter-spacing:.08em;color:#9A9488">advertisement &middot; 728 &times; 90</span></div>
+
+  <div style="padding:30px 46px 46px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px 28px">
+    <div>
+      <div style="aspect-ratio:4/3;background:repeating-linear-gradient(135deg,#E7E1D3 0 7px,#EFEADE 7px 14px);border:1px solid #DED7C7;display:grid;place-items:center"><span style="font:11px ui-monospace,Menlo,monospace;color:#8C8577">photo &middot; orzo skillet</span></div>
+      <h3 style="font-family:'Newsreader',serif;font-weight:500;font-size:22px;line-height:1.2;margin:13px 0 0">Chicken sausage, broccoli and orzo skillet</h3>
+      <p style="font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;color:#4E5B3A;font-weight:500;margin:7px 0 0">Pasta <span style="color:#6E6A60;font-weight:400">&middot; 35 min &middot; Serves 4</span></p>
+    </div>
+    <div>
+      <div style="aspect-ratio:4/3;background:repeating-linear-gradient(135deg,#E7E1D3 0 7px,#EFEADE 7px 14px);border:1px solid #DED7C7;display:grid;place-items:center"><span style="font:11px ui-monospace,Menlo,monospace;color:#8C8577">photo &middot; pasta salad</span></div>
+      <h3 style="font-family:'Newsreader',serif;font-weight:500;font-size:22px;line-height:1.2;margin:13px 0 0">Creamy Italian pasta salad</h3>
+      <p style="font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;color:#4E5B3A;font-weight:500;margin:7px 0 0">Soups &amp; Salads <span style="color:#6E6A60;font-weight:400">&middot; 25 min &middot; Serves 8</span></p>
+    </div>
+    <div style="border-left:2px solid #A65A3A;padding-left:28px">
+      <div style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#A65A3A;font-weight:600">From the family</div>
+      <p style="font-family:'Newsreader',serif;font-style:italic;font-size:19px;line-height:1.45;margin:10px 0 0;color:#3A362F">Every recipe here was cooked, argued over and written down by someone at this table.</p>
+    </div>
+  </div>
+</div>
+
+<p class="dv-scr">Recipe detail</p>
+<div class="dv-card" style="width:1040px;background:#F5F1E8;color:#22201C;font-family:'Jost',sans-serif">
+  <div style="background:#4E5B3A;color:#F5F1E8;padding:16px 46px;display:flex;align-items:center;justify-content:space-between">
+    <div style="display:flex;align-items:center;gap:11px">
+      <img src="assets/seal-mark-reversed.svg" width="30" height="30" alt="Dumas Family Recipes" style="display:block">
+      <span style="font-family:'Newsreader',serif;font-size:17px">Dumas Family Recipes</span>
+    </div>
+    <span style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#D7DBC7">&larr; All recipes</span>
+  </div>
+
+  <div style="padding:40px 46px 0;display:grid;grid-template-columns:1fr 360px;gap:48px;align-items:start">
+    <div>
+      <div style="display:inline-block;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;background:#4E5B3A;color:#F5F1E8;font-weight:600;padding:5px 11px;border-radius:2px">Chicken &amp; Pork</div>
+      <h1 style="font-family:'Newsreader',serif;font-weight:400;font-size:46px;line-height:1.05;letter-spacing:-.02em;margin:14px 0 0;max-width:20ch">Lemon chicken thighs, crisp skin</h1>
+      <p style="font-family:'Newsreader',serif;font-size:19px;line-height:1.5;color:#4A463E;margin:16px 0 0;max-width:54ch">Started in a cold pan, which sounds wrong and is the entire trick. The fat renders slowly and the skin ends up like glass.</p>
+      <div style="display:flex;gap:30px;margin:24px 0 0;padding:15px 0;border-top:1px solid #DED7C7;border-bottom:1px solid #DED7C7;font-size:13px;color:#6E6A60">
+        <span><b style="color:#22201C;font-weight:600;font-size:15px">10 min</b> &nbsp;hands on</span>
+        <span><b style="color:#22201C;font-weight:600;font-size:15px">40 min</b> &nbsp;start to finish</span>
+        <span><b style="color:#22201C;font-weight:600;font-size:15px">Weeknight</b></span>
+      </div>
+    </div>
+    <div style="aspect-ratio:4/5;background:repeating-linear-gradient(135deg,#E7E1D3 0 7px,#EFEADE 7px 14px);border:1px solid #DED7C7;display:grid;place-items:center"><span style="font:11px ui-monospace,Menlo,monospace;color:#8C8577;text-align:center;line-height:1.6">hero photo &middot; 4:5<br>vertical, pins well</span></div>
+  </div>
+
+  <div style="padding:40px 46px 46px;display:grid;grid-template-columns:330px 1fr;gap:56px;align-items:start">
+    <aside>
+      <div style="display:flex;align-items:baseline;justify-content:space-between;gap:12px">
+        <h2 style="font-family:'Newsreader',serif;font-weight:500;font-size:22px;margin:0">Ingredients</h2>
+        <div style="display:flex;align-items:center;gap:8px;border:1px solid #4E5B3A;padding:4px 8px">
+          <span style="color:#4E5B3A;font-size:14px">&minus;</span>
+          <span style="font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#4E5B3A;min-width:62px;text-align:center">serves 4</span>
+          <span style="color:#4E5B3A;font-size:14px">+</span>
+        </div>
+      </div>
+      <p style="font-size:12.5px;color:#6E6A60;margin:10px 0 0;padding-bottom:12px;border-bottom:1px solid #DED7C7">Written for 4</p>
+      <div style="display:flex;padding:11px 0;border-bottom:1px solid #EAE4D6;font-size:15px"><span style="min-width:86px;font-weight:600;color:#4E5B3A;font-variant-numeric:tabular-nums">8</span><span>chicken thighs<span style="color:#6E6A60">, bone-in, skin on</span></span></div>
+      <div style="display:flex;padding:11px 0;border-bottom:1px solid #EAE4D6;font-size:15px"><span style="min-width:86px;font-weight:600;color:#4E5B3A;font-variant-numeric:tabular-nums">1 tbsp</span><span>olive oil</span></div>
+      <div style="display:flex;padding:11px 0;border-bottom:1px solid #EAE4D6;font-size:15px"><span style="min-width:86px;font-weight:600;color:#4E5B3A;font-variant-numeric:tabular-nums">2</span><span>lemon<span style="color:#6E6A60">, one sliced, one juiced</span></span></div>
+      <div style="display:flex;padding:11px 0;border-bottom:1px solid #EAE4D6;font-size:15px"><span style="min-width:86px;font-weight:600;color:#4E5B3A;font-variant-numeric:tabular-nums">4</span><span>garlic cloves<span style="color:#6E6A60">, whole, skin on</span></span></div>
+      <div style="display:flex;padding:11px 0;border-bottom:1px solid #EAE4D6;font-size:15px"><span style="min-width:86px;font-weight:600;color:#4E5B3A;font-variant-numeric:tabular-nums">6</span><span>thyme sprigs</span></div>
+      <div style="display:flex;padding:11px 0;border-bottom:1px solid #EAE4D6;font-size:15px"><span style="min-width:86px;font-weight:600;color:#4E5B3A;font-variant-numeric:tabular-nums">&frac12; cup</span><span>chicken stock</span></div>
+      <div style="display:flex;padding:11px 0;border-bottom:1px solid #EAE4D6;font-size:15px"><span style="min-width:86px;font-weight:600;color:#4E5B3A;font-variant-numeric:tabular-nums">1 tsp</span><span>salt</span></div>
+      <div style="margin-top:30px;border-top:1px solid #DED7C7;border-bottom:1px solid #DED7C7;padding:70px 0;display:grid;place-items:center"><span style="font:11px ui-monospace,Menlo,monospace;color:#9A9488">advertisement &middot; 300 &times; 250</span></div>
+    </aside>
+    <div style="display:flex;flex-direction:column;gap:26px">
+      <div style="display:grid;grid-template-columns:44px 1fr;gap:14px"><span style="display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#4E5B3A;color:#F5F1E8;font-family:'Newsreader',serif;font-size:19px;line-height:1">1</span><p style="font-family:'Newsreader',serif;font-size:18.5px;line-height:1.6;margin:0;max-width:64ch">Dry the skin thoroughly with paper towel and salt it. If you have an hour, leave it uncovered in the fridge — this matters more than anything else here.</p></div>
+      <div style="display:grid;grid-template-columns:44px 1fr;gap:14px"><span style="display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#4E5B3A;color:#F5F1E8;font-family:'Newsreader',serif;font-size:19px;line-height:1">2</span><p style="font-family:'Newsreader',serif;font-size:18.5px;line-height:1.6;margin:0;max-width:64ch">Lay the thighs skin down in a cold, dry, heavy pan. Turn the heat to medium-low. Walk away for 18 minutes.</p></div>
+      <div style="display:grid;grid-template-columns:44px 1fr;gap:14px"><span style="display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#4E5B3A;color:#F5F1E8;font-family:'Newsreader',serif;font-size:19px;line-height:1">3</span><p style="font-family:'Newsreader',serif;font-size:18.5px;line-height:1.6;margin:0;max-width:64ch">The skin should be deep amber and release without sticking. If it sticks, it isn't ready. Turn them over.</p></div>
+      <div style="display:grid;grid-template-columns:44px 1fr;gap:14px"><span style="display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#4E5B3A;color:#F5F1E8;font-family:'Newsreader',serif;font-size:19px;line-height:1">4</span><p style="font-family:'Newsreader',serif;font-size:18.5px;line-height:1.6;margin:0;max-width:64ch">Add the garlic, thyme, lemon slices and stock. Simmer 12 minutes until the thighs are cooked through and register 175°F at the bone.</p></div>
+      <div style="display:grid;grid-template-columns:44px 1fr;gap:14px"><span style="display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#4E5B3A;color:#F5F1E8;font-family:'Newsreader',serif;font-size:19px;line-height:1">5</span><p style="font-family:'Newsreader',serif;font-size:18.5px;line-height:1.6;margin:0;max-width:64ch">Lift the chicken out, reduce the pan juices for two minutes, add the lemon juice, and pour around — never over — the chicken.</p></div>
+      <div style="margin-top:14px;border-top:1px solid #DED7C7;padding-top:20px">
+        <div style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:#A65A3A;font-weight:600">Serve with</div>
+        <div style="display:flex;gap:26px;margin-top:12px">
+          <span style="font-family:'Newsreader',serif;font-size:19px;border-bottom:1px solid #4E5B3A">Creamy Italian pasta salad</span>
+          <span style="font-family:'Newsreader',serif;font-size:19px;border-bottom:1px solid #4E5B3A">Brown butter banana bread</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p class="dv-scr">Category page</p>
+<div class="dv-card" style="width:1040px;background:#F5F1E8;color:#22201C;font-family:'Jost',sans-serif">
+  <nav style="margin:0 46px;display:flex;gap:6px;border-bottom:1px solid #DED7C7;padding:20px 0 12px;font-size:12.5px;letter-spacing:.1em;text-transform:uppercase">
+    <span style="color:#6E6A60;padding:5px 12px">All</span><span style="color:#6E6A60;padding:5px 12px">Breakfast</span>
+    <span style="background:#4E5B3A;color:#F5F1E8;font-weight:600;padding:5px 12px;border-radius:2px">Desserts</span>
+    <span style="color:#6E6A60;padding:5px 12px">Appetizers</span><span style="color:#6E6A60;padding:5px 12px">Soups &amp; Salads</span><span style="color:#6E6A60;padding:5px 12px">Pasta</span><span style="color:#6E6A60;padding:5px 12px">Beef</span><span style="color:#6E6A60;padding:5px 12px">Chicken &amp; Pork</span><span style="color:#6E6A60;padding:5px 12px">Sides &amp; Veg</span>
+  </nav>
+  <div style="padding:40px 46px 28px;display:grid;grid-template-columns:1fr 300px;gap:48px;align-items:end;border-bottom:1px solid #DED7C7">
+    <div>
+      <h1 style="font-family:'Newsreader',serif;font-weight:400;font-size:48px;line-height:1.04;letter-spacing:-.02em;margin:0">Desserts</h1>
+      <p style="font-family:'Newsreader',serif;font-size:19px;line-height:1.5;color:#4A463E;margin:16px 0 0;max-width:48ch">Not much baking science here. Mostly butter, sugar and restraint.</p>
+    </div>
+    <div style="text-align:right;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#4E5B3A;font-weight:500">6 recipes in Desserts</div>
+  </div>
+  <div style="padding:26px 46px 40px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px">
+    <div>
+      <div style="aspect-ratio:4/3;background:repeating-linear-gradient(135deg,#E7E1D3 0 7px,#EFEADE 7px 14px);border:1px solid #DED7C7;display:grid;place-items:center"><span style="font:11px ui-monospace,Menlo,monospace;color:#8C8577">photo</span></div>
+      <h3 style="font-family:'Newsreader',serif;font-weight:500;font-size:22px;line-height:1.2;margin:13px 0 0">Brown butter banana bread</h3>
+      <p style="font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;color:#6E6A60;margin:7px 0 0">80 min &middot; 1 loaf</p>
+    </div>
+    <div>
+      <div style="aspect-ratio:4/3;background:repeating-linear-gradient(135deg,#E7E1D3 0 7px,#EFEADE 7px 14px);border:1px solid #DED7C7;display:grid;place-items:center"><span style="font:11px ui-monospace,Menlo,monospace;color:#8C8577">photo</span></div>
+      <h3 style="font-family:'Newsreader',serif;font-weight:500;font-size:22px;line-height:1.2;margin:13px 0 0">&mdash;</h3>
+      <p style="font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;color:#6E6A60;margin:7px 0 0">Next dessert</p>
+    </div>
+    <div>
+      <div style="aspect-ratio:4/3;background:repeating-linear-gradient(135deg,#E7E1D3 0 7px,#EFEADE 7px 14px);border:1px solid #DED7C7;display:grid;place-items:center"><span style="font:11px ui-monospace,Menlo,monospace;color:#8C8577">photo</span></div>
+      <h3 style="font-family:'Newsreader',serif;font-weight:500;font-size:22px;line-height:1.2;margin:13px 0 0">&mdash;</h3>
+      <p style="font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;color:#6E6A60;margin:7px 0 0">Next dessert</p>
+    </div>
+  </div>
+</div>
+
+<p class="dv-scr">Search open &middot; Empty state</p>
+<div style="display:flex;gap:20px;align-items:flex-start">
+  <div class="dv-card" style="width:520px;background:#F5F1E8;color:#22201C;font-family:'Jost',sans-serif;padding:30px 32px 130px">
+    <div style="display:flex;align-items:center;gap:10px;background:#FFFDF8;border:2px solid #4E5B3A;padding:10px 12px">
+      <span style="color:#4E5B3A;font-size:14px">&#9906;</span>
+      <span style="font-size:15px">lem</span><span style="width:1px;height:17px;background:#4E5B3A"></span>
+    </div>
+    <div style="margin-top:7px;background:#FFFDF8;border:1px solid #DED7C7;box-shadow:0 14px 30px rgba(40,36,28,.1)">
+      <div style="padding:11px 15px 5px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6E6A60;border-bottom:1px solid #EAE4D6">Recipes</div>
+      <div style="padding:10px 15px;font-family:'Newsreader',serif;font-size:17px;background:#4E5B3A;color:#F5F1E8">Lemon chicken thighs, crisp skin</div>
+      <div style="padding:11px 15px 5px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6E6A60;border-top:1px solid #EAE4D6;border-bottom:1px solid #EAE4D6">Fruit</div>
+      <div style="padding:10px 15px;font-size:15px;display:flex;justify-content:space-between"><span>lemon</span><span style="color:#6E6A60;font-size:13px">4</span></div>
+      <div style="padding:10px 15px 13px;font-size:15px;display:flex;justify-content:space-between"><span>lime</span><span style="color:#6E6A60;font-size:13px">2</span></div>
+    </div>
+  </div>
+  <div class="dv-card" style="width:500px;background:#F5F1E8;color:#22201C;font-family:'Jost',sans-serif;padding:30px 32px 60px">
+    <div style="display:flex;align-items:center;gap:10px;background:#FFFDF8;border:1px solid #DED7C7;padding:11px 13px">
+      <span style="color:#9A9488;font-size:14px">&#9906;</span><span style="font-size:15px">saffron</span>
+      <span style="margin-left:auto;color:#A65A3A;font-size:13px">clear</span>
+    </div>
+    <div style="margin-top:34px;padding-top:26px;border-top:1px solid #DED7C7">
+      <h3 style="font-family:'Newsreader',serif;font-weight:400;font-size:30px;margin:0">Nothing here</h3>
+      <p style="font-family:'Newsreader',serif;font-size:18px;line-height:1.55;color:#4A463E;margin:12px 0 0;max-width:44ch">No recipe uses &ldquo;saffron&rdquo; or has it in the title. Try a broader term, or clear the search.</p>
+      <div style="margin-top:20px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;background:#4E5B3A;color:#F5F1E8;display:inline-block;padding:8px 14px;border-radius:2px">Back to all 39 recipes</div>
+    </div>
+  </div>
+</div>
+
+<p class="dv-scr">Brand basics</p>
+<div class="dv-card" style="width:1040px;background:#F5F1E8;color:#22201C;font-family:'Jost',sans-serif;padding:32px 38px;display:grid;grid-template-columns:230px 1fr 240px;gap:40px;align-items:start">
+  <div>
+    <div style="background:#4E5B3A;padding:16px;display:inline-block">
+      <img src="assets/seal-reversed.svg" width="120" height="120" alt="Dumas Family Recipes" style="display:block">
+    </div>
+    <p style="font:11px/1.6 ui-monospace,Menlo,monospace;color:#8C8577;margin:12px 0 0">seal-reversed.svg &mdash; paper on olive</p>
+  </div>
+  <div>
+    <div style="font-family:'Newsreader',serif;font-size:40px;line-height:1.1">Newsreader <span style="color:#6E6A60">400/500</span></div>
+    <p style="font-family:'Newsreader',serif;font-size:18px;line-height:1.5;color:#4A463E;margin:10px 0 22px">Headlines, recipe titles, step text. Sets the cookbook tone.</p>
+    <div style="font-size:15px;letter-spacing:.02em">Jost <span style="color:#6E6A60">400/600</span></div>
+    <p style="font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;color:#6E6A60;margin:8px 0 0">Nav, metadata, filters, labels</p>
+  </div>
+  <div>
+    <div style="display:flex;gap:0;margin-bottom:12px">
+      <div style="width:46px;height:46px;background:#F5F1E8;border:1px solid #DED7C7"></div>
+      <div style="width:46px;height:46px;background:#FFFDF8;border:1px solid #DED7C7;border-left:0"></div>
+      <div style="width:46px;height:46px;background:#4E5B3A"></div>
+      <div style="width:46px;height:46px;background:#A65A3A"></div>
+      <div style="width:46px;height:46px;background:#22201C"></div>
+    </div>
+    <p style="font:11px/1.8 ui-monospace,Menlo,monospace;color:#6E6A60;margin:0">#F5F1E8 paper<br>#FFFDF8 surface<br>#4E5B3A olive &mdash; masthead, selection<br>#A65A3A clay &mdash; editorial markers only<br>#22201C ink</p>
+  </div>
+</div>
+
+</x-dc>
+</body>
+</html>
