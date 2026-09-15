@@ -11,7 +11,7 @@
  * and the fix is editing a hundred files. This catches that on day one.
  */
 
-import { readdirSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join, basename, extname } from "node:path";
 import {
   ATTRIBUTES,
@@ -25,6 +25,10 @@ import {
 } from "../content/taxonomy";
 
 const DIR = join(process.cwd(), "content", "recipes");
+const PUBLIC = join(process.cwd(), "public");
+
+/** Past this a source file is worth a second look before it enters git for good. */
+const PHOTO_WARN_BYTES = 800_000;
 
 type Level = "error" | "warn";
 interface Issue { level: Level; file: string; msg: string; }
@@ -219,6 +223,40 @@ for (const file of files) {
         warn(file, `step ${n + 1} mentions a metric amount. Convert it for consistency.`);
       }
     });
+  }
+
+  /* --- photograph ---
+     Optional, but a broken one fails silently in two places at once: the page
+     renders a dead image and the JSON-LD hands Google a 404 for the very field
+     that makes a recipe eligible for a rich result. Neither shows up as a
+     crash, so the path is checked here instead. */
+  if (r.image !== undefined) {
+    const src = r.image?.src;
+    if (typeof src !== "string" || !src.trim()) {
+      err(file, `image.src is required when image is set.`);
+    } else if (!src.startsWith("/")) {
+      err(file, `image.src "${src}" must be a site-absolute path like "/recipes/${r.slug}.jpg".`);
+    } else {
+      const onDisk = join(PUBLIC, src);
+      if (!existsSync(onDisk)) {
+        err(file, `image.src "${src}" does not exist at public${src}.`);
+      } else {
+        const bytes = statSync(onDisk).size;
+        if (bytes > PHOTO_WARN_BYTES) {
+          warn(file, `image is ${(bytes / 1_000_000).toFixed(1)} MB. next/image serves derived ` +
+                     `sizes, so the source only needs to cover the largest crop — downscaling ` +
+                     `before it enters git history is cheaper than doing it afterwards.`);
+        }
+      }
+    }
+
+    const alt = r.image?.alt;
+    if (typeof alt !== "string" || !alt.trim()) {
+      err(file, `image.alt is required when image is set — a photograph with no alt text is ` +
+                `invisible to a screen reader and to a crawler.`);
+    } else if (alt.length < 25) {
+      warn(file, `image.alt is only ${alt.length} characters. Describe what's on the plate.`);
+    }
   }
 }
 
