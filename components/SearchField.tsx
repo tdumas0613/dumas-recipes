@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useRef, useState } from "react";
-import { Search, X } from "lucide-react";
+import { Search } from "lucide-react";
 import { INGREDIENT_CATEGORIES } from "@/content/taxonomy";
 import type { IngredientSearchEntry } from "@/content/recipes";
 
@@ -69,7 +69,7 @@ export function SearchField({
               setDismissed(false);
             }}
             onKeyDown={onKey}
-            placeholder="Search by name, or by an ingredient"
+            placeholder="Search by name or ingredient"
             aria-label="Search recipes"
           />
           {query && (
@@ -82,7 +82,7 @@ export function SearchField({
               }}
               aria-label="Clear search"
             >
-              <X size={16} />
+              clear
             </button>
           )}
         </div>

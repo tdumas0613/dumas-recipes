@@ -94,6 +94,5 @@ export interface Recipe {
   /** ISO date. */
   added: string;
 
-  tint?: [string, string];
   image?: { src: string; alt: string };
 }

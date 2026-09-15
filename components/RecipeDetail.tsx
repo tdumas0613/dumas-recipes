@@ -6,6 +6,7 @@ import { ArrowLeft, Minus, Plus } from "lucide-react";
 import { CATEGORIES, UNITS, type UnitFamily } from "@/content/taxonomy";
 import type { Recipe } from "@/content/types";
 import { display, yieldLabel } from "@/lib/quantity";
+import { SITE_NAME } from "@/lib/site";
 import { Shot } from "./Shot";
 
 const CAT_BY_SLUG = Object.fromEntries(CATEGORIES.map((c) => [c.slug, c]));
@@ -46,109 +47,134 @@ export function RecipeDetail({ recipe }: { recipe: Recipe }) {
   });
 
   return (
-    <div className="wrap">
-      <Link className="back" href="/">
-        <ArrowLeft size={16} /> All recipes
-      </Link>
-      <header className="dhead">
-        <h1>{recipe.title}</h1>
-        <p className="blurb">{recipe.blurb}</p>
-        <div className="dmeta">
-          <span>
-            <b>{recipe.active} min</b> hands on
-          </span>
-          <span>
-            <b>{recipe.total} min</b> start to finish
-          </span>
-          <Link style={{ color: "var(--zest)" }} href={`/${cat.slug}`}>
-            {cat.label}
+    <>
+      <header className="band">
+        <div className="wrap bandinner bandinner-slim">
+          <Link className="mark" href="/">
+            {/* Compact mark, not the full seal: below 40px the ring text and
+                the DUMAS band stop reading. */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/brand/seal-mark-reversed.svg" alt="" width={30} height={30} />
+            <span className="markname markname-slim">{SITE_NAME}</span>
           </Link>
-          {recipe.attrs.length > 0 && <span>{recipe.attrs.join(", ")}</span>}
+          <Link className="back" href="/">
+            <ArrowLeft size={14} /> All recipes
+          </Link>
         </div>
       </header>
 
-      <Shot tint={recipe.tint ?? ["#3F5A43", "#1B241C"]} className="dshot" />
-
-      <div className="cols">
-        <aside className="rail">
-          <div className="railhead">
-            <h2>Ingredients</h2>
-            {fixed ? (
-              <div className="mults">
-                {[1, 2, 3].map((m) => (
-                  <button key={m} data-on={mult === m} onClick={() => setMult(m)}>
-                    ×{m}
-                  </button>
-                ))}
-              </div>
-            ) : (
-              <div className="scaler">
-                <button
-                  onClick={() => setServes((s) => Math.max(1, s - 1))}
-                  aria-label="Fewer servings"
-                >
-                  <Minus size={14} />
-                </button>
-                <span>serves {serves}</span>
-                <button
-                  onClick={() => setServes((s) => Math.min(24, s + 1))}
-                  aria-label="More servings"
-                >
-                  <Plus size={14} />
-                </button>
-              </div>
-            )}
-          </div>
-
-          <p className="yieldline">
-            {fixed ? (
-              <>
-                {yieldLabel(y, mult)}
-                {y.cuts ? `, ${y.cuts * mult} slices` : ""}
-                {y.pan ? ` · ${y.pan}` : ""}
-                {mult > 1 ? ` · use ${mult} pans, not one larger one` : ""}
-              </>
-            ) : (
-              `Written for ${y.serves}`
-            )}
-          </p>
-
-          {rows.map(({ i, n, d, marker }) => (
-            <div className="ing" key={n}>
-              <span className="q">
-                {d ? `${d.text} ${d.unit}`.trim() : i.qtyText}
-                {marker && <span className="mark-c">{marker}</span>}
-                {i.g && <span className="g">{Math.round((i.g * factor) / 5) * 5} g</span>}
+      <div className="wrap">
+        <div className="dtop">
+          <header className="dhead">
+            <Link className="dbadge" href={`/${cat.slug}`}>
+              {cat.label}
+            </Link>
+            <h1>{recipe.title}</h1>
+            <p className="blurb">{recipe.blurb}</p>
+            <div className="dmeta">
+              <span>
+                <b>{recipe.active} min</b> hands on
               </span>
               <span>
-                <span className="name">{i.item}</span>
-                {i.note && <span className="note">, {i.note}</span>}
+                <b>{recipe.total} min</b> start to finish
               </span>
+              {recipe.attrs.length > 0 && (
+                <span>
+                  <b>{recipe.attrs.join(", ")}</b>
+                </span>
+              )}
             </div>
-          ))}
+          </header>
 
-          {cautions.length > 0 && (
-            <div className="cautions">
-              {cautions.map((c) => (
-                <p className="caution" key={c}>
-                  <span className="s">{c}</span>
-                  <span>{CAUTION_TEXT[c](factor)}</span>
-                </p>
-              ))}
+          {/* 4:5 beside the title rather than a band above it — the crop that
+              travels to Pinterest, and it keeps the method above the fold. */}
+          <Shot className="dshot" />
+        </div>
+
+        <div className="cols">
+          <aside className="rail">
+            <div className="railhead">
+              <h2>Ingredients</h2>
+              {fixed ? (
+                <div className="mults">
+                  {[1, 2, 3].map((m) => (
+                    <button key={m} data-on={mult === m} onClick={() => setMult(m)}>
+                      ×{m}
+                    </button>
+                  ))}
+                </div>
+              ) : (
+                <div className="scaler">
+                  <button
+                    onClick={() => setServes((s) => Math.max(1, s - 1))}
+                    aria-label="Fewer servings"
+                  >
+                    <Minus size={14} />
+                  </button>
+                  <span>serves {serves}</span>
+                  <button
+                    onClick={() => setServes((s) => Math.min(24, s + 1))}
+                    aria-label="More servings"
+                  >
+                    <Plus size={14} />
+                  </button>
+                </div>
+              )}
             </div>
-          )}
 
-          <div className="ad rail">Ad slot · 300 × 250</div>
-        </aside>
+            <p className="yieldline">
+              {fixed ? (
+                <>
+                  {yieldLabel(y, mult)}
+                  {y.cuts ? `, ${y.cuts * mult} slices` : ""}
+                  {y.pan ? ` · ${y.pan}` : ""}
+                  {mult > 1 ? ` · use ${mult} pans, not one larger one` : ""}
+                </>
+              ) : (
+                `Written for ${y.serves}`
+              )}
+            </p>
 
-        <div className="steps">
-          {recipe.steps.map((s, n) => (
-            <div className="step" key={n}>
-              <p>{s}</p>
-            </div>
-          ))}
+            {rows.map(({ i, n, d, marker }) => (
+              <div className="ing" key={n}>
+                <span className="q">
+                  {d ? `${d.text} ${d.unit}`.trim() : i.qtyText}
+                  {marker && <span className="mark-c">{marker}</span>}
+                  {i.g && <span className="g">{Math.round((i.g * factor) / 5) * 5} g</span>}
+                </span>
+                <span>
+                  <span className="name">{i.item}</span>
+                  {i.note && <span className="note">, {i.note}</span>}
+                </span>
+              </div>
+            ))}
+
+            {cautions.length > 0 && (
+              <div className="cautions">
+                {cautions.map((c) => (
+                  <p className="caution" key={c}>
+                    <span className="s">{c}</span>
+                    <span>{CAUTION_TEXT[c](factor)}</span>
+                  </p>
+                ))}
+              </div>
+            )}
+
+            <div className="ad rail">advertisement · 300 × 250</div>
+          </aside>
+
+          <div className="steps">
+            {recipe.steps.map((s, n) => (
+              <div className="step" key={n}>
+                <span className="num" aria-hidden="true">
+                  {n + 1}
+                </span>
+                <p>{s}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
