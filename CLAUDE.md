@@ -191,19 +191,31 @@ Rules that outlive the values:
   metadata, quantities and every uppercase label are Jost. Body type is sized
   to read at arm's length across a counter; don't shrink it.
 - **The seal lives in `public/brand/`, four files** — full seal and compact
-  mark, each in ink and in paper. Full seal at 40px and up, compact mark below
-  (favicon, app icon). Reference the files; never recolour it, never rebuild
-  it inline in JSX, and never place it on a photograph or a gradient — the
-  DUMAS band knocks through the centre D, so the ground shows through and it
-  only reads on a flat colour. Each file carries its own subsetted Newsreader
-  and Jost as a data URI, because an SVG loaded through `<img>` cannot fetch
-  a webfont and would otherwise fall back to Times. If you edit the artwork,
-  re-embed the fonts — don't just drop in a file that references them by name.
+  mark, each in ink and in paper. Those four files are the artwork's source of
+  truth; there is no un-embedded original anywhere.
+  - Full seal at 40px and up, compact mark below (favicon, app icon, inline
+    byline). Minimum full seal 40px, minimum mark 16px. Clear space on all
+    sides is the width of the D.
+  - Reference the files; never rebuild it inline in JSX. Never recolour
+    beyond ink and paper, never stretch the ring, never reset the ring text,
+    and never place it on a photograph or a gradient — the DUMAS band knocks
+    through the centre D, so the ground shows through and it only reads on a
+    flat colour.
+  - Each file carries its own Newsreader and Jost, subsetted, as a data URI.
+    An SVG loaded through `<img>` is an isolated document that cannot fetch a
+    webfont, so a file that merely names the families falls back to Times for
+    the D and DUMAS and to a system sans for the ring text. After editing the
+    artwork run `python3 scripts/embed-seal-fonts.py`; `--check` verifies
+    without writing. The subsets stay variable on purpose — Newsreader's opsz
+    axis serves both the 128px D and the 27px DUMAS in one file.
+  - `app/favicon.ico` is rasterised from `seal-mark.svg` at 16/32/48;
+    regenerate it if the mark changes.
 - Photography is ours, two crops: 4:3 for grid cards, 4:5 for the recipe hero
   (the crop that travels to Pinterest). Flat `1px solid var(--rule)` border,
   no radius, no overlay. A recipe with no photo yet gets the hatched
   placeholder and ships — a missing photo beats a stock one. `Shot.tsx` is
-  the seam a real `<img>` drops into without the layout moving.
+  the seam a real `<img>` drops into without the layout moving. Daylight, one
+  light direction, plates and boards rather than styling props.
 - **Nav carries no per-category counts.** Ten of them overflow the row at
   every width. The total is in the masthead and the category's own count is
   in its hero.
@@ -235,6 +247,14 @@ Non-negotiable for a site that will carry ads:
 - Unique intro copy per category page (`CATEGORIES[].blurb`). Nine
   near-identical landing pages read as duplicates to a crawler.
 - Keep `sitemap.xml` and the RSS feed current.
+
+### Voice
+
+Plain, specific, slightly dry. State the trick and why it works. No exclamation
+marks, no "delicious", no origin stories that exist to fill space. Headnotes
+(`blurb`) are two sentences. Method steps tell the cook what to look for, not
+just what to do: *the skin should be deep amber and release without sticking —
+if it sticks, it isn't ready.*
 
 On importing from other sites: ingredient lists and procedures aren't
 copyrightable, but headnotes, stories and photographs are. The `blurb` must
