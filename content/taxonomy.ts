@@ -201,6 +201,7 @@ export const INGREDIENTS: IngredientDef[] = [
   { name: "ground beef", category: "protein", aliases: ["beef mince", "minced beef", "hamburger", "hamburger meat", "ground chuck"] },
   { name: "chicken thighs", category: "protein", aliases: ["chicken thigh", "bone-in chicken thighs"] },
   { name: "chicken breasts", category: "protein", aliases: ["chicken breast", "boneless skinless chicken breasts", "chicken breast cutlets", "chicken cutlets", "chicken breast halves"] },
+  { name: "chicken wings", category: "protein", aliases: ["chicken wing", "whole chicken wings", "party wings", "wingettes", "drumettes"] },
   { name: "pork chops", category: "protein", aliases: ["pork chop", "thin cut pork chops"] },
   { name: "bacon", category: "protein", aliases: ["bacon slices"] },
   { name: "ground chicken", category: "protein", aliases: ["ground chicken breast", "ground dark meat chicken"] },
