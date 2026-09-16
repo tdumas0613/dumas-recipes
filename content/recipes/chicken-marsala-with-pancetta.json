@@ -1,0 +1,42 @@
+{
+  "slug": "chicken-marsala-with-pancetta",
+  "title": "Chicken Marsala With Pancetta",
+  "category": "chicken-pork",
+  "attrs": [
+    "weeknight"
+  ],
+  "blurb": "The pancetta fat left in the pan becomes the base for the Marsala, so the pork seasons the whole dish rather than just garnishing it. A cornstarch slurry at the end thickens the sauce more reliably than reduction alone.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 25,
+  "total": 30,
+  "ingredients": [
+    { "item": "olive oil", "qtyText": "for the pan", "unit": "" },
+    { "item": "chicken breasts", "qty": 4, "unit": "", "note": "thin cutlets" },
+    { "item": "all-purpose flour", "qty": 0.5, "unit": "cup" },
+    { "item": "pancetta", "qty": 2, "unit": "oz", "note": "cut into 1/4-inch pieces" },
+    { "item": "salt", "qtyText": "to taste", "unit": "", "note": "coarse", "scaling": "taste" },
+    { "item": "black peppercorns", "qtyText": "to taste", "unit": "", "note": "freshly ground", "scaling": "taste" },
+    { "item": "marsala wine", "qty": 0.5, "unit": "cup", "note": "dry" },
+    { "item": "heavy cream", "qty": 4, "unit": "tbsp" },
+    { "item": "cornstarch", "qty": 2, "unit": "tsp" },
+    { "item": "water", "qty": 2, "unit": "tbsp", "note": "cold, for the slurry" },
+    { "item": "parsley", "qtyText": "minced, for garnish", "unit": "" }
+  ],
+  "steps": [
+    "Coat a large skillet lightly with olive oil and set over medium-high heat. Add the pancetta and cook until it has rendered its fat and the pieces are crisp at the edges. Lift it out with a slotted spoon and set aside, leaving every bit of the fat behind — that fat is the sauce's backbone, not a by-product.",
+    "Put the flour on a plate. Pat the cutlets dry, season lightly with salt and pepper, then dredge in the flour.",
+    "Heat the pan with the pancetta fat over medium-high heat, adding a touch more olive oil if needed to make about 2 tablespoons. When it shimmers, shake the excess flour off the cutlets and lay them in. Sauté, turning once, until browned on both sides — thin cutlets only need a few minutes per side. Remove the cutlets and pour off the excess fat.",
+    "With the pan still over medium-high heat, add the Marsala and scrape up the browned bits from the bottom. Cook until reduced by about a quarter.",
+    "Stir the cornstarch into the cold water until no grains are left, then stir the cream into the pan. Add the slurry a little at a time, letting it come back to a simmer between additions, until the sauce coats the back of a spoon. Adding it gradually matters — cornstarch sets as it heats, and a sauce taken too far can't be loosened back.",
+    "Return the chicken and pancetta to the pan, turning to coat, and reheat a minute. Serve with the sauce spooned over the top and a sprinkling of parsley."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "Chicken Reciptes.pdf",
+    "credit": "Adapted from Buca di Beppo"
+  },
+  "added": "2026-09-14"
+}
