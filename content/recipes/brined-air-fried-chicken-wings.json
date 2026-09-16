@@ -1,0 +1,43 @@
+{
+  "slug": "brined-air-fried-chicken-wings",
+  "title": "Brined & Air-Fried Chicken Wings",
+  "category": "appetizers",
+  "attrs": [],
+  "blurb": "A wet brine keeps the meat juicy, and then everything after it works against the moisture the brine left behind — pat dry, baking powder, an hour uncovered in the fridge. The skin crisps because it starts dry.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 20,
+  "total": 165,
+  "ingredients": [
+    { "item": "chicken wings", "qty": 2, "unit": "lb", "note": "whole" },
+    { "item": "water", "qty": 4, "unit": "cup", "note": "for the brine" },
+    { "item": "salt", "qty": 3, "unit": "tbsp", "note": "kosher, for the brine", "scaling": "taste" },
+    { "item": "granulated sugar", "qty": 2, "unit": "tbsp", "note": "for the brine" },
+    { "item": "garlic cloves", "qty": 3, "unit": "", "note": "smashed, for the brine" },
+    { "item": "black peppercorns", "qty": 1, "unit": "tsp", "note": "for the brine", "scaling": "taste" },
+    { "item": "bay leaves", "qty": 2, "unit": "", "note": "optional, for the brine" },
+    { "item": "baking powder", "qty": 1, "unit": "tbsp", "note": "not baking soda", "scaling": "leavening" },
+    { "item": "olive oil", "qty": 1, "unit": "tbsp", "note": "or another neutral oil" },
+    { "item": "buffalo sauce", "qty": 0.75, "unit": "cup", "note": "or BBQ, honey garlic, gochujang or sweet chili", "scaling": "taste" }
+  ],
+  "steps": [
+    "Whisk the water, salt and sugar together in a large bowl or container until the salt and sugar have fully dissolved. Add the smashed garlic, the peppercorns, and the bay leaves if you're using them.",
+    "Submerge the wings completely in the brine, cover, and refrigerate at least 2 hours. Up to 12 deepens the flavour; past that the meat starts to turn genuinely salty rather than seasoned.",
+    "Lift the wings out and discard the brine. Pat them extremely dry with paper towels. Brined wings carry extra surface moisture, and whatever is left will steam the skin instead of crisping it — this is the step that decides how the wings turn out.",
+    "Toss the dried wings with the baking powder and oil until evenly coated. The baking powder raises the pH of the skin so it browns and blisters rather than tightening into leather.",
+    "For crisper skin still, set the wings on a rack and leave them uncovered in the fridge for an hour, or overnight if you have the time.",
+    "Preheat the air fryer to 380°F.",
+    "Arrange the wings in a single layer in the basket with space between them — a crowded basket steams rather than fries, so work in batches if you need to. Cook 10 minutes.",
+    "Flip each wing so the second side crisps evenly, and cook another 8 to 10 minutes, until the skin is golden and drawn tight.",
+    "Raise the heat to 400°F for a final 3 to 5 minutes. The skin should be deeply browned and audibly crisp, and the thickest part of the wing should read 165°F.",
+    "Tip the hot wings into a large bowl, pour the sauce over, and toss until every piece is coated.",
+    "Serve straight away, while the skin still crackles."
+  ],
+  "source": {
+    "kind": "file",
+    "ref": "pasted recipe text"
+  },
+  "added": "2026-09-16"
+}
