@@ -1,0 +1,41 @@
+{
+  "slug": "chicken-alfredo",
+  "title": "Chicken Alfredo",
+  "category": "pasta",
+  "attrs": [
+    "weeknight"
+  ],
+  "blurb": "The fettuccine cooks in the milk and broth rather than a separate pot of water, so the starch it sheds thickens the sauce instead of going down the drain. One skillet, and the chicken rests while it happens.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 10,
+  "total": 40,
+  "ingredients": [
+    { "item": "olive oil", "qty": 2, "unit": "tbsp", "note": "extra-virgin" },
+    { "item": "chicken breasts", "qty": 2, "unit": "", "note": "boneless and skinless, 6 to 8 oz each" },
+    { "item": "salt", "qtyText": "to taste", "unit": "", "note": "kosher, for the chicken and the sauce", "scaling": "taste" },
+    { "item": "black peppercorns", "qtyText": "to taste", "unit": "", "note": "freshly ground, for the chicken and the sauce", "scaling": "taste" },
+    { "item": "garlic cloves", "qty": 2, "unit": "", "note": "finely chopped" },
+    { "item": "milk", "qty": 2, "unit": "cup", "note": "whole" },
+    { "item": "chicken stock", "qty": 2, "unit": "cup", "note": "low-sodium" },
+    { "item": "fettuccine", "qty": 8, "unit": "oz" },
+    { "item": "parmesan", "qty": 2, "unit": "oz", "note": "finely grated, about 1 cup" },
+    { "item": "heavy cream", "qty": 0.75, "unit": "cup" },
+    { "item": "parsley", "qtyText": "for serving", "unit": "", "note": "fresh, finely chopped" }
+  ],
+  "steps": [
+    "In a large skillet over medium-high heat, heat oil. Add chicken; season with salt and pepper. Cook, turning occasionally, until golden brown and an instant-read thermometer inserted into thickest part registers 165°F, about 8 minutes per side.",
+    "Transfer chicken to a cutting board. Let rest 10 minutes, then slice.",
+    "Add garlic, broth, and milk to skillet; season with salt and pepper. Bring to a simmer over medium heat. Add fettuccine and cook, stirring frequently, until sauce is slightly reduced, about 3 minutes. Continue to cook, tossing occasionally, until pasta is al dente, 8 to 10 minutes more.",
+    "Stir in Parmesan and cream until combined and smooth. Bring to a simmer and continue to cook, tossing occasionally, until sauce is thickened, about 3 minutes more.",
+    "Remove from heat and stir in sliced chicken. Top with parsley."
+  ],
+  "source": {
+    "kind": "card",
+    "ref": "printed page, photographed",
+    "credit": "Lena Abraham, Delish"
+  },
+  "added": "2026-09-16"
+}
