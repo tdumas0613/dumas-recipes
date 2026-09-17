@@ -27,6 +27,50 @@ next as two different canonical ingredients — the ingredient search just
 gets quietly worse until nobody trusts it. Every rule below is either
 preventing that specific failure or converting units without guessing.
 
+## What has to be ours, and why the money depends on it
+
+This site is built to carry ads, so an import is not finished when it is
+accurate — it is finished when the page is ours to monetise. Two things carry
+that weight, and neither is optional.
+
+**Credit every import.** If a recipe came from anyone, `source.credit` names
+them: the author where the source gives one, otherwise the publication or
+site. Leave it blank only for `kind: "original"`, which means the user's own
+recipe and nobody else's. Attribution is not a licence — crediting someone
+does not buy the right to copy them — but an uncredited import is the thing
+that looks like laundering when somebody does complain, and a whole library
+of them is what a reviewer sees.
+
+**Write the page in our own words.** The split, roughly: a bare list of
+ingredients carries no copyright, and neither do the underlying facts — a
+temperature, a pan size, how long something rests. The *expression* around
+them can be protected, and headnotes and photographs plainly are. Directions
+sit in between: the procedure is free, the sentences someone wrote to convey
+it are not. So take the facts exactly and leave the prose behind.
+
+In practice that means every one of these, every time:
+
+- **Directions get rewritten** into the site's voice — the cue for what to
+  look for, and the reason a step works. Keep every number the source gives;
+  change the sentences that carry them. Lightly reordering someone's clauses
+  is not rewriting.
+- **The blurb is original writing**, never a paraphrase of the source's
+  headnote (Step 7).
+- **The photograph is ours** — `image` stays unset on an import rather than
+  pointing at a source's picture.
+- **Titles avoid other people's trademarks.** Name the dish, not the
+  restaurant it came from: "Chicken Marsala With Pancetta", not "<Chain>
+  Chicken Marsala". The slug is the URL and meant to be permanent, so a
+  borrowed name is expensive to walk back later.
+
+The legal exposure is the smaller half. Google's AdSense policies on scraped
+and republished content are stricter than copyright law and enforced without
+anyone having to sue — a library of other people's recipes reproduced closely
+can cost the ad account outright, whether or not a court would ever call it
+infringement. Rewriting is what makes the page rank as well: the
+helpful-content systems target recipe pages that restate what is already
+indexed.
+
 ## Stop and ask — don't improvise past these
 
 Work through the whole recipe and collect every open question before
@@ -271,7 +315,7 @@ common outcome — don't force one on.
 a loaf is bakeable). Most baked goods are `fixed`; state the pan size if the
 source gives one, since a doubled batch needs to know it wants two pans.
 
-## Step 7 — Write your own blurb
+## Step 7 — Write your own blurb, and your own directions
 
 Never copy or lightly paraphrase the source's headnote — copyright aside,
 the validator can't catch derivative prose and this is exactly the thing
@@ -284,6 +328,13 @@ reads thin. Same principle for the recipe photo: `image` must stay unset for
 an import — never point it at a scraped source image URL. Mention in your
 final summary that a real photo still needs to be added.
 
+The directions get the same treatment, for the reasons in "What has to be
+ours" above. Carry over every number exactly — temperatures, times, pan
+sizes, doneness targets — and write the sentences yourself. A useful test: if
+the source's directions were on screen while you typed, you were probably
+editing rather than rewriting. Work from the *sequence* of what happens, not
+from the prose describing it.
+
 ## Step 8 — Assemble the file
 
 Shape it exactly like `content/types.ts`'s `Recipe` interface — the existing
@@ -292,8 +343,11 @@ being deliberate about:
 
 - **`slug`**: kebab-case of the title, must exactly equal the filename.
   Check `content/recipes/` for a collision before you commit to one.
-- **`source`**: honestly reflect where this came from —
-  `{ kind: "url", ref: "<the URL>", credit: "<site or author, if known>" }`,
+- **`source`**: honestly reflect where this came from, and **always fill in
+  `credit` for an import** — the author if the source names one, otherwise the
+  publication. If you changed the recipe rather than reproducing it, say so in
+  the credit: `"Adapted from <source>"`. —
+  `{ kind: "url", ref: "<the URL>", credit: "<author or site>" }`,
   `{ kind: "file", ref: "<a short description, e.g. original filename>" }`
   for a PDF/docx, or `{ kind: "card", ref: "<whose card, if known>" }` for a
   photographed recipe card. `kind: "original"` is for the user's own
@@ -329,5 +383,6 @@ Before finishing, tell the user: the category you chose and why, any attrs
 you added and why, every unit conversion you made (flag the estimated
 weight→volume ones specifically, since those are the ones with real
 uncertainty), any ingredient rows you merged under Step 5 and how the steps
-now carry the split, and that the photo still needs to be added by hand. This is
+now carry the split, who the recipe is credited to, and that the photo still
+needs to be added by hand. This is
 the human's chance to catch something before it sits in the repo.
