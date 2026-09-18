@@ -5,7 +5,7 @@
   "attrs": [
     "weeknight"
   ],
-  "blurb": "The flour gets stirred into the fond with the tomato paste before any broth goes in, so the soup thickens on its own without a separate roux.",
+  "blurb": "The flour gets stirred into the fond with the tomato paste before any broth goes in, so the soup thickens on its own without a separate roux. Chicken stock keeps the fennel and tomato forward; beef stock swaps in one for one and pulls the whole pot darker and meatier, closer to a ragu than a soup.",
   "yield": {
     "kind": "servings",
     "serves": 6
@@ -23,7 +23,7 @@
     { "item": "fennel seeds", "qty": 1, "unit": "tsp", "note": "lightly crushed" },
     { "item": "tomato paste", "qty": 6, "unit": "oz" },
     { "item": "all-purpose flour", "qty": 0.5, "unit": "cup" },
-    { "item": "beef stock", "qty": 7, "unit": "cup" },
+    { "item": "chicken stock", "qty": 7, "unit": "cup", "note": "or beef stock" },
     { "item": "cheese tortellini", "qty": 20, "unit": "oz" },
     { "item": "heavy cream", "qty": 2, "unit": "cup", "note": "or half-and-half or coconut cream" },
     { "item": "spinach", "qty": 2, "unit": "cup", "note": "fresh" },
@@ -34,7 +34,7 @@
     "Add the carrots and celery. Sauté about 5 minutes, until the vegetables begin to soften.",
     "Stir in the tomato paste. Cook another 5 minutes, until fragrant.",
     "Sprinkle in the flour and stir 1 minute — it will look dry, just keep stirring so it doesn't burn.",
-    "Gradually pour in the beef stock, stirring well. Bring to a boil, then reduce to a simmer for 15 minutes.",
+    "Gradually pour in the chicken stock, stirring well. Bring to a boil, then reduce to a simmer for 15 minutes.",
     "Stir in the cream, tortellini and spinach. Simmer until the tortellini is tender, about 2 to 3 minutes.",
     "Finish with the parmesan and stir until melted. Serve hot with extra cheese on top."
   ],
