@@ -44,5 +44,9 @@
     "ref": "Instagram post screenshot, recipe by @fridasofiaeats",
     "credit": "@fridasofiaeats"
   },
-  "added": "2026-09-14"
+  "added": "2026-09-14",
+  "image": {
+    "src": "/recipes/sausage-tortellini-soup.jpg",
+    "alt": "Sausage tortellini soup in a white bowl — cheese tortellini and wilted spinach in a creamy tomato broth under finely grated parmesan, with toasted baguette slices alongside."
+  }
 }
