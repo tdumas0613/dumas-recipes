@@ -256,7 +256,7 @@ export const INGREDIENTS: IngredientDef[] = [
   /* --- pantry & spices --- */
   { name: "salt", category: "pantry", staple: true, aliases: ["kosher salt", "sea salt", "table salt", "fine salt", "flaky sea salt"] },
   { name: "water", category: "pantry", staple: true, aliases: [] },
-  { name: "olive oil", category: "pantry", staple: true, aliases: ["extra virgin olive oil", "evoo", "oil", "basil-flavored oil", "basil oil"] },
+  { name: "olive oil", category: "pantry", staple: true, aliases: ["extra virgin olive oil", "extra-virgin olive oil", "evoo", "oil", "basil-flavored oil", "basil oil"] },
   { name: "vegetable oil", category: "pantry", staple: true, aliases: [] },
   { name: "granulated sugar", category: "pantry", staple: true, aliases: ["sugar", "white sugar", "caster sugar", "superfine sugar"] },
   { name: "brown sugar", category: "pantry", staple: true, aliases: ["light brown sugar", "dark brown sugar", "soft brown sugar"] },
