@@ -5,7 +5,7 @@
   "attrs": [
     "weeknight"
   ],
-  "blurb": "The flour gets stirred into the fond with the tomato paste before any broth goes in, so the soup thickens on its own without a separate roux. Chicken stock keeps the fennel and tomato forward; beef stock swaps in one for one and pulls the whole pot darker and meatier, closer to a ragu than a soup.",
+  "blurb": "The flour gets stirred into the fond with the tomato paste before any broth goes in, so the soup thickens on its own without a separate roux. The tortellini go in at the very end and need only two or three minutes — any longer and they bloat and start giving their starch back to the pot.",
   "yield": {
     "kind": "servings",
     "serves": 6
@@ -23,7 +23,8 @@
     { "item": "fennel seeds", "qty": 1, "unit": "tsp", "note": "lightly crushed" },
     { "item": "tomato paste", "qty": 6, "unit": "oz" },
     { "item": "all-purpose flour", "qty": 0.5, "unit": "cup" },
-    { "item": "chicken stock", "qty": 7, "unit": "cup", "note": "or beef stock" },
+    { "item": "chicken stock", "qty": 7, "unit": "cup" },
+    { "item": "beef stock", "qtyText": "optional", "unit": "", "note": "in place of the chicken stock, one for one, for a darker pot" },
     { "item": "cheese tortellini", "qty": 20, "unit": "oz" },
     { "item": "heavy cream", "qty": 2, "unit": "cup", "note": "or half-and-half or coconut cream" },
     { "item": "spinach", "qty": 2, "unit": "cup", "note": "fresh" },
