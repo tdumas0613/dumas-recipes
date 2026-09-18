@@ -5,13 +5,13 @@
   "attrs": [
     "weeknight"
   ],
-  "blurb": "One skillet start to finish — the orzo cooks directly in the broth the sausage and broccoli left behind, so it comes out tasting like all three.",
+  "blurb": "The broccoli browns hard and comes out of the pan before the orzo goes in, so it stays charred instead of steaming grey under the lid. Wine lifts the fond the sausage leaves behind, and butter and lemon go in off the heat at the end.",
   "yield": {
     "kind": "servings",
     "serves": 4
   },
-  "active": 15,
-  "total": 30,
+  "active": 20,
+  "total": 35,
   "ingredients": [
     {
       "item": "olive oil",
@@ -22,7 +22,7 @@
       "item": "chicken sausage",
       "qty": 8,
       "unit": "oz",
-      "note": "cut into 1/4 to 1/2 inch slices"
+      "note": "Italian-style or another well-seasoned variety, cut into 1/4 to 1/2 inch slices"
     },
     {
       "item": "broccoli",
@@ -33,17 +33,23 @@
     },
     {
       "item": "salt",
-      "qtyText": "a large pinch",
-      "unit": "",
-      "note": "for the broccoli",
+      "qty": 1,
+      "unit": "tsp",
+      "note": "divided, plus more to taste",
       "scaling": "taste"
     },
     {
       "item": "black peppercorns",
       "qtyText": "a large pinch",
       "unit": "",
-      "note": "ground, for the broccoli",
+      "note": "ground",
       "scaling": "taste"
+    },
+    {
+      "item": "shallots",
+      "qty": 1,
+      "unit": "",
+      "note": "finely chopped, or half a small onion"
     },
     {
       "item": "garlic cloves",
@@ -52,9 +58,22 @@
       "note": "minced"
     },
     {
+      "item": "red pepper flakes",
+      "qty": 0.25,
+      "qtyMax": 0.5,
+      "unit": "tsp",
+      "scaling": "taste"
+    },
+    {
       "item": "orzo",
       "qty": 1,
       "unit": "cup"
+    },
+    {
+      "item": "white wine",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "dry, or an extra splash of stock"
     },
     {
       "item": "chicken stock",
@@ -66,19 +85,34 @@
       "qty": 1,
       "unit": "cup",
       "note": "shredded, plus more to serve"
+    },
+    {
+      "item": "butter",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "cold"
+    },
+    {
+      "item": "lemon",
+      "qty": 0.5,
+      "unit": "",
+      "note": "juice and zest"
     }
   ],
   "steps": [
-    "Heat a large skillet over medium-high with a good drizzle of olive oil. Add the sliced chicken sausage and cook 2 to 3 minutes a side, until browned all over.",
-    "Add the broccoli, season with a large pinch each of salt and pepper, and cook about 5 minutes, until bright green and just starting to soften.",
-    "Stir in the garlic and orzo and cook another minute, until the orzo is coated and lightly toasted.",
-    "Pour in the chicken stock and bring to a boil. Cover, drop the heat to low, and simmer 10 to 15 minutes, until the orzo is tender and the liquid is absorbed.",
-    "Off the heat, stir in the parmesan until melted through. Serve right away with more parmesan over the top."
+    "Heat a large skillet over medium-high with a good drizzle of olive oil. Add the sliced sausage, season with a pinch of the salt, and cook 2 to 3 minutes a side until browned all over. Lift it out and set aside — it goes back in later, and leaving it in from here would only make it rubbery.",
+    "Put the broccoli into the same fat, cut sides down, and leave it alone 4 to 5 minutes until it takes real colour. Season with another pinch of salt and the pepper, then set it aside with the sausage. Charred broccoli tastes like something; broccoli steamed under a lid for fifteen minutes tastes like water, which is the whole reason it comes out of the pan.",
+    "Drop the heat to medium. Add the shallot, garlic and red pepper flakes to the fat left behind and cook 3 to 4 minutes, until the shallot is soft and translucent. This is the base the old version never had.",
+    "Stir in the orzo and cook another minute, until it's coated and lightly toasted.",
+    "Pour in the wine and scrape up every browned bit stuck to the pan — that fond is most of what the sausage gave you, and boiling it off the base is how it gets wasted. Let it reduce until the pan is almost dry.",
+    "Add the stock and the remaining salt, return the sausage, and bring to a boil. Cover, drop the heat to low, and simmer 10 to 15 minutes, until the orzo is tender and the liquid is absorbed. Salt the stock now rather than the plate later — the orzo drinks it, and seasoning it afterwards never reaches the middle.",
+    "Off the heat, fold the broccoli back in along with the parmesan, the butter and the lemon juice and zest. Stir until the butter has melted into the starchy liquid and the sauce clings rather than pooling. Taste and add more salt if it needs it.",
+    "Serve right away with more parmesan over the top."
   ],
   "source": {
     "kind": "url",
     "ref": "https://lolohomekitchen.com/chicken-sausage-broccoli-and-orzo-skillet/",
-    "credit": "Lolo Home Kitchen"
+    "credit": "Adapted from Lolo Home Kitchen"
   },
   "added": "2026-09-13"
 }
