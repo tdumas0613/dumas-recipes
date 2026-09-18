@@ -1,0 +1,96 @@
+{
+  "slug": "chicken-alfredo",
+  "title": "Chicken Alfredo",
+  "category": "pasta",
+  "attrs": [
+    "weeknight"
+  ],
+  "blurb": "The fettuccine cooks in the milk and broth rather than a separate pot of water, so the starch it sheds thickens the sauce instead of going down the drain. One skillet, and the chicken rests while it happens.",
+  "yield": {
+    "kind": "servings",
+    "serves": 4
+  },
+  "active": 10,
+  "total": 40,
+  "ingredients": [
+    {
+      "item": "olive oil",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "extra-virgin"
+    },
+    {
+      "item": "chicken breasts",
+      "qty": 2,
+      "unit": "",
+      "note": "boneless and skinless, 6 to 8 oz each"
+    },
+    {
+      "item": "salt",
+      "qtyText": "to taste",
+      "unit": "",
+      "note": "kosher, for the chicken and the sauce",
+      "scaling": "taste"
+    },
+    {
+      "item": "black peppercorns",
+      "qtyText": "to taste",
+      "unit": "",
+      "note": "freshly ground, for the chicken and the sauce",
+      "scaling": "taste"
+    },
+    {
+      "item": "garlic cloves",
+      "qty": 2,
+      "unit": "",
+      "note": "finely chopped"
+    },
+    {
+      "item": "milk",
+      "qty": 2,
+      "unit": "cup",
+      "note": "whole"
+    },
+    {
+      "item": "chicken stock",
+      "qty": 2,
+      "unit": "cup",
+      "note": "low-sodium"
+    },
+    {
+      "item": "fettuccine",
+      "qty": 8,
+      "unit": "oz"
+    },
+    {
+      "item": "parmesan",
+      "qty": 2,
+      "unit": "oz",
+      "note": "finely grated, about 1 cup"
+    },
+    {
+      "item": "heavy cream",
+      "qty": 0.75,
+      "unit": "cup"
+    },
+    {
+      "item": "parsley",
+      "qtyText": "for serving",
+      "unit": "",
+      "note": "fresh, finely chopped"
+    }
+  ],
+  "steps": [
+    "Heat the oil in a large skillet over medium-high. Season the chicken with salt and pepper, lay it in, and turn it now and then until both sides are golden and the thickest part reads 165°F — about 8 minutes a side.",
+    "Move the chicken to a board and leave it there 10 minutes before slicing. Cut it straight away and the juice ends up on the board instead of back in the meat.",
+    "Pour the broth and milk into the same skillet, add the garlic, and season again. Bring it to a simmer over medium heat, then add the fettuccine dry. Stir frequently for the first 3 minutes or so, until the liquid has reduced a little, then toss occasionally for another 8 to 10 until the pasta is al dente. It cooks in the sauce rather than in a separate pot of water, which is the whole point — the starch it sheds is what thickens everything.",
+    "Stir in the Parmesan and cream until smooth, bring it back to a simmer, and cook about 3 minutes more, tossing, until the sauce clings to the pasta instead of pooling underneath.",
+    "Off the heat, stir the sliced chicken back in. Scatter the parsley over the top."
+  ],
+  "source": {
+    "kind": "card",
+    "ref": "printed page, photographed",
+    "credit": "Lena Abraham, Delish"
+  },
+  "added": "2026-09-16"
+}
